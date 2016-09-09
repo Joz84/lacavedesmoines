@@ -5,4 +5,5 @@ class Product < ApplicationRecord
   belongs_to :kind
   belongs_to :color
   belongs_to :fermentation
+  monetize :price_cents
 end
