@@ -1,4 +1,23 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: cover !important;
+  background-position: center !important;
+  border-bottom: 5px solid white;
+  margin-bottom: -5px;
+}
+
+
+.banner-content{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
