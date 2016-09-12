@@ -12,10 +12,11 @@ class CreateProducts < ActiveRecord::Migration[5.0]
       t.references :color, foreign_key: true
       t.references :fermentation, foreign_key: true
       t.float :degree
-      t.text :specificity
+      t.references :specificity
       t.boolean :returnable
       t.float :promotion
       t.integer :rating
+      t.string :sku
 
       t.timestamps
     end

@@ -131,6 +131,13 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.index ["product_id"], name: "index_selections_on_product_id", using: :btree
   end
 
+  create_table "specificities", force: :cascade do |t|
+    t.string   "name"
+    t.string   "sku"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "stocks", force: :cascade do |t|
     t.integer  "deposit_id"
     t.integer  "product_id"
@@ -158,6 +165,15 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.datetime "created_at",                             null: false
     t.datetime "updated_at",                             null: false
     t.boolean  "admin",                  default: false, null: false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "address"
+    t.string   "complement"
+    t.string   "postal_code"
+    t.string   "city"
+    t.string   "country"
+    t.string   "siret"
+    t.string   "telephone"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
