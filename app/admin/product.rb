@@ -28,5 +28,6 @@ ActiveAdmin.register Product do
                 :returnable,
                 :price,
                 :promotion,
-                :rating
+                :rating,
+                :sku
 end
