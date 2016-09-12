@@ -1,2 +1,17 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<h1>Products index</h1>
+
+<ul>
+  <% @products.each do |product| %>
+    <li>
+      <h2><%= link_to product.name, product_path({id: product.id,
+                                                  sku: product.sku,
+                                                  alcohol: product.alcohol.sku,
+                                                  brewery: product.brewery.sku,
+                                                  color: product.color.sku,
+                                                  specificity: product.specificity.sku,
+                                                  capacity: product.capacity
+                                                  })  %></h2>
+      <p><%= product.alcohol.name %></p>
+    </li>
+  <% end %>
+</ul>

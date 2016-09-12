@@ -31,18 +31,21 @@ ActiveRecord::Schema.define(version: 20160909144615) do
 
   create_table "alcohols", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "breweries", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "colors", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -62,12 +65,14 @@ ActiveRecord::Schema.define(version: 20160909144615) do
 
   create_table "fermentations", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "kinds", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -100,10 +105,11 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.integer  "color_id"
     t.integer  "fermentation_id"
     t.float    "degree"
-    t.text     "specificity"
+    t.integer  "specificity_id"
     t.boolean  "returnable"
     t.float    "promotion"
     t.integer  "rating"
+    t.string   "sku"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
     t.integer  "price_cents",     default: 0, null: false
@@ -113,10 +119,12 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.index ["fermentation_id"], name: "index_products_on_fermentation_id", using: :btree
     t.index ["kind_id"], name: "index_products_on_kind_id", using: :btree
     t.index ["region_id"], name: "index_products_on_region_id", using: :btree
+    t.index ["specificity_id"], name: "index_products_on_specificity_id", using: :btree
   end
 
   create_table "regions", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -164,7 +172,6 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at",                             null: false
     t.datetime "updated_at",                             null: false
-    t.boolean  "admin",                  default: false, null: false
     t.string   "first_name"
     t.string   "last_name"
     t.string   "address"
@@ -174,6 +181,7 @@ ActiveRecord::Schema.define(version: 20160909144615) do
     t.string   "country"
     t.string   "siret"
     t.string   "telephone"
+    t.boolean  "admin",                  default: false, null: false
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
