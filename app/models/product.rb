@@ -15,6 +15,7 @@ class Product < ApplicationRecord
 
   validates :name, presence: true
   validates :capacity, presence: :true
+  validates :capacity, numericality: true
   validates :sku, presence: :true
 
   validates :alcohol, presence: :true
@@ -23,4 +24,18 @@ class Product < ApplicationRecord
   validates :color, presence: :true
   validates :fermentation, presence: :true
   validates :specificity, presence: :true
+
+  include PgSearch
+  pg_search_scope :pgsearch,
+    against: [:name, :description, :country],
+    associated_against: {
+      alcohol: :name,
+      brewery: :name,
+      region: :name,
+      kind: :name,
+      color: :name,
+      fermentation: :name,
+      specificity: :name
+    }
+
 end

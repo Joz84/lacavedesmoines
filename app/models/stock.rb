@@ -7,6 +7,7 @@ class Stock < ApplicationRecord
   validates :product, presence: :true
   validates :deposit, uniqueness: { scope: :product }
   validates :quantity, presence: true
+  validates :quantity, numericality: { only_integer: true }
   validates :received_at, presence: true
 
 
