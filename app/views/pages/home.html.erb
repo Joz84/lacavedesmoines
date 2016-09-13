@@ -5,10 +5,10 @@
       <div class="col-xs-12 col-md-12">
         <h1 style="margin-top:30vh">Je peux vous aider ?</h1>
         <div>
-<!--           <%= simple_form_for :research, url: place_availabilities_path(@place), method: :post do |f| %>
+          <%= simple_form_for :research, url: products_path, method: :get do |f| %>
             <%= f.error_notification %>
-            <%= f.input :, collection: @days, selected: "Monday" %>
-            <%= f.button :submit, value: "submit" %> -->
+            <%= f.input :words %>
+            <%= f.button :submit, value: "Search" %>
           <% end %>
         </div>
       </div>
