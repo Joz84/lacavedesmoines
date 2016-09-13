@@ -166,6 +166,10 @@ GEM
       pkg-config (~> 1.1.7)
     orm_adapter (0.5.0)
     pg (0.18.4)
+    pg_search (1.0.6)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
+      arel
     pkg-config (1.1.7)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
@@ -272,6 +276,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   money-rails
   pg
+  pg_search
   pry-byebug
   pry-rails
   puma
