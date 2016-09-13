@@ -22,10 +22,25 @@
   }
   h2 {
     font-size:30px;
+    color:white;
   }
   a {
     color: white;
     text-decoration: underline;
   }
+}
 
+.refine-search {
+  h2 {
+  color:white;
+  }
+}
+
+.card-show-desc {
+  width: 33%;
+}
+
+.card-show-remi-desc {
+  width: 64%;
+  margin-top: 72px;
 }
