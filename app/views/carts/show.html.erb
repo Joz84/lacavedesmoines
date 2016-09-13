@@ -1,2 +1,10 @@
-<h1>Carts#show</h1>
-<p>Find me in app/views/carts/show.html.erb</p>
+<h1>Carts show</h1>
+
+<ul>
+  <% session[:cart].each do |selected| %>
+    <li>
+      <p><%= selected["product"]["name"] %></p>
+      <p><%= selected["quantity"] %></p>
+    </li>
+  <% end %>
+</ul>

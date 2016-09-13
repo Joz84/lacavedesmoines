@@ -29,6 +29,12 @@
             <p>Type : <%= @product.kind.name %></p>
             <p>Provenance : <%= @product.region.name %></p>
             <p>Particularité : <%= @product.specificity.name %></p>
+            <p>
+              <%= render 'form' %>
+            </p>
+            <p>
+              <%= link_to "Voir le penier", cart_path %>
+            </p>
             </div>
             <div class="card-show-remi-desc pull-right">
               Cette bière est magnifique par ses contours généreux et son amertume exceptionnellement fine et longue en bouche.
