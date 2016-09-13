@@ -1,0 +1,40 @@
+.index-products {
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Card design */
+.card {
+  height: 100%;
+  min-height: 450px;
+  display: inline-block;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: black;
+  position: relative;
+  background-color: rgba(255,255,255,0.8) !important;
+}
+.card-description {
+  height: auto;
+  position: absolute;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+}
+
+.card-show {
+  height: 100%;
+  width: 100%;
+  min-height: 450px;
+  display: inline-block;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: black;
+  position: relative;
+  background-color: rgba(255,255,255,0.8) !important;
+  padding: 39px;
+}
