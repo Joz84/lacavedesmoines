@@ -1,9 +1,20 @@
-<h1>Products index</h1>
+<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
 
-<ul>
-  <% @products.each do |product| %>
-    <li>
-      <h2><%= link_to product.name, product_path({id: product.id,
+  <%= render '/shared/navbar' %>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-2"></div>
+    <div class="col-xs-12 col-sm-8">
+      <h2 class="cat">Products</h2>
+      <div class="container-fluid">
+        <div class="row">
+
+          <div>
+            <% @products.each do |product| %>
+              <div class="col-xs-12 col-sm-4">
+                <div class="card">
+                <div class="card-description">
+                  <h2><%= link_to product.name, product_path({id: product.id,
                                                   sku: product.sku,
                                                   alcohol: product.alcohol.sku,
                                                   brewery: product.brewery.sku,
@@ -11,7 +22,16 @@
                                                   specificity: product.specificity.sku,
                                                   capacity: product.capacity
                                                   })  %></h2>
-      <p><%= product.alcohol.name %></p>
-    </li>
-  <% end %>
-</ul>
+                      <p><%= product.alcohol.name %></p>
+                </div>
+                </div>
+              </div>
+          <% end %>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-2"></div>
+  </div>
+</div>
