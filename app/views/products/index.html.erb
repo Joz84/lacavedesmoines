@@ -3,14 +3,14 @@
   <div class="row">
     <div class="col-xs-12 col-sm-2"></div>
     <div class="col-xs-12 col-sm-8">
-      <h2 class="cat">Products</h2>
+      <h2 class="cat-beer">Vous partiriez sur :</h2>
       <div class="container-fluid">
         <div class="row">
           <div>
             <% if @products.count != 0 %>
               <% @products.each do |product| %>
                 <div class="col-xs-12 col-sm-4">
-                  <div class="card">
+                  <div class="card-show">
                   <div class="card-description">
                     <h2><%= link_to product.name, product_path({id: product.id,
                                                     sku: product.sku,
@@ -20,7 +20,13 @@
                                                     specificity: product.specificity.sku,
                                                     capacity: product.capacity
                                                     })  %></h2>
-                        <p><%= product.alcohol.name %></p>
+                        <p><%= product.alcohol.name %> <%= product.color.name %></p>
+                        <p>Fermentation : <%= product.fermentation.name %></p>
+                        <p>Type : <%= product.kind.name %></p>
+                        <p>Provenance : <%= product.region.name %></p>
+                        <% if product.specificity.name %>
+                        <p> Particularité : <%= product.specificity.name %></p>
+                          <% end %>
                   </div>
                   </div>
                 </div>
@@ -37,3 +43,4 @@
     <div class="col-xs-12 col-sm-2"></div>
   </div>
 </div>
+<%= render '/shared/footer' %>
