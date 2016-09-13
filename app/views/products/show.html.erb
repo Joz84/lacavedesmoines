@@ -19,10 +19,20 @@
         </div>
       </div>
         <div class="col-xs-12 col-sm-8">
-          <h2 class="cat"><%= @product.brewery.name %></h2>
+          <h2 class="cat-beer">Brasserie : <%= @product.brewery.name %></h2>
           <div class="card-show">
+            <div class="card-show-desc pull-left">
             <h1><%= @product.name %></h1>
-            <%= @product.alcohol.name %>
+            <p><h3><%= @product.alcohol.name %></p></h3>
+            <p><h4><%= @product.color.name %></p></h4>
+            <p>Fermentation :<%= @product.fermentation.name %></p>
+            <p>Type : <%= @product.kind.name %></p>
+            <p>Provenance : <%= @product.region.name %></p>
+            <p>Particularité : <%= @product.specificity.name %></p>
+            </div>
+            <div class="card-show-remi-desc pull-right">
+              Cette bière est magnifique par ses contours généreux et son amertume exceptionnellement fine et longue en bouche.
+            </div>
           </div>
         </div>
       <div class="col-xs-12 col-sm-2">
