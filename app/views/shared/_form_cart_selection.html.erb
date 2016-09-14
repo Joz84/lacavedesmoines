@@ -1,5 +1,10 @@
 <div>
   <%= simple_form_for :selected, url: carts_path, method: :post do |f| %>
+      <% if @selection.errors.messages[:quantity][0] %>
+      <div>
+        La quantité doit être au moins d'une bière!
+      </div>
+    <% end %>
     <%= f.error_notification %>
     <%= f.input :quantity, as: :integer %>
     <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
