@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(version: 20160914110633) do
     t.string   "city"
     t.string   "country"
     t.string   "telephone"
+    t.string   "advancement"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.index ["deposit_id"], name: "index_orders_on_deposit_id", using: :btree

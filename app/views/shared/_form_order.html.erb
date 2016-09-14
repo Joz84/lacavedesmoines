@@ -1,0 +1,13 @@
+<div>
+  <%= simple_form_for @order do |f| %>
+    <%= f.error_notification %>
+    <%= f.input :delivery, as: :boolean %>
+    <%= f.input :address, as: :string %>
+    <%= f.input :complement, as: :string %>
+    <%= f.input :postal_code, as: :string %>
+    <%= f.input :city, as: :string %>
+    <%= f.input :country, as: :string %>
+    <%= f.input :telephone, as: :string %>
+    <%= f.button :submit, value: "Valider la commande", class: 'btn-outline-secondary' %>
+  <% end %>
+</div>

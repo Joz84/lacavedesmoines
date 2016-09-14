@@ -21,6 +21,7 @@ ActiveAdmin.register Order do
                 :postal_code,
                 :city,
                 :country,
-                :telephone
+                :telephone,
+                :advancement
 
 end

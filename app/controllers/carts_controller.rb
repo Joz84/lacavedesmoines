@@ -12,10 +12,10 @@ class CartsController < ApplicationController
       session[:cart] << { quantity: @quantity, product: @product }
       redirect_to product_path( @product.id,
                                 @product.sku,
-                                @product.alcohol,
-                                @product.brewery,
-                                @product.color,
-                                @product.specificity,
+                                @product.alcohol.name,
+                                @product.brewery.name,
+                                @product.color.name,
+                                @product.specificity.name,
                                 @product.capacity )
     else
       render 'products/show'

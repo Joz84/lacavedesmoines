@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   get "product/:id/:sku/:alcohol/:brewery/:color/:specificity/:capacity", to: "products#show", as: "product"
   resources :carts, only: [:create]
   get "cart" , to: "carts#show", as: "cart"
-  resources :orders, only: [:edit, :create]
+  resources :orders, only: [:new, :create, :update]
   resources :payments, only: [:new, :create, :show]
 end

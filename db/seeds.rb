@@ -15,3 +15,5 @@ r = Region.create(name: "Aquitaine", sku: "aquitaine" )
 s = Specificity.create(name: "Vieillie en fût de chaine", sku: "vieillie-en-fut-de-chaine" )
 
 p = Product.create(name: "La Rouste", sku: "la-rouste", alcohol: a, brewery: b, color: c, fermentation: f, kind: k, region: r, specificity: s, capacity: 75)
+
+d = Deposit.create(name: "Magasin Bordeaux", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500 )
