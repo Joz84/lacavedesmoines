@@ -10,6 +10,7 @@ class CreateOrders < ActiveRecord::Migration[5.0]
       t.string :city
       t.string :country
       t.string :telephone
+      t.string :advancement
 
       t.timestamps
     end
