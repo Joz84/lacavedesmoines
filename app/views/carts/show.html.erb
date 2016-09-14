@@ -3,8 +3,8 @@
 <ul>
   <% session[:cart].each do |selected| %>
     <li>
-      <p><%= selected["product"]["name"] %></p>
-      <p><%= selected["quantity"] %></p>
+      <p><%= selected[:product].name %></p>
+      <p><%= selected[:quantity] %></p>
     </li>
   <% end %>
 </ul>

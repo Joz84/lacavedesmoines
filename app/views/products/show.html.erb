@@ -30,7 +30,7 @@
             <p>Provenance : <%= @product.region.name %></p>
             <p>Particularité : <%= @product.specificity.name %></p>
             <p>
-              <%= render 'form' %>
+              <%= render 'shared/form_cart_selection' %>
             </p>
             <p>
               <%= link_to "Voir le penier", cart_path %>
