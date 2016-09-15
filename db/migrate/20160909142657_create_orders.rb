@@ -10,7 +10,9 @@ class CreateOrders < ActiveRecord::Migration[5.0]
       t.string :city
       t.string :country
       t.string :telephone
-      t.string :advancement
+      t.string :state
+      t.monetize :amount, currency: { present: false }
+      t.json :payment
 
       t.timestamps
     end
