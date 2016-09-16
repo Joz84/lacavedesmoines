@@ -30,17 +30,14 @@
             <p>Provenance : <%= @product.region.name %></p>
             <p>Particularité : <%= @product.specificity.name %></p>
             <p>Amount: <%= humanized_money_with_symbol(@product.price) %></p>
-            <p>
-              <%= render 'shared/form_cart_selection' %>
-            </p>
-            <p>
-              <%= link_to "Voir le panier", cart_path %>
-            </p>
             </div>
             <div class="card-show-remi-desc pull-right">
               <div class="product-photo-container text-center">
               <%= image_tag "http://res.cloudinary.com/cavedesmoines/image/upload/v1473862202/biere-la-debauche-slap-a-banker_dmoq9q.jpg", {class: "product-photo"}%>
               </div>
+              <p>
+              <%= render 'shared/form_cart_selection' %>
+              </p>
               <p class="le-conseil-du-patron">
                 Cette bière est magnifique par ses contours généreux et son amertume exceptionnellement fine et longue en bouche.<br />
                 Elle glisse, elle coule, c'est magnifique.<br />
