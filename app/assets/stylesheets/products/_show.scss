@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes';
+
 .remi-play {
   margin-left: 19px;
   margin-top: 26px;
@@ -34,8 +36,14 @@
 .refine-search {
   h2 {
   color:white;
-  font-size: 19px;
+  font-size: 31px;
+  font-family: 'Great Vibes', cursive;
   }
+  background-color: rgba(0,0,0,0.5);
+  min-height: 732px;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .card-show-desc {
