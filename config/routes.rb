@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   resources :products, only: [:index]
   get "product/:id/:sku/:alcohol/:brewery/:color/:specificity/:capacity", to: "products#show", as: "product"
   resources :carts, only: [:create]
-  get "cart" , to: "carts#show", as: "cart"
+  patch "cart" , to: "carts#update"
+  put "cart" , to: "carts#update"
+  get "cart" , to: "carts#edit"
   resources :orders, only: [:new, :create, :update, :show] do
     resources :payments, only: [:new, :create, :show]
   end

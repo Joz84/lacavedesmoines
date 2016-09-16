@@ -1,0 +1,21 @@
+<h1>Carts show</h1>
+
+<div>
+  <%= simple_form_for :selected, url: cart_path, method: :patch do |f| %>
+    <ul>
+      <% session[:cart].each_with_index do |selected, i| %>
+        <li>
+          <p><%= "#{i} - #{selected[:product].name}" %></p>
+          <% if session[:errors].include?(i) %>
+            <p> La quantité doit être supérieures à 0! </p>
+          <% end %>
+          <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1} %>
+          <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "delete" %>
+          <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id } %>
+        </li>
+      <% end %>
+    </ul>
+    <%= f.button :submit, value: "Modifier", class: 'btn-outline-secondary' %>
+    <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
+  <% end %>
+</div>
