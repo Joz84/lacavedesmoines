@@ -8,7 +8,7 @@
           <%= simple_form_for :research, url: products_path, method: :get do |f| %>
             <%= f.error_notification %>
             <%= f.input :words, label: false %>
-            <%= f.button :submit, value: "Rechercher" %>
+            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher" %>
           <% end %>
         </div>
       </div>
