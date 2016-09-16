@@ -22,6 +22,8 @@ ActiveAdmin.register Order do
                 :city,
                 :country,
                 :telephone,
-                :advancement
+                :state
+                :amount
+                :payment
 
 end

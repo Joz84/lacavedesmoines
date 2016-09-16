@@ -1,4 +1,5 @@
 class Order < ApplicationRecord
+  monetize :amount_cents
   belongs_to :deposit
   belongs_to :user
 
@@ -14,5 +15,11 @@ class Order < ApplicationRecord
   validates :city, presence: :true
   validates :country, presence: :true
   validates :telephone, presence: :true
+
+  def init_amount
+    amount = 0
+    self.selections.each { |s| amount += s.quantity * s.product.price } if self.selections.count > 0
+    amount
+  end
 
 end
