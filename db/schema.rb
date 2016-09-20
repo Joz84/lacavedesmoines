@@ -39,8 +39,9 @@ ActiveRecord::Schema.define(version: 20160914110633) do
   create_table "breweries", force: :cascade do |t|
     t.string   "name"
     t.string   "sku"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "colors", force: :cascade do |t|
@@ -52,6 +53,7 @@ ActiveRecord::Schema.define(version: 20160914110633) do
 
   create_table "deposits", force: :cascade do |t|
     t.string   "name"
+    t.string   "sku"
     t.string   "address"
     t.string   "complement"
     t.integer  "postal_code"
@@ -59,6 +61,7 @@ ActiveRecord::Schema.define(version: 20160914110633) do
     t.string   "country"
     t.integer  "capacity"
     t.string   "siret"
+    t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end

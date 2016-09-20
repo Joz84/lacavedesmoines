@@ -1,0 +1,17 @@
+  <div class="card-description">
+    <h2><%= link_to product.name, product_path({id: product.id,
+                                    sku: product.sku,
+                                    alcohol: product.alcohol.sku,
+                                    brewery: product.brewery.sku,
+                                    color: product.color.sku,
+                                    specificity: product.specificity.sku,
+                                    capacity: product.capacity
+                                    })  %></h2>
+        <p><%= product.alcohol.name %> <%= product.color.name %></p>
+        <p>Fermentation : <%= product.fermentation.name %></p>
+        <p>Type : <%= product.kind.name %></p>
+        <p>Provenance : <%= product.region.name %></p>
+        <% if product.specificity.name %>
+        <p> Particularité : <%= product.specificity.name %></p>
+          <% end %>
+  </div>

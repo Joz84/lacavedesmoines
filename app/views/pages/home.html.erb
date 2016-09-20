@@ -13,6 +13,19 @@
         </div>
       </div>
     </div>
+    <div>
+      <%= render '/shared/breweries_index' %>
+      <%= link_to "Toutes  nos brasserries", breweries_path %>
+    </div>
+    <div>
+      <%= link_to "Magasin de Bordeaux", @bordeaux %>
+    </div>
+    <div>
+      <%= link_to "Magasin de Mont de Marsan", @montdemarsan %>
+    </div>
+    <div>
+      <%= link_to "Magasin de Portets", @portets %>
+    </div>
     <%= render '/shared/footer' %>
   </div>
 </div>

@@ -1,0 +1,22 @@
+<h1><%= "Hey #{current_user.name}, bienvenue sur ton dashboard" %></h1>
+
+<div>
+  <ul>
+    <% if current_user.orders.count != 0 %>
+      <% current_user.orders.each_with_index do |order, i| %>
+        <li>
+          <%= "#{order.created_at} - Order #{i}"%>
+          <ul>
+            <% order.selections.each do |select| %>
+              <li>
+                <%= "#{select.product.name} x #{select.quantity}" %>
+              </li>
+            <% end %>
+          </ul>
+        </li>
+      <% end %>
+    <% else %>
+      Vous n'avez pas d'ancienne commande!
+    <% end %>
+  </ul>
+</div>

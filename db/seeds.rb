@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 a = Alcohol.create(name: "Bière", sku: "biere" )
-b = Brewery.create(name: "La Plethore", sku: "la-plethore" )
+b = Brewery.create(name: "La Plethore", sku: "la-plethore", description: "Le top du top!")
 c = Color.create(name: "Ambrée", sku: "ambree" )
 f = Fermentation.create(name: "Double", sku: "double" )
 k = Kind.create(name: "IPA", sku: "ipa" )
@@ -17,4 +17,6 @@ s = Specificity.create(name: "Vieillie en fût de chaine", sku: "vieillie-en-fut
 p = Product.create(name: "La Rouste", sku: "la-rouste", alcohol: a, brewery: b, color: c, fermentation: f, kind: k, region: r, specificity: s, capacity: 75)
 p.price = 8
 p.save
-d = Deposit.create(name: "Magasin Bordeaux", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500 )
+d1 = Deposit.create(name: "Magasin Bordeaux", sku: "bordeaux", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
+d2 = Deposit.create(name: "Magasin Mont de Marsan", sku: "montdemarsan", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
+d3 = Deposit.create(name: "Magasin Portets", sku: "portets", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
