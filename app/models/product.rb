@@ -7,6 +7,7 @@ class Product < ApplicationRecord
   belongs_to :fermentation
   belongs_to :specificity
   monetize :price_cents
+  has_attachments :photos, maximum: 10
 
   has_many :selections
   has_many :orders, through: :selections
