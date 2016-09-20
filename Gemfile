@@ -34,3 +34,7 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'pg_search'
 gem 'activerecord-session_store'
 gem 'stripe'
+gem 'cloudinary', '1.1.0'
+gem "attachinary", github: "assembler/attachinary"
+gem "jquery-fileupload-rails"
+gem "coffee-rails"

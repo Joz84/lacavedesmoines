@@ -28,6 +28,14 @@ GIT
       responders
 
 GIT
+  remote: git://github.com/assembler/attachinary.git
+  revision: c1e77b2a8551b0cbb09622f5d5767de421223dfa
+  specs:
+    attachinary (1.3.1)
+      cloudinary (~> 1.1.0)
+      rails (>= 3.2)
+
+GIT
   remote: git://github.com/plataformatec/devise.git
   revision: 9c0dccfec1b44b29ba63f8b74ddf655371597eda
   specs:
@@ -89,6 +97,7 @@ GEM
     arel (7.1.1)
     autoprefixer-rails (6.4.1)
       execjs
+    aws_cf_signer (0.1.3)
     bcrypt (3.1.11)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -104,6 +113,9 @@ GEM
       thor (~> 0.19)
     builder (3.2.2)
     byebug (9.0.5)
+    cloudinary (1.1.0)
+      aws_cf_signer
+      rest-client
     coderay (1.1.1)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
@@ -133,6 +145,10 @@ GEM
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
+    jquery-fileupload-rails (0.4.7)
+      actionpack (>= 3.1)
+      railties (>= 3.1)
+      sass (>= 3.2)
     jquery-rails (4.2.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -275,15 +291,19 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   activerecord-session_store
+  attachinary!
   autoprefixer-rails
   better_errors
   binding_of_caller
   bootstrap-sass
+  cloudinary (= 1.1.0)
+  coffee-rails
   devise!
   figaro
   font-awesome-sass
   inherited_resources!
   jbuilder (~> 2.0)
+  jquery-fileupload-rails
   jquery-rails
   listen (~> 3.0.5)
   money-rails
