@@ -29,5 +29,6 @@ ActiveAdmin.register Product do
                 :price,
                 :promotion,
                 :rating,
-                :sku
+                :sku,
+                :photos
 end

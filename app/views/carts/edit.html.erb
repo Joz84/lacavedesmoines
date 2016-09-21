@@ -36,6 +36,11 @@
                   </li>
                 <% end %>
               </ul>
+              <div>
+                <% if session[:cart].count != 0 %>
+                  <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %>
+                <% end %>
+              </div>
               <div class="text-center">
               <%= f.button :submit, value: "Confirmer la modification", class: 'btn-outline-secondary' %>
               <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>

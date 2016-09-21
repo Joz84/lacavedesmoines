@@ -1,0 +1,10 @@
+<h1>News index</h1>
+
+<ul>
+  <% @news.each do |new| %>
+    <li>
+      <h2><%= new.title %></h2>
+      <p><%= new.content %></p>
+    </li>
+  <% end %>
+</ul>
