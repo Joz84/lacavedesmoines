@@ -13,18 +13,33 @@
         </div>
       </div>
     </div>
-    <div>
-      <%= render '/shared/breweries_index' %>
-      <%= link_to "Toutes  nos brasserries", breweries_path %>
-    </div>
-    <div>
-      <%= link_to "Magasin de Bordeaux", @bordeaux %>
-    </div>
-    <div>
-      <%= link_to "Magasin de Mont de Marsan", @montdemarsan %>
-    </div>
-    <div>
-      <%= link_to "Magasin de Portets", @portets %>
+    <div class="container-fluid">
+      <div class="row" style="border-bottom: 10px solid #ffba00;">
+        <div class="banner-deposits" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1474447688/houblon_nfncsb.png');">
+          <div style="padding-top:20px;margin-bottom:300px;border-top: 10px solid #ffba00;" class="text-center">
+            <%= render '/shared/breweries_index' %>
+            <%= link_to "Toutes  nos brasserries", breweries_path %>
+          </div>
+          <div class="col-xs-12 col-md-4 text-center">
+            <div class="brewery-container1" onclick="document.location='deposits/1'">
+              <div class="brewery-text text-center"><%= link_to "Magasin de Bordeaux", @bordeaux %>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 text-center">
+            <div class="brewery-container2" onclick="document.location='deposits/1'">
+              <div class="brewery-text text-center"><%= link_to "Magasin de Portets", @portets %>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 text-center">
+            <div class="brewery-container3" onclick="document.location='deposits/1'">
+              <div class="brewery-text text-center"><%= link_to "Magasin de Mont-de-Marsan", @montdemarsan %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <%= render '/shared/footer' %>
   </div>
