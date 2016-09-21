@@ -22,6 +22,50 @@
   color: white;
 }
 
+.banner-deposits {
+  height: 100vh;
+  background-size: cover no-repeat !important;
+}
+
+.brewery-container1 {
+  height: 250px;
+  width: 250px;
+  background-image: url("http://placehold.it/250x250");
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.brewery-container2 {
+  height: 250px;
+  width: 250px;
+  background-image: url("http://placehold.it/250x250");
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.brewery-container3 {
+  height: 250px;
+  width: 250px;
+  background-image: url("http://placehold.it/250x250");
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.brewery-text {
+  padding-top:200px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 .search-bar {
   margin: 0 auto;
   width: 60%;
