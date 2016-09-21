@@ -1,24 +1,74 @@
-<h1>Carts show</h1>
-
-<div>
-  <%= simple_form_for :selected, url: cart_path, method: :patch do |f| %>
-    <ul>
-      <% session[:cart].each_with_index do |selected, i| %>
-        <li>
-          <p><%= "#{i} - #{selected[:product].name}" %></p>
-          <% if session[:errors].include?(i) %>
-            <p> La quantité doit être supérieures à 0! </p>
-          <% end %>
-          <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1} %>
-          <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "delete" %>
-          <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id } %>
-        </li>
-      <% end %>
-    </ul>
-    <% if session[:cart].count != 0 %>
-      <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %>
-    <% end %>
-    <%= f.button :submit, value: "Modifier", class: 'btn-outline-secondary' %>
-    <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
-  <% end %>
+<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+  <%= render '/shared/navbar' %>
+  <div class="row">
+    <div class="container-fluid">
+      <div class="col-xs-12 col-sm-2">
+        <div>
+          <img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1473864577/remi-play_rd1bf3.png" alt="Les conseils de Rémi" class="remi-play">
+        </div>
+        <div class="events">
+        <h2>Évènements</h2>
+        <ul>
+          <li><a href="#">La fête de la bière à Bordeaux !</a>
+          </li>
+          <li><a href="#">Arrivée de la magnifique Rio Reserva de Struise.</a>
+          </li>
+          <li><a href="#">Théâtre en Cave...</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+        <div class="col-xs-12 col-sm-8">
+          <h2 class="cat-beer">Votre Panier</h2>
+          <div class="card-show">
+            <%= simple_form_for :selected, url: cart_path, method: :patch do |f| %>
+              <ul class="cart-size">
+                <% session[:cart].each_with_index do |selected, i| %>
+                  <li>
+                    <p><%= "#{selected[:product].name}" %></p>
+                    <p><%= "#{selected[:product].price}" %> €</p>
+                    <% if session[:errors].include?(i) %>
+                      <p> La quantité doit être supérieures à 0! </p>
+                    <% end %>
+                    <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1} %>
+                    <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "supprimer" %>
+                    <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id } %>
+                  </li>
+                <% end %>
+              </ul>
+              <div>
+                <% if session[:cart].count != 0 %>
+                  <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %>
+                <% end %>
+              </div>
+              <div class="text-center">
+              <%= f.button :submit, value: "Confirmer la modification", class: 'btn-outline-secondary' %>
+              <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <div class="col-xs-12 col-sm-2 refine-search">
+          <h2>Affiner votre recherche</h2>
+      </div>
+    </div>
+    <%= render '/shared/footer' %>
+  </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
