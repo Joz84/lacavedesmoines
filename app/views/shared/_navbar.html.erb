@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1473245442/logo-cave-des-moines_g7paoa.png" alt="" width="200px""></a></div>
     <div class="col-xs-12 col-sm-2">
-      <% if %>
+      <% if session[:cart].count != 0 %>
         <div class="basket text-center">
         <%= link_to image_tag('http://res.cloudinary.com/cavedesmoines/image/upload/v1474012967/basket-cave-des-moines_helall.png', class: 'basket-icon'), cart_path %>
         <p>
