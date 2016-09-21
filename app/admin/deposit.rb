@@ -20,5 +20,6 @@ ActiveAdmin.register Deposit do
                 :city,
                 :country,
                 :capacity,
-                :siret
+                :siret,
+                :photos
 end
