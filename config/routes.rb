@@ -14,6 +14,6 @@ Rails.application.routes.draw do
   end
   resources :breweries, only: [:index, :show]
   resources :deposits, only: [:show]
-
+  resources :news, only: [:index, :show]
   mount Attachinary::Engine => "/attachinary"
 end

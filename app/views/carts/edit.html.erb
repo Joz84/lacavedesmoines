@@ -15,6 +15,9 @@
         </li>
       <% end %>
     </ul>
+    <% if session[:cart].count != 0 %>
+      <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %>
+    <% end %>
     <%= f.button :submit, value: "Modifier", class: 'btn-outline-secondary' %>
     <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
   <% end %>
