@@ -4,4 +4,5 @@ class Brewery < ApplicationRecord
   validates :name, uniqueness: true
   validates :sku, presence: true
   validates :sku, uniqueness: true
+  has_attachments :photos, maximum: 10
 end

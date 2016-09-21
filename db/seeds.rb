@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 a = Alcohol.create(name: "Bière", sku: "biere" )
-b = Brewery.create(name: "La Plethore", sku: "la-plethore", description: "Le top du top!")
+b = Brewery.create(name: "La Plethore", sku: "la-plethore", description: "Le top du top!", photo_urls: ["http://www.musculaction.com/images/560-biere-musculation-2.jpg"])
 c = Color.create(name: "Ambrée", sku: "ambree" )
 f = Fermentation.create(name: "Double", sku: "double" )
 k = Kind.create(name: "IPA", sku: "ipa" )
