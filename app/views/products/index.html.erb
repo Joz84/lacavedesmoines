@@ -1,7 +1,9 @@
 <div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
   <%= render '/shared/navbar' %>
   <div class="row">
-    <div class="col-xs-12 col-sm-2"></div>
+    <div class="col-xs-12 col-sm-2">
+        <%= render '/shared/news' %>
+    </div>
     <div class="col-xs-12 col-sm-8">
       <h2 class="cat-beer">Vous partiriez sur :</h2>
       <div class="container-fluid">
@@ -16,8 +18,8 @@
                 </div>
               <% end %>
             <% else %>
-              <div style="color:white;font-weight:bold">
-                Pas de résultat immédiat pour cette recherche, appelez-nous pour qu'on vous commande ce produit auprès d'un fournisseur !
+              <div class="no-product">
+                Pas de résultat immédiat pour cette recherche, appelez-nous au 09.81.02.42.42 pour qu'on vous commande ce produit chez un fournisseur !
               </div>
             <% end %>
           </div>
