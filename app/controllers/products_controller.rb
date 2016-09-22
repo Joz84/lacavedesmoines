@@ -8,6 +8,7 @@ class ProductsController < ApplicationController
   def show
     @product = Product.find(params[:id])
     @selection = Selection.new
+    @suggestions = @product.matching(3)
   end
 
   private

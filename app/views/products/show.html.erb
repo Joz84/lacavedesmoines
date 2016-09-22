@@ -50,6 +50,16 @@
           <h2>Affiner votre recherche</h2>
       </div>
     </div>
+
+    <ul>
+      <% @suggestions.each do |suggestion| %>
+        <li>
+          <%= link_to suggestion.name, suggestion %>
+        </li>
+      <% end %>
+    </ul>
+
+
     <%= render '/shared/footer' %>
   </div>
 </div>
