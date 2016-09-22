@@ -22,13 +22,16 @@
                     </ul>
                   </li>
                 <% end %>
+                <div class="text-center" style="margin-top:20px">
+                <%= link_to "Retour à l'accueil", root_path%>
+                </div>
               <% else %>
-                Vous n'avez pas d'ancienne commande!
+                <div class="text-center">
+                <%= cl_image_tag("cart_bua05m.png") %>
+                Votre panier est vide pour l'instant, <a href="products?utf8=✓&research%5Bwords%5D=bière&commit=Rechercher">commencez vos achats...</a>
+                </div>
               <% end %>
             </ul>
-            <div class="text-center" style="margin-top:20px">
-            <%= link_to "Retour à l'accueil", root_path%>
-            </div>
           </div>
         </div>
     </div>

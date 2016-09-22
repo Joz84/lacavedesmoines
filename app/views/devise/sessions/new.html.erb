@@ -16,10 +16,13 @@
                   <%= f.input :remember_me, label: "Se souvenir de moi", as: :boolean if devise_mapping.rememberable? %>
                 </div>
                 <div class="form-actions">
-                  <%= f.button :submit, "Connexion" %>
+                  <%= f.button :submit, "Connexion", class: "btn-outline-secondary" %>
                 </div>
               <% end %>
               <%= render "devise/shared/links" %>
+              <div class="text-center" style="margin-top:20px;margin-bottom:20px">
+                Nous n'utiliserons jamais vos données ailleurs que sur ce site.<br />
+              </div>
             </div>
           </div>
         </div>
