@@ -30,8 +30,7 @@ class OrdersController < ApplicationController
   private
 
   def order_params
-    params.require(:order).permit(:delivery,
-                                  :address,
+    params.require(:order).permit(:address,
                                   :complement,
                                   :postal_code,
                                   :city,

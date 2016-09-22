@@ -9,7 +9,6 @@ class Order < ApplicationRecord
   validates :deposit, presence: :true
   validates :user, presence: :true
 
-  validates :delivery, presence: :true
   validates :address, presence: :true
   validates :postal_code, presence: :true
   validates :city, presence: :true
