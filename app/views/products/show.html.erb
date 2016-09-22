@@ -6,17 +6,7 @@
         <div>
           <img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1473864577/remi-play_rd1bf3.png" alt="Les conseils de Rémi" class="remi-play">
         </div>
-        <div class="events">
-        <h2>Évènements</h2>
-        <ul>
-          <li><a href="#">La fête de la bière à Bordeaux !</a>
-          </li>
-          <li><a href="#">Arrivée de la magnifique Rio Reserva de Struise.</a>
-          </li>
-          <li><a href="#">Théâtre en Cave...</a>
-          </li>
-        </ul>
-        </div>
+        <%= render '/shared/news' %>
       </div>
         <div class="col-xs-12 col-sm-8">
           <h2 class="cat-beer">Brasserie : <span class="brewery"><%= @product.brewery.name %></span></h2>

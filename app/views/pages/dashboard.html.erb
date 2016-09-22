@@ -1,22 +1,38 @@
-<h1><%= "Hey #{current_user.name}, bienvenue sur ton dashboard" %></h1>
-
-<div>
-  <ul>
-    <% if current_user.orders.count != 0 %>
-      <% current_user.orders.each_with_index do |order, i| %>
-        <li>
-          <%= "#{order.created_at} - Order #{i}"%>
-          <ul>
-            <% order.selections.each do |select| %>
-              <li>
-                <%= "#{select.product.name} x #{select.quantity}" %>
-              </li>
-            <% end %>
-          </ul>
-        </li>
-      <% end %>
-    <% else %>
-      Vous n'avez pas d'ancienne commande!
-    <% end %>
-  </ul>
+<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+  <div class="row">
+  <%= render '/shared/navbar' %>
+    <div class="container-fluid">
+      <div class="col-xs-12 col-sm-2">
+      </div>
+        <div class="col-xs-12 col-sm-8">
+          <h2 class="cat-beer"><%= "Bonjour #{current_user.name}," %></h2>
+          <div class="card-show">
+            <h2 class="text-center">Voici l'historique de vos commandes</h2>
+            <ul class="dashboard-list">
+              <% if current_user.orders.count != 0 %>
+                <% current_user.orders.each_with_index do |order, i| %>
+                  <li>
+                    <%= "#{order.created_at} - Commande #{i}"%>
+                    <ul>
+                      <% order.selections.each do |select| %>
+                        <li>
+                          <%= "#{select.product.name} x #{select.quantity}" %>
+                        </li>
+                      <% end %>
+                    </ul>
+                  </li>
+                <% end %>
+              <% else %>
+                Vous n'avez pas d'ancienne commande!
+              <% end %>
+            </ul>
+            <div class="text-center" style="margin-top:20px">
+            <%= link_to "Retour à l'accueil", root_path%>
+            </div>
+          </div>
+        </div>
+    </div>
+    <%= render '/shared/footer' %>
+  </div>
 </div>
+
