@@ -39,4 +39,34 @@ class Product < ApplicationRecord
       specificity: :name
     }
 
+  def matching(nbr)
+    m = {}
+    Product.all.each { |p| m[p.sku.to_sym] = (self.weighted_attributes & p.weighted_attributes).count if p != self }
+    m = m.sort.reverse[0..nbr].to_h
+    m.map { |sku, score| Product.find_by(sku: sku.to_sym) }
+  end
+
+  def weighted_attributes
+    select_attr = { name: 5,
+                    alcohol_id: 10,
+                    brewery_id: 8,
+                    region_id: 3,
+                    country: 3,
+                    capacity: 1,
+                    kind_id: 7,
+                    color_id: 6,
+                    fermentation_id: 6,
+                    degree: 5,
+                    specificity: 8
+                    }
+
+    weighted_attr = []
+    select_attr.each do |k, v|
+      if self.attributes[k.to_s]
+        (0..v).each_with_index { |a, i| weighted_attr << "#{i}-#{k.to_s}: #{self.attributes[k.to_s]}" }
+      end
+    end
+    weighted_attr
+  end
+
 end
