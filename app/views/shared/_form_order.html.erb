@@ -1,7 +1,6 @@
 <div>
   <%= simple_form_for @order do |f| %>
     <%= f.error_notification %>
-<!--     <%= f.input :delivery, as: :boolean, label: "Livraison" %> -->
     <%= f.input :address, as: :string, label: "Adresse" %>
     <%= f.input :complement, as: :string, label: "Complément d'adresse" %>
     <%= f.input :postal_code, as: :string, label: "Code postal" %>
