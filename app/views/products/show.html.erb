@@ -20,7 +20,11 @@
             </div>
             <div class="card-show-remi-desc pull-right">
               <div class="product-photo-container text-center">
-              <%= image_tag "http://res.cloudinary.com/cavedesmoines/image/upload/v1473862202/biere-la-debauche-slap-a-banker_dmoq9q.jpg", {class: "product-photo"}%>
+              <% if @product.photos && @product.photos.count != 0 %>
+                <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
+              <% end %>
+
+
               </div>
               <p>
               <%= render 'shared/form_cart_selection' %>
