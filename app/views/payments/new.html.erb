@@ -24,7 +24,7 @@
                 </label>
               </article>
               <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-panel-labelpanelLabel="Payez {{amount}}"
+                panelLabel="Payez {{amount}}"
                 data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
                 data-name="Ma Commande"
                 data-description="Commande <%= @order.id %>"
