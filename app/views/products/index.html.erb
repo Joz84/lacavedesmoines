@@ -12,7 +12,7 @@
             <% if @products.count != 0 %>
               <% @products.each do |product| %>
                 <div class="col-xs-12 col-sm-4">
-                  <div class="card-show">
+                  <div class="card-show-index">
                     <%= render partial: '/shared/product', locals: { product: product } %>
                   </div>
                 </div>
@@ -22,6 +22,7 @@
                 Pas de résultat immédiat pour cette recherche, appelez-nous au 09.81.02.42.42 pour qu'on vous commande ce produit chez un fournisseur !
               </div>
             <% end %>
+
           </div>
         </div>
       </div>

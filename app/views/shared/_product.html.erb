@@ -1,16 +1,30 @@
-  <div class="card-description">
-    <h2><%= link_to product.name, product_path({id: product.id,
-                                    sku: product.sku,
-                                    alcohol: product.alcohol.sku,
-                                    brewery: product.brewery.sku,
-                                    color: product.color.sku,
-                                    capacity: product.capacity
-                                    })  %></h2>
-        <p><%= product.alcohol.name %> <%= product.color.name %></p>
-        <p>Fermentation : <%= product.fermentation.name %></p>
-        <p>Type : <%= product.kind.name %></p>
+  <div class="card-description-index">
+        <%= cl_image_tag product.photos.first.path, class: "product-photo-index" %>
+        <h1><%= link_to product.name, product_path({id: product.id,
+                                        sku: product.sku,
+                                        alcohol: product.alcohol.sku,
+                                        brewery: product.brewery.sku,
+                                        color: product.color.sku,
+                                        capacity: product.capacity
+                                        })  %></h1>
+
+        <p><h3><%= product.degree %> %</p></h3>
         <p>Provenance : <%= product.region.name %></p>
+        <p>Brasserie : <%= product.brewery.name %></p>
+        <p>Type : <%= product.kind.name %></p>
+        <p>Couleur : <%= product.color.name %></p>
+        <p>Contenance : <%= product.capacity %> cl</p>
+        <p>Fermentation : <%= product.fermentation.name %></p>
         <% if product.specificity %>
-        <p> Particularité : <%= product.specificity.name %></p>
-          <% end %>
+          <p> Particularité : <%= product.specificity.name %></p>
+        <% end %>
+        <div class="text-center" style="margin-top:25px">
+        <%= link_to "Choisir", product_path({id: product.id,
+                                        sku: product.sku,
+                                        alcohol: product.alcohol.sku,
+                                        brewery: product.brewery.sku,
+                                        color: product.color.sku,
+                                        capacity: product.capacity
+                                        }), class: 'btn btn-outline-secondary' %>
+        </div>
   </div>

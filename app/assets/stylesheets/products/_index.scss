@@ -34,6 +34,19 @@ a:hover {
   font-size: 13px;
 }
 
+.card-description-index {
+    height: auto;
+    position: absolute;
+    left: 33px;
+    right: 33px;
+    font-size: 92%;
+    top: 20px;
+
+  a {
+    color: #fabb0c;
+  }
+}
+
 .card-show {
   height: 100%;
   width: 100%;
@@ -45,6 +58,25 @@ a:hover {
   position: relative;
   background-color: rgba(255,255,255,0.8) !important;
   padding: 39px;
+  border-radius: 5px;
+
+  h1 {
+    color: #fabb0c;
+    margin-top: 0px;
+    font-size: 175%;
+  }
+}
+
+.card-show-index {
+  height: 100%;
+  width: 100%;
+  min-height: 655px;
+  display: inline-block;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: black;
+  position: relative;
+  background-color: rgba(255,255,255,0.8) !important;
   border-radius: 5px;
 
   h1 {
