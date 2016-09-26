@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get "dashboard" , to: "pages#dashboard", as: "dashboard"
   resources :products, only: [:index]
-  get "product/:id/:sku/:alcohol/:brewery/:color/:specificity/:capacity", to: "products#show", as: "product"
+  get "product/:id/:sku/:alcohol/:brewery/:color/:capacity", to: "products#show", as: "product"
   resources :carts, only: [:create]
   patch "cart" , to: "carts#update"
   put "cart" , to: "carts#update"

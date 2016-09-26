@@ -18,13 +18,14 @@ class Product < ApplicationRecord
   validates :capacity, presence: :true
   validates :capacity, numericality: true
   validates :sku, presence: :true
+  validates :sku, uniqueness: true
 
   validates :alcohol, presence: :true
   validates :brewery, presence: :true
   validates :kind, presence: :true
   validates :color, presence: :true
   validates :fermentation, presence: :true
-  validates :specificity, presence: :true
+  #validates :specificity, presence: :true
 
   include PgSearch
   pg_search_scope :pgsearch,

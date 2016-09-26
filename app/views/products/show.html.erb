@@ -15,7 +15,9 @@
             <p>Fermentation :<%= @product.fermentation.name %></p>
             <p>Type : <%= @product.kind.name %></p>
             <p>Provenance : <%= @product.region.name %></p>
-            <p>Particularité : <%= @product.specificity.name %></p>
+            <% if @product.specificity %>
+              <p> Particularité : <%= @product.specificity.name %></p>
+            <% end %>
             <p>Prix : <%= humanized_money_with_symbol(@product.price) %></p>
             </div>
             <div class="card-show-remi-desc pull-right">
@@ -23,8 +25,6 @@
               <% if @product.photos && @product.photos.count != 0 %>
                 <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
               <% end %>
-
-
               </div>
               <p>
               <%= render 'shared/form_cart_selection' %>
