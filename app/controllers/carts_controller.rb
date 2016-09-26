@@ -32,7 +32,6 @@ class CartsController < ApplicationController
                               @product.alcohol.name,
                               @product.brewery.name,
                               @product.color.name,
-                              @product.specificity.name,
                               @product.capacity )
   end
 

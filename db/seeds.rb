@@ -2,9 +2,8 @@ require 'json'
 require 'csv'
 
 def convert_to_sku(name)
-  ActiveSupport::Inflector.transliterate(name.to_s).to_s.downcase.gsub!(/[^0-9A-Za-z]/, '')
+  ActiveSupport::Inflector.transliterate(name.to_s).to_s.downcase.gsub(/[^0-9A-Za-z]/, '')
 end
-
 Alcohol.create( name: "Bière",     sku: "biere" )
 Alcohol.create( name: "Vin",       sku: "vin" )
 Alcohol.create( name: "Champagne", sku: "champagnee" )
@@ -12,31 +11,32 @@ Alcohol.create( name: "Crémant",   sku: "cremant" )
 
 filepath = "db/db_products.json"
 serialized_products = File.read(filepath)
-products = JSON.parse(serialized_products)[:products]
-
+products = JSON.parse(serialized_products)
 products.each do |p|
-  Brewery.create(       name: p[:brewery_sku],       sku: convert_to_sku(p[:brewery_sku]) )
-  Color.create(         name: p[:color_sku],         sku: convert_to_sku(p[:color_sku]) )
-  Fermentation.create(  name: p[:fermentation_sku],  sku: convert_to_sku(p[:fermentation_sku]) )
-  Kind.create(          name: p[:kind_sku],          sku: convert_to_sku(p[:kind_sku]) )
-  Region.create(        name: p[:region_sku],        sku: convert_to_sku(p[:region_sku]) )
-  Specificity.create(   name: p[:specificity_sku],   sku: convert_to_sku(p[:specificity_sku]) )
-
-  product = Product.create( name:         p[:name] ,
-                            sku:          p[:sku],
-                            capacity:     p[:capacity],
-                            degree:       p[:degree].to_f,
-                            alcohol:      Alcohol.find_by(      sku:  p[:alcohol_sku] ),
-                            brewery:      Brewery.find_by(      name: p[:brewery_sku] ),
-                            color:        Color.find_by(        name: p[:color_sku] ),
-                            fermentation: Fermentation.find_by( name: p[:fermentation_sku] ),
-                            kind:         Kind.find_by(         name: p[:kind_sku] ),
-                            region:       Region.find_by(       name: p[:region_sku] ),
-                            specificity:  Specificity.find_by(  name: p[:specificity_sku] ))
-  product.price = p[:price]
+  Brewery.create(       name: p["brewery_sku"],       sku: convert_to_sku(p["brewery_sku"]) )
+  Color.create(         name: p["color_sku"],         sku: convert_to_sku(p["color_sku"]) )
+  Fermentation.create(  name: p["fermentation_sku"],  sku: convert_to_sku(p["fermentation_sku"]) )
+  Kind.create(          name: p["kind_sku"],          sku: convert_to_sku(p["kind_sku"]) )
+  Region.create(        name: p["region_sku"],        sku: convert_to_sku(p["region_sku"]) )
+  Specificity.create(   name: p["specificity_sku"],   sku: convert_to_sku(p["specificity_sku"]) )
+  product = Product.new( name:         p["name"] ,
+                            sku:          p["sku"],
+                            capacity:     p["capacity"],
+                            degree:       p["degree"].to_f,
+                            alcohol:      Alcohol.find_by(      sku: p["alcohol_sku"] ),
+                            brewery:      Brewery.find_by(      sku: convert_to_sku(p["brewery_sku"]) ),
+                            color:        Color.find_by(        sku: convert_to_sku(p["color_sku"]) ),
+                            fermentation: Fermentation.find_by( sku: convert_to_sku(p["fermentation_sku"]) ),
+                            kind:         Kind.find_by(         sku: convert_to_sku(p["kind_sku"]) ),
+                            region:       Region.find_by(       sku: convert_to_sku(p["region_sku"]) ),
+                            specificity:  Specificity.find_by(  sku: convert_to_sku(p["specificity_sku"]) ))
+  product.price = p["price"].to_f
   puts "#{product.name} : #{product.valid?}"
   unless product.valid?
+    puts "###############"
+    puts "#{product.name} : #{product.valid?}"
     puts product.errors.messages
+    puts "###############"
   end
   product.save
   Attachinary::File.create( attachinariable_type: product.class.to_s,
