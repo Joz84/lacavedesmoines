@@ -30,7 +30,9 @@
                   data-name="Ma Commande"
                   data-description="Commande <%= @order.id %>"
                   data-amount="<%= @order.amount_cents %>"
-                  data-currency="<%= @order.amount.currency %>">
+                  data-currency="<%= @order.amount.currency %>"
+                  data-label="Payez par carte"
+                  data-panel-label="Payez {{amount}}">
                 </script>
                 <% end %>
               </div>

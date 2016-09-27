@@ -13,14 +13,14 @@
                 <ul class="cart-size">
                   <% session[:cart].each_with_index do |selected, i| %>
                     <li>
-                      <p><%= "#{selected[:product].name}" %></p>
-                      <p><%= "#{selected[:product].price}" %> €</p>
+                      <p style="display:inline-block"><%= "#{selected[:product].name}" %></p>
+                      <p style="display:inline-block"> - <%= "#{selected[:product].price}" %> €</p>
                       <% if session[:errors].include?(i) %>
                         <p> La quantité doit être supérieures à 0! </p>
                       <% end %>
-                      <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1} %>
-                      <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "supprimer" %>
-                      <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id } %>
+                      <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1}, style: 'inline-block' %>
+                      <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "supprimer", style: 'inline-block' %>
+                      <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id }, style: 'inline-block' %>
                     </li>
                   <% end %>
                   <% if session[:cart].count != 0 %>
