@@ -4,7 +4,6 @@ body {
   }
 }
 
-
 .banner {
   color: white;
   text-align: center;
@@ -107,8 +106,25 @@ body {
 }
 
 .connect {
-  color:white !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color: white !important;
   text-decoration: none !important;
+  background-color: #fbbb0d;
+  height: 30px;
+  width: 115px;
+  text-align: center;
+  line-height: 26px;
+  border-bottom-left-radius: 5px;
 }
 
+.connected {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color: #fbbb0d;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.partner-logo {
+  height: 116px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

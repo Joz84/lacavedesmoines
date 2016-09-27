@@ -5,11 +5,11 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1473245442/logo-cave-des-moines_g7paoa.png" alt="" width="200px""></a></div>
-          <div class="col-xs-12 col-sm-2">
+          <div class="col-xs-12 col-sm-2" style="padding-right:0px;text-align:right">
             <p>
               <% if current_user %>
-                <%= link_to "Historique - ", dashboard_path, class: "connect" %>
-                <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "connect" %>
+                <%= link_to "Historique - ", dashboard_path, class: "connected" %>
+                <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "connected" %>
                   <% else %>
                   <%= link_to "Connexion", dashboard_path, class: "connect pull-right" %>
               <% end %>
@@ -40,9 +40,9 @@
     <div class="container-fluid banner-deposits" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1474447688/houblon_nfncsb.png');border-bottom: 10px solid #ffba00;">
       <div class="row">
         <div >
-          <div style="padding-top:20px;border-top: 10px solid #ffba00;margin-bottom:50px" class="text-center">
+          <div style="padding-top:20px;border-top: 10px solid #ffba00;margin-bottom:110px" class="text-center">
+          <h2 class="cat-beer">Nos Brasseries partenaires</h2>
             <%= render '/shared/breweries_index' %>
-            <%= link_to "Toutes  nos brasserries", breweries_path %>
           </div>
           <div class="col-xs-12 col-md-4 text-center">
             <div class="brewery-container1" onclick="document.location='deposits/1'">
