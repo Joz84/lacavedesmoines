@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home ]
+  skip_before_action :authenticate_user!, only: [ :home, :mentions ]
 
   def home
     @bordeaux = Deposit.find_by(sku: "bordeaux")
