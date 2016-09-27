@@ -47,7 +47,15 @@
           </div>
         </div>
       <div class="col-xs-12 col-sm-2 refine-search">
-        <h2>Affiner votre recherche</h2>
+          <h2>Affiner votre recherche</h2>
+          <%= simple_form_for :research, url: products_path, method: :get do |f| %>
+            <%= f.error_notification %>
+            <%= f.input :color, collection: @colors %>
+            <%= f.input :kind, collection: @kinds %>
+            <%= f.input :min_price, collection: @prices %>
+            <%= f.input :max_price, collection: @prices %>
+            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher" %>
+          <% end %>
       </div>
     </div>
 <h2 class="cat-beer" style="margin-bottom:30px">En suggestion : </h2>
