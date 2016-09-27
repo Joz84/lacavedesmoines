@@ -5,8 +5,12 @@ class ProductsController < ApplicationController
 #    if (  research_params["min_price"] && research_params["max_price"] && research_params["min_price"] > research_params["max_price"] )
     words = (research_params.select { |k, v| !["min_price", "max_price"].include?(k)}.map { |k, v| v }).join(" ")
     @products = !(words.strip).empty? ? Product.pgsearch(words) : Product.all
-    @products = @products.select { |p| (p.price_cents * 1.0 / 100) >= research_params["min_price"].to_f } if research_params["min_price"]
-    @products = @products.select { |p| (p.price_cents * 1.0 / 100) <= research_params["max_price"].to_f } if research_params["max_price"]
+    if research_params["min_price"] && !(research_params["min_price"]).empty?
+      @products = @products.select { |p| (p.price_cents * 1.0 / 100) >= research_params["min_price"].to_f }
+    end
+    if research_params["max_price"] && !(research_params["max_price"]).empty?
+      @products = @products.select { |p| (p.price_cents * 1.0 / 100) <= research_params["max_price"].to_f }
+    end
   end
 
   def show
