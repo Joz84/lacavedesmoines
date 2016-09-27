@@ -1,44 +1,43 @@
-<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
-  <div class="row">
-  <%= render '/shared/navbar' %>
-    <div class="container-fluid">
-      <div class="col-xs-12 col-sm-2">
-      <%= render '/shared/news' %>
-      </div>
-        <div class="col-xs-12 col-sm-8">
-          <h2 class="cat-beer">Commande</h2>
-          <div class="card-show">
-            <h2 class="text-center"></h2>
-            <div class="login-form text-center">
-              <%= form_tag order_payments_path(@order) do %>
-              <article>
-                <label class="amount">
-                  <span><%= @current_user.name %></span><br />
-                  <span><%= @order.address %></span><br />
-                  <span><%= @order.complement %></span><br />
-                  <span><%= @order.city %></span><br />
-                  <span><%= @order.postal_code %></span><br />
-                  <span><%= @order.country %></span><br /><br />
-                  <span>Téléphone : <%= @order.telephone %></span><br /><br />
-                  <span>Montant : <%= humanized_money_with_symbol(@order.amount) %></span>
-                </label>
-              </article>
-              <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                panelLabel="Payez {{amount}}"
-                data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-                data-name="Ma Commande"
-                data-description="Commande <%= @order.id %>"
-                data-amount="<%= @order.amount_cents %>"
-                data-currency="<%= @order.amount.currency %>">
-              </script>
-              <% end %>
+<div id="movefromright">
+  <div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+    <div class="row">
+    <%= render '/shared/navbar' %>
+      <div class="container-fluid">
+        <div class="col-xs-12 col-sm-2">
+        <%= render '/shared/news' %>
+        </div>
+          <div class="col-xs-12 col-sm-8">
+            <h2 class="cat-beer">Commande</h2>
+            <div class="card-show">
+              <h2 class="text-center"></h2>
+              <div class="login-form text-center">
+                <%= form_tag order_payments_path(@order) do %>
+                <article>
+                  <label class="amount">
+                    <span><%= @current_user.name %></span><br />
+                    <span><%= @order.address %></span><br />
+                    <span><%= @order.complement %></span><br />
+                    <span><%= @order.city %></span><br />
+                    <span><%= @order.postal_code %></span><br />
+                    <span><%= @order.country %></span><br /><br />
+                    <span>Téléphone : <%= @order.telephone %></span><br /><br />
+                    <span>Montant : <%= humanized_money_with_symbol(@order.amount) %></span>
+                  </label>
+                </article>
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  panelLabel="Payez {{amount}}"
+                  data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+                  data-name="Ma Commande"
+                  data-description="Commande <%= @order.id %>"
+                  data-amount="<%= @order.amount_cents %>"
+                  data-currency="<%= @order.amount.currency %>">
+                </script>
+                <% end %>
+              </div>
             </div>
           </div>
-        </div>
+      </div>
+      <%= render '/shared/footer' %>
     </div>
-    <%= render '/shared/footer' %>
   </div>
 </div>
-
-
-

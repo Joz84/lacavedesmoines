@@ -9,10 +9,9 @@
           <h2 class="cat-beer">Brasserie : <span class="brewery"><%= link_to @product.brewery.name, @product.brewery %></span></h2>
           <div class="card-show">
             <div class="card-show-desc pull-left">
-            <h1><%= @product.name %></h1>
-            <p><h3><%= @product.degree %> %</p></h3>
-            <p>Provenance : <%= @product.region.name %></p>
-            <p>Brasserie : <%= @product.brewery.name %></p>
+            <h1><%= @product.name %> <%= @product.degree %> %</h1>
+            <p class="product-details">Provenance : <%= @product.region.name %></p>
+            <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p>
             <p>Type : <%= @product.kind.name %></p>
             <p>Couleur : <%= @product.color.name %></p>
             <p>Contenance : <%= @product.capacity %> cl</p>
@@ -20,6 +19,7 @@
             <% if @product.specificity %>
               <p> Particularité : <%= @product.specificity.name %></p>
             <% end %>
+            <p>Prix : <%= @product.price %> €</p>
 
             <p class="le-conseil-du-patron">
             </p>
@@ -28,12 +28,11 @@
             <div class="card-show-remi-desc pull-right">
               <div class="product-photo-container text-center">
               <div class="pull-right">
-              <div style="float:right;margin-bottom:10px">Prix : <%= humanized_money_with_symbol(@product.price) %></div>
               <div>
                 <%= simple_form_for :added, url: carts_path, method: :post do |f| %>
                   <%= f.error_notification %>
                   <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
-                  <%= f.button :submit, value: "Ajouter au panier", class: 'btn-outline-secondary pull-right' %>
+                  <%= f.button :submit, value: "ajouter", class: 'btn-outline-secondary pull-right choose' %>
                 <% end %>
               </div>
               </div>
@@ -48,10 +47,10 @@
           </div>
         </div>
       <div class="col-xs-12 col-sm-2 refine-search">
-          <h2>Affiner votre recherche</h2>
+        <h2>Affiner votre recherche</h2>
       </div>
     </div>
-<h2 class="cat-beer" style="margin-bottom:30px">Mais aussi en suggestion : </h2>
+<h2 class="cat-beer" style="margin-bottom:30px">En suggestion : </h2>
 <div class="row">
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-md-offset-1">
@@ -59,21 +58,21 @@
       <div class="col-xs-12 col-sm-4">
         <div class="card-show-index">
           <div class="card-description-index">
-          <%= cl_image_tag suggestion.photos.first.path, class: "product-photo-index" %>
-          <h1><%= link_to suggestion.name, suggestion %></h1>
-          <p><h3><%= suggestion.degree %> %</p></h3>
-          <p>Provenance : <%= suggestion.region.name %></p>
-          <p>Brasserie : <%= suggestion.brewery.name %></p>
-          <p>Type : <%= suggestion.kind.name %></p>
-          <p>Couleur : <%= suggestion.color.name %></p>
-          <p>Contenance : <%= suggestion.capacity %> cl</p>
-          <p>Fermentation : <%= suggestion.fermentation.name %></p>
-          <% if suggestion.specificity %>
-            <p> Particularité : <%= suggestion.specificity.name %></p>
-          <% end %>
-          <div class="text-center" style="margin-top:26px">
-          <%= link_to "Choisir", suggestion, class: 'btn btn-outline-secondary' %>
-          </div>
+            <%= cl_image_tag suggestion.photos.first.path, class: "product-photo-index" %>
+            <h1><%= link_to suggestion.name, suggestion %></h1>
+            <p><h3><%= suggestion.degree %> %</p></h3>
+            <p>Provenance : <%= suggestion.region.name %></p>
+            <p>Brasserie : <%= suggestion.brewery.name %></p>
+            <p>Type : <%= suggestion.kind.name %></p>
+            <p>Couleur : <%= suggestion.color.name %></p>
+            <p>Contenance : <%= suggestion.capacity %> cl</p>
+            <p>Fermentation : <%= suggestion.fermentation.name %></p>
+            <% if suggestion.specificity %>
+              <p> Particularité : <%= suggestion.specificity.name %></p>
+            <% end %>
+            <div class="text-center" style="margin-top:26px">
+            <%= link_to "Choisir", suggestion, class: 'btn btn-outline-secondary' %>
+            </div>
           </div>
         </div>
       </div>
@@ -81,7 +80,6 @@
     </div>
   </div>
 </div>
-
     <%= render '/shared/footer' %>
   </div>
 </div>

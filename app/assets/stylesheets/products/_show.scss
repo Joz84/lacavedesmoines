@@ -38,22 +38,21 @@
   h2 {
   color:white;
   font-size: 19px;
-  // font-family: 'Great Vibes', cursive;
   }
   background-color: rgba(0,0,0,0.5);
-  min-height: 732px;
+  min-height: 650px;
   height: 100%;
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 16px;
 }
 
 .card-show-desc {
-  width: 33%;
+  width: 45%;
 }
 
 .card-show-remi-desc {
-  width: 64%;
-  margin-top: 10px;
+  width: 55%;
 }
 
 .product-photo {
@@ -87,9 +86,26 @@
   border-color: #ffba00 !important;
 }
 
+.choose {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    font-family: great vibes, cursive;
+    font-size: 227%;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), 1px 0px 0 #b7482d;
+}
+
 .brewery {
   color: #fabb0c;
   a {
     color: #fabb0c;
   }
+  a:hover, a:focus {
+    color: #fabb0c !important;
+  }
+}
+
+.product-details {
+  font-size: 125%;
+
 }

@@ -23,3 +23,46 @@
 .bg-dark-blue {
   background: #3b5998;
 }
+
+
+#navbar-fadein {
+    -webkit-animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+#fadein {
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#movefromright {
+  -webkit-animation: moveFromRightFade .7s ease both;
+  animation: moveFromRightFade .7s ease both;
+}
+@-webkit-keyframes moveFromRightFade {
+  from { opacity: 0.3; -webkit-transform: translateX(100%); }
+}
+@keyframes moveFromRightFade {
+  from { opacity: 0.3; -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+#movefromleft {
+  -webkit-animation: moveFromLeftFade .7s ease both;
+  animation: moveFromLeftFade .7s ease both;
+}
+
+@-webkit-keyframes moveFromLeftFade {
+  from { opacity: 0.3; -webkit-transform: translateX(-100%); }
+}
+@keyframes moveFromLeftFade {
+  from { opacity: 0.3; -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}

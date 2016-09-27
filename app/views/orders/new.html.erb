@@ -1,20 +1,22 @@
-<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
-  <div class="row">
-  <%= render '/shared/navbar' %>
-    <div class="container-fluid">
-      <div class="col-xs-12 col-sm-2">
-      <%= render '/shared/news' %>
-      </div>
-        <div class="col-xs-12 col-sm-8">
-          <h2 class="cat-beer">Livraison</h2>
-          <div class="card-show">
-            <h2 class="text-center"></h2>
-            <div class="login-form text-center">
-            <%= render 'shared/form_order' %>
+<div id="movefromright">
+  <div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+    <div class="row">
+    <%= render '/shared/navbar' %>
+      <div class="container-fluid">
+        <div class="col-xs-12 col-sm-2">
+        <%= render '/shared/news' %>
+        </div>
+          <div class="col-xs-12 col-sm-8">
+            <h2 class="cat-beer">Adresse de Livraison</h2>
+            <div class="card-show">
+              <h2 class="text-center"></h2>
+              <div class="login-form text-center">
+              <%= render 'shared/form_order' %>
+              </div>
             </div>
           </div>
-        </div>
+      </div>
+      <%= render '/shared/footer' %>
     </div>
-    <%= render '/shared/footer' %>
   </div>
 </div>
