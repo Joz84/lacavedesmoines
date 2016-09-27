@@ -43,7 +43,7 @@ class Product < ApplicationRecord
   def matching(nbr)
     m = {}
     Product.all.each { |p| m[p.sku.to_sym] = (self.weighted_attributes & p.weighted_attributes).count if p != self }
-    m = m.sort.reverse[0...nbr].to_h
+    m = (m.sort_by { |sku, score| score }).reverse[0...nbr].to_h
     m.map { |sku, score| Product.find_by(sku: sku.to_sym) }
   end
 
