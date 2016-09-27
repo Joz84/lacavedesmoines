@@ -15,14 +15,14 @@
             <% if @products.count != 0 %>
               <% @products.each do |product| %>
                 <div class="col-xs-12 col-sm-4">
-                  <div class="card-show">
+                  <div class="card-show-index">
                     <%= render partial: '/shared/product', locals: { product: product } %>
                   </div>
                 </div>
               <% end %>
             <% else %>
               <div>
-                No product for this research... Try again!
+                Pas d'article dans cette recherche, réessayez :)
               </div>
             <% end %>
           </div>
