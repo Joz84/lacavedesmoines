@@ -1,5 +1,11 @@
   <div class="card-description-index">
-        <%= cl_image_tag product.photos.first.path, class: "product-photo-index" %>
+        <%= link_to cl_image_tag(product.photos.first.path, class: "product-photo-index"), product_path({id: product.id,
+                                        sku: product.sku,
+                                        alcohol: product.alcohol.sku,
+                                        brewery: product.brewery.sku,
+                                        color: product.color.sku,
+                                        capacity: product.capacity
+                                        }) %>
         <h1><%= link_to product.name, product_path({id: product.id,
                                         sku: product.sku,
                                         alcohol: product.alcohol.sku,
@@ -8,7 +14,7 @@
                                         capacity: product.capacity
                                         })  %></h1>
 
-        <p><h3><%= product.degree %> %</p></h3>
+        <p><h3 style="font-family: 'Great Vibes', cursive;"><%= product.degree %> %</p></h3>
         <p>Provenance : <%= product.region.name %></p>
         <p>Brasserie : <%= product.brewery.name %></p>
         <p>Type : <%= product.kind.name %></p>
