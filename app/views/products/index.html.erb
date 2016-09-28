@@ -25,6 +25,7 @@
               <div class="random-choice text-center">
                 En si on essayait... un article au hasard !<br />
                 <%= cl_image_tag("icons/random-icon.png", class: 'random-icon') %>
+                <%= link_to "test", random_product_path, method: :post %>
               </div>
               <% end %>
             </div>
