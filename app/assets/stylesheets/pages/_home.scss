@@ -1,4 +1,7 @@
 body {
+  a {
+    color: #fabb0c;
+  }
   a:hover, a:focus {
     color: #fabb0c;
   }
@@ -72,15 +75,19 @@ body {
 }
 
 .brewery-text {
-  padding-top:200px;
+  padding-top:189px;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
   font-weight: bold;
   a {
-    color: white;
+    color: #8e1f1d;
     text-decoration: none;
+    text-shadow: 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
+    font-family: 'Great Vibes', cursive;
+    font-size: 31px;
+    line-height: 29px;
   }
   a:hover {
-    color: white;
+    color: #ad1919;
     text-decoration: none;
   }
 }
@@ -92,7 +99,9 @@ body {
 
 .basket {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-  margin-top: 26px;
+  margin-top: 35px;
+  font-family: 'Great vibes', cursive;
+  font-size: 27px;
   a {
   color: white;
   }

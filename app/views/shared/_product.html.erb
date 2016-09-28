@@ -1,3 +1,4 @@
+<!--   <div class="card-description-index"> -->
   <div class="card-description-index">
         <%= link_to cl_image_tag(product.photos.first.path, class: "product-photo-index"), product_path({id: product.id,
                                         sku: product.sku,
@@ -6,7 +7,16 @@
                                         color: product.color.sku,
                                         capacity: product.capacity
                                         }) %>
-        <h1><%= link_to product.name, product_path({id: product.id,
+        <div class="text-center">
+        <%= link_to "Voir", product_path({id: product.id,
+                                        sku: product.sku,
+                                        alcohol: product.alcohol.sku,
+                                        brewery: product.brewery.sku,
+                                        color: product.color.sku,
+                                        capacity: product.capacity
+                                        }), class: 'btn btn-outline-secondary choose-button-index' %>
+        </div>
+        <h1 class="text-center"><%= link_to product.name, product_path({id: product.id,
                                         sku: product.sku,
                                         alcohol: product.alcohol.sku,
                                         brewery: product.brewery.sku,
@@ -14,7 +24,7 @@
                                         capacity: product.capacity
                                         })  %></h1>
 
-        <p><h3 style="font-family: 'Great Vibes', cursive;"><%= product.degree %> %</p></h3>
+        <p><h3 class="text-center" style="font-family: 'Great Vibes', cursive;margin-top:9px"><%= product.degree %> %</p></h3>
         <p>Provenance : <%= product.region.name %></p>
         <p>Brasserie : <%= product.brewery.name %></p>
         <p>Type : <%= product.kind.name %></p>
@@ -24,13 +34,4 @@
         <% if product.specificity %>
           <p> Particularité : <%= product.specificity.name %></p>
         <% end %>
-        <div class="text-center" style="margin-top:25px">
-        <%= link_to "Choisir", product_path({id: product.id,
-                                        sku: product.sku,
-                                        alcohol: product.alcohol.sku,
-                                        brewery: product.brewery.sku,
-                                        color: product.color.sku,
-                                        capacity: product.capacity
-                                        }), class: 'btn btn-outline-secondary' %>
-        </div>
   </div>

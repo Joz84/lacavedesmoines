@@ -10,11 +10,11 @@
             <h2 class="cat-beer">Commande</h2>
             <div class="card-show">
               <h2 class="text-center"></h2>
-              <div class="login-form text-center">
+              <div class="login-form-order text-center">
                 <%= form_tag order_payments_path(@order) do %>
                 <article>
                   <label class="amount">
-                    <span><%= @current_user.name %></span><br />
+                    <span class="customer"><%= @current_user.name.capitalize %></span><br />
                     <span><%= @order.address %></span><br />
                     <span><%= @order.complement %></span><br />
                     <span><%= @order.city %></span><br />
@@ -35,6 +35,9 @@
                   data-panel-label="Payez {{amount}}">
                 </script>
                 <% end %>
+                <br />
+                Livraison en 48/72h tous les jours.<br />
+                N'hésitez pas à nous joindre au +33 (0)9.81.02.42.42 pour tout renseignement.
               </div>
             </div>
           </div>

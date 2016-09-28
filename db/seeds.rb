@@ -50,9 +50,12 @@ products.each do |p|
                             resource_type: "image" )
 end
 
-d1 = Deposit.create(name: "Magasin Bordeaux", sku: "bordeaux", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
-d2 = Deposit.create(name: "Magasin Mont de Marsan", sku: "montdemarsan", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
-d3 = Deposit.create(name: "Magasin Portets", sku: "portets", address: "Rue Victor Hugo", complement: "", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500, description: "Le top du top!" )
+d1 = Deposit.create(name: "La Cave des Moines de Bordeaux", sku: "bordeaux", address: "57, Cours Victor Hugo", complement: "Appelez directement la Cave de Bordeaux au 09 81 02 42 42", postal_code: 33000, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500,
+  description: "Notre cave à Bordeaux est connue pour son cadre rustique et son hospitalité. Ici on ne met pas l'argent dans la décoration... on fait les plus petits prix pour les meilleurs produits !" )
+d2 = Deposit.create(name: "La Cave des Moines de Mont de Marsan", sku: "montdemarsan", address: "2610 Avenue du Maréchal Juin", complement: "Appelez directement la Cave de Mont-de-Marsan au 05.58.44.22.56", postal_code: 40000, city: "Mont-de-Marsan", country: "France", siret: "123456789", capacity: 1500,
+  description: "Notre cave à Mont-de-Marsan est un Bar-Cave, vous pouvez venir déguster et emporter des merveilles ! Pourquoi pas assister en même temps à un concert..." )
+d3 = Deposit.create(name: "La Cave des Moines de Portets", sku: "portets", address: "96 Route des Graves RN113", complement: "Appelez directement la Cave de Portets au 06 59 85 54 40", postal_code: 33640, city: "Bordeaux", country: "France", siret: "123456789", capacity: 1500,
+  description: "Notre cave de Portets est notre plus gros dépôt, vous pourrez y faire des trouvailles fantastiques dans nos 1500 références... amis passionnés, bienvenue !" )
 
 ########################################### Upload on attachinary #####################################################
 

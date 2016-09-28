@@ -7,6 +7,7 @@
 }
 
 .events {
+  margin-top:38px;
   color: white;
   margin-left: 20px;
   ul {
@@ -40,11 +41,11 @@
   font-size: 19px;
   }
   background-color: rgba(0,0,0,0.5);
-  min-height: 650px;
+  min-height: 518px;
   height: 100%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  margin-top: 16px;
+  margin-top: 26px;
 }
 
 .refine-word {
@@ -52,12 +53,55 @@
 }
 
 .card-show-desc {
-  width: 40%;
+  width: 43%;
   margin-left: 5%;
 }
 
 .card-show-remi-desc {
-  width: 55%;
+  width: 52%;
+}
+
+.card-deposit-desc {
+  width: 43%;
+  margin-left: 3%;
+  padding-right: 40px;
+  margin-top: 10px;
+}
+
+.card-deposit-map {
+  width: 52%;
+}
+
+.cat-deposit {
+  color: #ba4c2e;
+  font-size: 63px;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-show {
+  height: 100%;
+  width: 100%;
+  min-height: 450px;
+  display: inline-block;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: black;
+  position: relative;
+  background-color: rgba(255,255,255,0.8) !important;
+  padding: 39px;
+  border-radius: 5px;
+
+  h1 {
+    color: #ba4c2e;
+    font-size: 314%;
+    font-family: 'Great Vibes', cursive;
+    // text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), -1px -1px 0 #faba0a;
+    text-shadow: 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
+    margin-top: 10px;
+  }
 }
 
 .product-photo {
@@ -71,7 +115,7 @@
   width: 100%;
   border: 6px solid #fbbb0d;
   border-radius: 50%;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
 }
 
 .le-conseil-du-patron {
@@ -98,7 +142,15 @@
     border-radius: 50%;
     font-family: great vibes, cursive;
     font-size: 227%;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), 1px 0px 0 #b7482d;
+    // text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), 1px 0px 0 #b7482d;
+    text-shadow: 2px 0 0 #f5b001, -2px 0 0 #f5b001, 0 2px 0 #f5b001, 0 -2px 0 #f5b001, 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
+    background: radial-gradient(ellipse at center, #fbbb0d 34%,#c34c2f 100%);
+    color: #ba4c2e !important;
+    cursor: pointer;
+
+    a:hover {
+      color: #fabb0c !important;
+    }
 }
 
 .brewery {
@@ -113,5 +165,11 @@
 
 .product-details {
   font-size: 125%;
+}
 
+.choose-button {
+    font-family: 'Great Vibes', cursive !important;
+    font-size: 24px !important;
+    line-height: 15px;
+    margin-top: -63px;
 }
