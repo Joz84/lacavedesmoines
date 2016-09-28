@@ -76,9 +76,11 @@ ActiveRecord::Schema.define(version: 20160921103220) do
     t.string   "country"
     t.integer  "capacity"
     t.string   "siret"
-    t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.text     "description1"
+    t.text     "description2"
+    t.text     "description3"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "fermentations", force: :cascade do |t|
