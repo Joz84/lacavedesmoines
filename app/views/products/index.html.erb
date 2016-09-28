@@ -19,8 +19,12 @@
                   </div>
                 <% end %>
               <% else %>
-              <div class="no-product">
+              <div class="no-product text-center">
                 Pas de résultat immédiat pour cette recherche, appelez-nous au 09.81.02.42.42 pour qu'on vous commande ce produit chez un fournisseur !
+              </div>
+              <div class="random-choice text-center">
+                En si on essayait... un article au hasard !<br />
+                <%= cl_image_tag("icons/random-icon.png", class: 'random-icon') %>
               </div>
               <% end %>
             </div>
@@ -28,7 +32,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-2 refine-search">
-        <h2>Affiner votre recherche</h2>
+      <%= render 'shared/refine-search' %>
       </div>
     </div>
   </div>

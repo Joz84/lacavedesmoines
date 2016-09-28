@@ -2,92 +2,82 @@
   <%= render '/shared/navbar' %>
   <div class="row">
     <div class="container-fluid">
-      <div class="col-xs-12 col-sm-2">
-        <%= render '/shared/news' %>
-      </div>
-        <div class="col-xs-12 col-sm-8">
-          <h2 class="cat-beer">Brasserie : <span class="brewery"><%= link_to @product.brewery.name, @product.brewery %></span></h2>
-          <div class="card-show">
-            <div class="card-show-desc pull-left">
-            <h1><%= @product.name %> <%= @product.degree %> %</h1>
-            <p class="product-details">Provenance : <%= @product.region.name %></p>
-            <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p>
-            <p>Type : <%= @product.kind.name %></p>
-            <p>Couleur : <%= @product.color.name %></p>
-            <p>Contenance : <%= @product.capacity %> cl</p>
-            <p>Fermentation : <%= @product.fermentation.name %></p>
-            <% if @product.specificity %>
-              <p> Particularité : <%= @product.specificity.name %></p>
-            <% end %>
-            <p>Prix : <%= @product.price %> €</p>
-
-            <p class="le-conseil-du-patron">
-            </p>
-
-            </div>
-            <div class="card-show-remi-desc pull-right">
-              <div class="product-photo-container text-center">
-              <div class="pull-right">
-              <div>
-                <%= simple_form_for :added, url: carts_path, method: :post do |f| %>
-                  <%= f.error_notification %>
-                  <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
-                  <%= f.button :submit, value: "ajouter", class: 'btn-outline-secondary pull-right choose' %>
-                <% end %>
-              </div>
-              </div>
-              <% if @product.photos && @product.photos.count != 0 %>
-                <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
+      <div class="row">
+        <div class="col-xs-12 col-sm-2">
+          <%= render '/shared/news' %>
+        </div>
+          <div class="col-xs-12 col-sm-8">
+            <h2 class="cat-beer">Brasserie : <span class="brewery"><%= link_to @product.brewery.name, @product.brewery %></span></h2>
+            <div class="card-show">
+              <div class="card-show-desc pull-left">
+              <h1><%= @product.name %> <%= @product.degree %>%</h1>
+              <p class="product-details">Provenance : <%= @product.region.name %></p>
+              <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p>
+              <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
+              <p class="product-details">Type : <%= @product.kind.name %></p>
+              <p class="product-details">Couleur : <%= @product.color.name %></p>
+              <p class="product-details">Fermentation : <%= @product.fermentation.name %></p>
+              <% if @product.specificity %>
+                <p class="product-details"> Particularité : <%= @product.specificity.name %></p>
               <% end %>
+              <p class="product-details">Prix : <%= @product.price %> €</p>
               </div>
-              <p>
-              <%= render 'shared/form_cart_selection' %>
-              </p>
+              <div class="card-show-remi-desc pull-right">
+                <div class="product-photo-container text-center">
+                <div class="pull-right">
+                <div>
+                  <%= simple_form_for :added, url: carts_path, method: :post do |f| %>
+                    <%= f.error_notification %>
+                    <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
+                    <%= f.button :submit, value: "Choisir", class: 'btn-outline-secondary pull-right choose' %>
+                  <% end %>
+                </div>
+                </div>
+                <% if @product.photos && @product.photos.count != 0 %>
+                  <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
+                <% end %>
+                </div>
+                <p>
+                <%= render 'shared/form_cart_selection' %>
+                </p>
+              </div>
             </div>
           </div>
+        <div class="col-xs-12 col-sm-2 refine-search">
+        <%= render 'shared/refine-search' %>
         </div>
-      <div class="col-xs-12 col-sm-2 refine-search">
-          <h2>Affiner votre recherche</h2>
-          <%= simple_form_for :research, url: products_path, method: :get do |f| %>
-            <%= f.error_notification %>
-            <%= f.input :color, collection: @colors %>
-            <%= f.input :kind, collection: @kinds %>
-            <%= f.input :min_price, collection: @prices %>
-            <%= f.input :max_price, collection: @prices %>
-            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher" %>
+      </div>
+      <h2 class="cat-beer" style="margin-bottom:30px">En suggestion : </h2>
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-12 col-sm-10 col-md-offset-1">
+          <% @suggestions.each do |suggestion| %>
+            <div class="col-xs-12 col-sm-4">
+              <div class="card-show-index">
+                <div class="card-description-index">
+                  <%= link_to cl_image_tag(suggestion.photos.first.path, class: "product-photo-index") %>
+                  <div class="text-center" style="margin-top:26px">
+                  <%= link_to "Voir", suggestion, class: 'btn btn-outline-secondary choose-button' %>
+                  </div>
+                  <h1 class="text-center"><%= link_to suggestion.name, suggestion %></h1>
+                  <p><h3 class="text-center" style="font-family: 'Great Vibes', cursive;margin-top:9px"><%= suggestion.degree %> %</p></h3>
+                  <p>Provenance : <%= suggestion.region.name %></p>
+                  <p>Brasserie : <%= suggestion.brewery.name %></p>
+                  <p>Type : <%= suggestion.kind.name %></p>
+                  <p>Couleur : <%= suggestion.color.name %></p>
+                  <p>Contenance : <%= suggestion.capacity %> cl</p>
+                  <p>Fermentation : <%= suggestion.fermentation.name %></p>
+                  <% if suggestion.specificity %>
+                    <p> Particularité : <%= suggestion.specificity.name %></p>
+                  <% end %>
+                </div>
+              </div>
+            </div>
           <% end %>
-      </div>
-    </div>
-<h2 class="cat-beer" style="margin-bottom:30px">En suggestion : </h2>
-<div class="row">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-md-offset-1">
-    <% @suggestions.each do |suggestion| %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card-show-index">
-          <div class="card-description-index">
-            <%= cl_image_tag suggestion.photos.first.path, class: "product-photo-index" %>
-            <h1><%= link_to suggestion.name, suggestion %></h1>
-            <p><h3><%= suggestion.degree %> %</p></h3>
-            <p>Provenance : <%= suggestion.region.name %></p>
-            <p>Brasserie : <%= suggestion.brewery.name %></p>
-            <p>Type : <%= suggestion.kind.name %></p>
-            <p>Couleur : <%= suggestion.color.name %></p>
-            <p>Contenance : <%= suggestion.capacity %> cl</p>
-            <p>Fermentation : <%= suggestion.fermentation.name %></p>
-            <% if suggestion.specificity %>
-              <p> Particularité : <%= suggestion.specificity.name %></p>
-            <% end %>
-            <div class="text-center" style="margin-top:26px">
-            <%= link_to "Choisir", suggestion, class: 'btn btn-outline-secondary' %>
-            </div>
           </div>
         </div>
       </div>
-    <% end %>
     </div>
-  </div>
-</div>
     <%= render '/shared/footer' %>
   </div>
 </div>

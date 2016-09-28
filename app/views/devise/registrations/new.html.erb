@@ -3,6 +3,7 @@
   <%= render '/shared/navbar' %>
     <div class="container-fluid">
       <div class="col-xs-12 col-sm-2">
+      <%= render '/shared/news' %>
       </div>
         <div class="col-xs-12 col-sm-8">
           <h2 class="cat-beer">S'enregistrer</h2>
@@ -19,7 +20,7 @@
                 </div>
 
                 <div class="form-actions">
-                  <%= f.button :submit, "S'enregistrer" %>
+                  <%= f.button :submit, "S'enregistrer", class: "btn-outline-secondary" %>
                 </div>
               <% end %>
 

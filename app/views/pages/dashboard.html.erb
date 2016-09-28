@@ -26,10 +26,10 @@
                 <%= link_to "Retour à l'accueil", root_path%>
                 </div>
               <% else %>
-                <div class="text-center">
+                <li class="text-center">
                 <%= cl_image_tag("cart_bua05m.png") %>
-                Votre panier est vide pour l'instant, <a href="products?utf8=✓&research%5Bwords%5D=bière&commit=Rechercher">commencez vos achats...</a>
-                </div>
+                Votre panier est vide pour l'instant, <a href="products?utf8=✓&research%5Bwords%5D=bière&commit=Rechercher" style="font-family:'Great Vibes', cursive;font-size: 35px">commencez vos achats...</a>
+                </li>
               <% end %>
             </ul>
           </div>
