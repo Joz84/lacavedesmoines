@@ -10,7 +10,9 @@ class CreateDeposits < ActiveRecord::Migration[5.0]
       t.string :country
       t.integer :capacity
       t.string :siret
-      t.text :description
+      t.text :description1
+      t.text :description2
+      t.text :description3
       t.timestamps
     end
   end
