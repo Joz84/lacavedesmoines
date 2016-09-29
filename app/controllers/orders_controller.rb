@@ -23,10 +23,6 @@ class OrdersController < ApplicationController
     end
   end
 
-  def show
-    @order = Order.where(state: 'payée', user: current_user).find(params[:id])
-  end
-
   private
 
   def order_params

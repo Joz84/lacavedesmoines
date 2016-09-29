@@ -59,7 +59,7 @@
             <div class="col-xs-12 col-sm-4">
               <div class="card-show-index">
                 <div class="card-description-index">
-                  <%= link_to cl_image_tag(suggestion.photos.first.path, class: "product-photo-index") %>
+                  <%= link_to cl_image_tag(suggestion.photos.first.path, class: "product-photo-index"), suggestion %>
                   <div class="text-center" style="margin-top:26px">
                   <%= link_to "Voir", suggestion, class: 'btn btn-outline-secondary choose-button' %>
                   </div>

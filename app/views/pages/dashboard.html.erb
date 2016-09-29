@@ -20,6 +20,10 @@
                         </li>
                       <% end %>
                     </ul>
+                    <%= order.state %>
+                    <% if order.state == "non payée" %>
+                      <%= link_to "finaliser la commande", new_order_path(order) %>
+                    <% end %>
                   </li>
                 <% end %>
                 <div class="text-center" style="margin-top:20px">
