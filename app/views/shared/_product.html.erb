@@ -16,6 +16,8 @@
                                         capacity: product.capacity
                                         }), class: 'btn btn-outline-secondary choose-button-index' %>
         </div>
+        <p class="text-center"><%= product.capacity %> cl</p>
+        <p class="text-center" style="margin-top:2px;font-size: 19px;">Prix : <%= product.price %> €</p>
         <h1 class="text-center"><%= link_to product.name, product_path({id: product.id,
                                         sku: product.sku,
                                         alcohol: product.alcohol.sku,
@@ -29,7 +31,6 @@
         <p>Brasserie : <%= product.brewery.name %></p>
         <p>Type : <%= product.kind.name %></p>
         <p>Couleur : <%= product.color.name %></p>
-        <p>Contenance : <%= product.capacity %> cl</p>
         <p>Fermentation : <%= product.fermentation.name %></p>
         <% if product.specificity %>
           <p> Particularité : <%= product.specificity.name %></p>
