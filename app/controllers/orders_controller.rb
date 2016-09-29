@@ -6,7 +6,7 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(order_params)
     @order.user = current_user
-    @order.deposit = Deposit.find_by(name: "Magasin Bordeaux")
+    @order.deposit = Deposit.find_by(sku: "bordeaux")
     if @order.save
       session[:cart].each do |selected|
         s = Selection.new(selected)
