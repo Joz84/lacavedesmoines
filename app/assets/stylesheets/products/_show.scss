@@ -64,7 +64,7 @@
 .card-deposit-desc {
   width: 43%;
   margin-left: 3%;
-  padding-right: 40px;
+  padding-right: 15px;
   margin-top: 10px;
 }
 
@@ -102,6 +102,11 @@
     // text-shadow: 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
     margin-top: 10px;
   }
+}
+
+.degree {
+  color: black !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
 }
 
 .product-photo {
@@ -165,6 +170,10 @@
 
 .product-details {
   font-size: 125%;
+}
+
+.price {
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1), 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
 }
 
 .choose-button {

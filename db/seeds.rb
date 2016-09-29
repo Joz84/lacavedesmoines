@@ -61,7 +61,7 @@ d1 = Deposit.create(  name: "La Cave des Moines de Bordeaux",
                       description1: "Notre cave à Bordeaux est connue pour son cadre rustique et son hospitalité. Ici on ne met pas l'argent dans la décoration... on fait les plus petits prix pour les meilleurs produits !",
                       description2: "Appelez directement la Cave de Bordeaux au 09 81 02 42 42"
                       )
-d2 = Deposit.create(  name: "La Cave des Moines de Mont de Marsan",
+d2 = Deposit.create(  name: "Le Bar-Cave des Moines de Mont de Marsan",
                       sku: "montdemarsan",
                       address: "2610 Avenue du Maréchal Juin",
                       postal_code: 40000,
@@ -80,7 +80,7 @@ d3 = Deposit.create(  name: "La Cave des Moines de Portets",
                       country: "France",
                       siret: "123456789",
                       capacity: 1500,
-                      description1: "Notre cave de Portets est notre plus gros dépôt, vous pourrez y faire des trouvailles fantastiques dans nos 1500 références... amis passionnés, bienvenue !",
+                      description1: "La cave de Portets est notre dépôt, vous pourrez y faire des trouvailles fantastiques dans nos 1500 références... amis passionnés, bienvenue !",
                       description2: "Appelez directement la Cave de Portets au 06 59 85 54 40"
                       )
 
