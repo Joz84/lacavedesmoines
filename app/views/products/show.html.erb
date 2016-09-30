@@ -33,7 +33,7 @@
                   <%= simple_form_for :added, url: carts_path, method: :post do |f| %>
                     <%= f.error_notification %>
                     <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
-                    <%= f.button :submit, value: "Choisir", class: 'btn-outline-secondary pull-right choose' %>
+                    <%= f.button :submit, value: "Choisir", data: { disable_with: "Choisir" }, class: 'btn-outline-secondary pull-right choose' %>
                   <% end %>
                 </div>
                 </div>

@@ -4,6 +4,27 @@ require 'csv'
 def convert_to_sku(name)
   ActiveSupport::Inflector.transliterate(name.to_s).to_s.downcase.gsub(/[^0-9A-Za-z]/, '')
 end
+
+def create_brewery(b)
+  brewery = Brewery.create( name: b[:name],  sku: convert_to_sku(b[:name]), partner: true )
+  Attachinary::File.create( attachinariable_type: brewery.class.to_s,
+                            attachinariable_id: brewery.id,
+                            scope: "photos",
+                            public_id: "partenaires/#{convert_to_sku(b[:name])}",
+                            version:  "1474979789",
+                            width: b[:width],
+                            height: b[:height],
+                            format: "png",
+                            resource_type: "image" )
+end
+
+breweries = [ { name: "Lebbe",        width: 278, height: 200 },
+              { name: "Cambier",      width: 200, height: 200 },
+              { name: "La Debauche",  width: 194, height: 200 },
+              { name: "La Séquère",   width: 200, height: 200 } ]
+
+breweries.each { |b| create_brewery(b) }
+
 Alcohol.create( name: "Bière",     sku: "biere" )
 Alcohol.create( name: "Vin",       sku: "vin" )
 Alcohol.create( name: "Champagne", sku: "champagnee" )
@@ -84,6 +105,12 @@ d3 = Deposit.create(  name: "La Cave des Moines de Portets",
                       description2: "Appelez directement la Cave de Portets au 06 59 85 54 40"
                       )
 
+new1 = New.create(  title: "DEUXIEME EVENEMENT AUTOUR DE LA BIERE ARTISANALE A BORDEAUX :",
+                    content: "Les brasseurs, les caves, les bars et les restaurants de Bordeaux et du grand sud-ouest s’associent pour vous proposer 3 jours d’activités autour de…
+LA BIERE. LA BONNE BIERE.
+Détail de tous les événements sur le facebook.",
+                    planned_at: Date.today
+                  )
 ########################################### Upload on attachinary #####################################################
 
 # urls = []

@@ -3,7 +3,7 @@
 <ul>
   <% @news.each do |new| %>
     <li>
-      <h2><%= new.title %></h2>
+      <h2><%= link_to new.title, new %></h2>
       <p><%= new.content %></p>
     </li>
   <% end %>
