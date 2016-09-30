@@ -23,6 +23,12 @@ class OrdersController < ApplicationController
     end
   end
 
+  def destroy
+    @order = Order.find(params[:id])
+    @order.destroy
+    redirect_to dashboard_path
+  end
+
   private
 
   def order_params

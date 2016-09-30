@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   patch "cart" , to: "carts#update"
   put "cart" , to: "carts#update"
   get "cart" , to: "carts#edit"
-  resources :orders, only: [:new, :create, :update] do
+  resources :orders, only: [:new, :create, :update, :destroy] do
     resources :payments, only: [:new, :create, :show]
   end
   resources :breweries, only: [:index, :show]
