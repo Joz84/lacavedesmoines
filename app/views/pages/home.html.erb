@@ -32,7 +32,7 @@
           <%= simple_form_for :research, url: products_path, method: :get do |f| %>
             <%= f.error_notification %>
             <%= f.input :words, label: false, placeholder: "ex : bière gironde..." %>
-            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher" %>
+            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher", data: { disable_with: "Rechercher" } %>
           <% end %>
         </div>
       </div>
@@ -42,7 +42,9 @@
         <div >
           <div style="padding-top:20px;border-top: 10px solid #ffba00;margin-bottom:110px" class="text-center">
           <h2 class="cat-beer">Nos Brasseries partenaires</h2>
-            <%= render '/shared/breweries_index' %>
+            <% @partners.each do |partner| %>
+              <%= link_to cl_image_tag(partner.photos.first.path, class: 'partner-logo'), partner %>
+            <% end %>
           </div>
           <div class="col-xs-12 col-md-4 text-center">
             <div class="brewery-container1" onclick="document.location='deposits/1'">
@@ -65,6 +67,7 @@
         </div>
       </div>
     </div>
+    <%= link_to "News", news_index_path %>
     <%= render '/shared/footer' %>
   </div>
 </div>

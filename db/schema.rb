@@ -55,6 +55,7 @@ ActiveRecord::Schema.define(version: 20160921103220) do
     t.string   "name"
     t.string   "sku"
     t.text     "description"
+    t.boolean  "partner"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
@@ -100,6 +101,7 @@ ActiveRecord::Schema.define(version: 20160921103220) do
   create_table "news", force: :cascade do |t|
     t.string   "title"
     t.text     "content"
+    t.datetime "planned_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

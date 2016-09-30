@@ -5,7 +5,8 @@ class PagesController < ApplicationController
     @bordeaux = Deposit.find_by(sku: "bordeaux")
     @montdemarsan = Deposit.find_by(sku: "montdemarsan")
     @portets = Deposit.find_by(sku: "portets")
-    @breweries = Brewery.all.shuffle[0..5]
+    @partners = Brewery.where(partner: true)
+    #@breweries = Brewery.all.shuffle[0..5]
   end
 
   def dashboard
