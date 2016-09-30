@@ -37,8 +37,9 @@ class Product < ApplicationRecord
       kind: :name,
       color: :name,
       fermentation: :name,
-      specificity: :name
-    }
+      specificity: :name },
+    using: { tsearch: { prefix: true,
+                        dictionary: "french"} }
 
   def matching(nbr)
     m = {}
@@ -50,15 +51,15 @@ class Product < ApplicationRecord
   def weighted_attributes
     select_attr = { name: 5,
                     alcohol_id: 10,
-                    brewery_id: 8,
-                    region_id: 3,
-                    country: 3,
+                    brewery_id: 7,
+                    region_id: 2,
+                    country: 2,
                     capacity: 1,
-                    kind_id: 7,
-                    color_id: 6,
-                    fermentation_id: 6,
+                    kind_id: 10,
+                    color_id: 8,
+                    fermentation_id: 5,
                     degree: 5,
-                    specificity: 8
+                    specificity: 7
                     }
 
     weighted_attr = []
