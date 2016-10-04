@@ -17,7 +17,7 @@ class ProductsController < ApplicationController
   def show
     @product = Product.find(params[:id])
     @selection = Selection.new
-    @suggestions = @product.matching(3)
+    @suggestions = @product.matching(9)
   end
 
   def random

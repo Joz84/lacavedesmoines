@@ -1,0 +1,65 @@
+<div id="my_carousel" class="carousel slide" data-ride="carousel">
+<!-- Bulles -->
+  <ol class="carousel-indicators">
+    <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#my_carousel" data-slide-to="1"></li>
+    <li data-target="#my_carousel" data-slide-to="2"></li>
+  </ol>
+<!-- Slides -->
+  <div class="carousel-inner">
+    <!-- Page 1 -->
+    <div class="item active">
+      <div class="carousel-page">
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[0].photos.first.path, class: "suggestion-photo"), @suggestions[0] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[1].photos.first.path, class: "suggestion-photo"), @suggestions[1] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[2].photos.first.path, class: "suggestion-photo"), @suggestions[2] %>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page 2 -->
+    <div class="item">
+      <div class="carousel-page">
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[3].photos.first.path, class: "suggestion-photo"), @suggestions[3] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[4].photos.first.path, class: "suggestion-photo"), @suggestions[4] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[5].photos.first.path, class: "suggestion-photo"), @suggestions[5] %>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page 3 -->
+    <div class="item">
+      <div class="carousel-page">
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[6].photos.first.path, class: "suggestion-photo"), @suggestions[6] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[7].photos.first.path, class: "suggestion-photo"), @suggestions[7] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[8].photos.first.path, class: "suggestion-photo"), @suggestions[8] %>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!-- Contrôles -->
+  <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#my_carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
