@@ -10,26 +10,51 @@
     <!-- Page 1 -->
     <div class="item active">
       <div class="carousel-page">
-        <!-- <img src="logo.png" class="img-responsive" style="margin:0px auto;" /> -->
-        <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[0].photos.first.path, class: "suggestion-photo"), @suggestions[0] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[1].photos.first.path, class: "suggestion-photo"), @suggestions[1] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[2].photos.first.path, class: "suggestion-photo"), @suggestions[2] %>
+            </div>
+        </div>
       </div>
-      <div class="carousel-caption">Page 1 de présentation</div>
     </div>
     <!-- Page 2 -->
     <div class="item">
       <div class="carousel-page">
-        <img src="/images/logo.png" class="img-responsive img-rounded" style="margin:0px auto;"  />
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[3].photos.first.path, class: "suggestion-photo"), @suggestions[3] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[4].photos.first.path, class: "suggestion-photo"), @suggestions[4] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[5].photos.first.path, class: "suggestion-photo"), @suggestions[5] %>
+            </div>
+        </div>
       </div>
-      <div class="carousel-caption">Page 2 de présentation</div>
     </div>
     <!-- Page 3 -->
     <div class="item">
       <div class="carousel-page">
-        <img src="/images/logo.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
+        <div class="container suggestion-content">
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[6].photos.first.path, class: "suggestion-photo"), @suggestions[6] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[7].photos.first.path, class: "suggestion-photo"), @suggestions[7] %>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <%= link_to (cl_image_tag @suggestions[8].photos.first.path, class: "suggestion-photo"), @suggestions[8] %>
+            </div>
+        </div>
       </div>
-      <div class="carousel-caption">Page 3 de présentation</div>
     </div>
-  </div>
   <!-- Contrôles -->
   <a class="left carousel-control" href="#my_carousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>

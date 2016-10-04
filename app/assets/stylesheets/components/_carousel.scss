@@ -1,7 +1,22 @@
 .carousel-page
 {
   width:100%;
-  height:400px;
-  background-color:#5f666d;
+  padding: 20px;
+  background-color: rgba(95, 102, 109, 0.8);
   color:white;
+  .col-sm-4 {
+    text-align: center;
+  }
+}
+
+.suggestion-content
+{
+  width: 80%;
+}
+
+
+.suggestion-photo {
+  width: 80%;
+  border: 6px solid #fbbb0d;
+  border-radius: 50%;
 }
