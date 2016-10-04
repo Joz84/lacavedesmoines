@@ -55,34 +55,35 @@
       <div class="row">
         <div class="container">
           <div class="col-xs-12 col-sm-10 col-md-offset-1">
-          <% @suggestions.each do |suggestion| %>
-            <div class="col-xs-12 col-sm-4">
-              <div class="card-show-index">
-                <div class="card-description-index">
-                  <%= link_to cl_image_tag(suggestion.photos.first.path, class: "product-photo-index"), suggestion %>
-                  <div class="text-center" style="margin-top:26px">
-                  <%= link_to "Voir", suggestion, class: 'btn btn-outline-secondary choose-button' %>
+            <% @suggestions.each do |suggestion| %>
+              <div class="col-xs-12 col-sm-4">
+                <div class="card-show-index">
+                  <div class="card-description-index">
+                    <%= link_to cl_image_tag(suggestion.photos.first.path, class: "product-photo-index"), suggestion %>
+                    <div class="text-center" style="margin-top:26px">
+                    <%= link_to "Voir", suggestion, class: 'btn btn-outline-secondary choose-button' %>
+                    </div>
+                    <p class="text-center" style="margin-top: -23px">Prix : <%= @product.price %> €</p>
+                    <h1 class="text-center"><%= link_to suggestion.name, suggestion %></h1>
+                    <p><h3 class="text-center" style="font-family: 'Great Vibes', cursive;margin-top:9px"><%= suggestion.degree %> %</p></h3>
+                    <p>Provenance : <%= suggestion.region.name %></p>
+                    <p>Brasserie : <%= suggestion.brewery.name %></p>
+                    <p>Type : <%= suggestion.kind.name %></p>
+                    <p>Couleur : <%= suggestion.color.name %></p>
+                    <p>Contenance : <%= suggestion.capacity %> cl</p>
+                    <p>Fermentation : <%= suggestion.fermentation.name %></p>
+                    <% if suggestion.specificity %>
+                      <p> Particularité : <%= suggestion.specificity.name %></p>
+                    <% end %>
                   </div>
-                  <p class="text-center" style="margin-top: -23px">Prix : <%= @product.price %> €</p>
-                  <h1 class="text-center"><%= link_to suggestion.name, suggestion %></h1>
-                  <p><h3 class="text-center" style="font-family: 'Great Vibes', cursive;margin-top:9px"><%= suggestion.degree %> %</p></h3>
-                  <p>Provenance : <%= suggestion.region.name %></p>
-                  <p>Brasserie : <%= suggestion.brewery.name %></p>
-                  <p>Type : <%= suggestion.kind.name %></p>
-                  <p>Couleur : <%= suggestion.color.name %></p>
-                  <p>Contenance : <%= suggestion.capacity %> cl</p>
-                  <p>Fermentation : <%= suggestion.fermentation.name %></p>
-                  <% if suggestion.specificity %>
-                    <p> Particularité : <%= suggestion.specificity.name %></p>
-                  <% end %>
                 </div>
               </div>
-            </div>
-          <% end %>
+            <% end %>
           </div>
         </div>
       </div>
     </div>
+    <%= render '/shared/carousel' %>
     <%= render '/shared/footer' %>
   </div>
 </div>
