@@ -1,4 +1,4 @@
-<div id="movefromright">
+<div id="fadein">
   <div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
     <%= render '/shared/navbar' %>
     <div class="row">
@@ -35,8 +35,11 @@
                 </div>
               <% end %>
               <div class="text-center" style="margin-top:20px;margin-bottom:20px">
+                  (pensez à cliquer sur "Confirmer la modification" pour modifier votre panier)<br /><br />
+                  Livraisons gratuites sur Bordeaux, Portets et Mont-de-Marsan à partir de 20€ d'achats<br />
                   <br />
-                  Notre outil de paiement sécurisé est <a href="https://stripe.com/fr" target="_blank">Stripe</a>.
+                  Notre outil de paiement sécurisé est <a href="https://stripe.com/fr" target="_blank" style="font-weight: bold;font-size: 19px;text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);">Stripe</a>.<br /><br />
+                  Délai de livraison : 48h à 72h<br />
               </div>
             </div>
           </div>

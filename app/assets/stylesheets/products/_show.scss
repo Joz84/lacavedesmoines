@@ -53,12 +53,12 @@
 }
 
 .card-show-desc {
-  width: 43%;
+  width: 40%;
   margin-left: 5%;
 }
 
 .card-show-remi-desc {
-  width: 52%;
+  width: 55%;
 }
 
 .card-deposit-desc {
@@ -113,7 +113,6 @@
   width: 80%;
   border: 6px solid #fbbb0d;
   border-radius: 50%;
-  float: left;
 }
 
 .product-photo-index {
@@ -141,25 +140,43 @@
   border-color: #ffba00 !important;
 }
 
-.choose {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    font-family: great vibes, cursive;
-    font-size: 227%;
-    // text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), 1px 0px 0 #b7482d;
-    text-shadow: 2px 0 0 #f5b001, -2px 0 0 #f5b001, 0 2px 0 #f5b001, 0 -2px 0 #f5b001, 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
-    background: radial-gradient(ellipse at center, #fbbb0d 34%,#c34c2f 100%);
-    color: #ba4c2e !important;
-    cursor: pointer;
+.btn-choose {
+  background-image: url(http://res.cloudinary.com/cavedesmoines/image/upload/v1475421708/icons/add-to-basket-cave-des-moines.png) !important;
+  background-size: 100px 130px !important;
+  border: 0px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: transparent !important;
+}
 
-    a:hover {
-      color: #fabb0c !important;
-    }
+.btn-choose:active, .btn-choose.active, .open > .btn-choose.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.btn:active {
+  box-shadow: none !important;
+}
+
+.choose {
+  width: 110px;
+  height: 130px;
+  // border-radius: 50%;
+  // font-family: great vibes, cursive;
+  // font-size: 227%;
+  // text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), 1px 0px 0 #b7482d;
+  // text-shadow: 2px 0 0 #f5b001, -2px 0 0 #f5b001, 0 2px 0 #f5b001, 0 -2px 0 #f5b001, 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
+  // background: radial-gradient(ellipse at center, #fbbb0d 34%,#c34c2f 100%);
+  // color: #ba4c2e !important;
+  // cursor: pointer;
+
+  a:hover {
+    // color: #fabb0c !important;
+  }
 }
 
 .brewery {
   color: #fabb0c;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
   a {
     color: #fabb0c;
   }
@@ -168,12 +185,34 @@
   }
 }
 
-.product-details {
-  font-size: 125%;
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .product-details {
+    font-size: 83%;
+  }
+  .product-photo {
+    float: right;
+    margin-top: 25%;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .product-details {
+    font-size: 148%;
+  }
+  .product-photo {
+  float: left;
+  }
 }
 
 .price {
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1), 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
+  color: white;
+  text-shadow: 0px 0px 1px black, 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
+  background-color: #fabb0c;
+  width: 50%;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 .choose-button {
@@ -181,4 +220,12 @@
     font-size: 24px !important;
     line-height: 15px;
     margin-top: -63px;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to left, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
 }
