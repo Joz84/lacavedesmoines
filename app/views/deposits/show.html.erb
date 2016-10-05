@@ -6,11 +6,11 @@
         <div class="col-xs-12 col-sm-2">
           <%= render '/shared/news' %>
         </div>
-          <div class="col-xs-12 col-sm-8">
+          <div class="col-xs-12 col-sm-8 deposit-container">
             <h2 class="cat-deposit"><%= @deposit.name %></h2>
             <div class="card-show">
               <div class="card-deposit-desc pull-left">
-              <%= @deposit.description %><br /><br />
+              <%= @deposit.description1 %><br /><br />
               <p class="text-center" style="margin-left: 35px;margin-right: 35px;">
               <%= @deposit.name %><br />
               <%= @deposit.address %><br />
@@ -18,6 +18,7 @@
               <%= @deposit.city %><br />
               <%= @deposit.country %><br /><br />
               <%= @deposit.complement %></p><br />
+              <p style="font-size: 20px" class="text-center"><%= @deposit.description2 %></p>
               </div>
               <div class="card-deposit-map pull-right">
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1inLiUuZ4wKTsf34pyaTY1sGD_GE" width="100%" height="300px"></iframe>
@@ -25,6 +26,24 @@
             </div>
           </div>
         <div class="col-xs-12 col-sm-2">
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <div class="brewery-container1" onclick="document.location='1'">
+            <div class="brewery-text text-center"><%= link_to "Cave de Bordeaux", @bordeaux %>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <div class="brewery-container2" onclick="document.location='3'">
+            <div class="brewery-text text-center"><%= link_to "Cave de Portets", @portets %>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <div class="brewery-container3" onclick="document.location='2'">
+            <div class="brewery-text text-center"><%= link_to "Bar-Cave de Mont-de-Marsan", @montdemarsan %>
+            </div>
+          </div>
         </div>
       </div>
     </div>

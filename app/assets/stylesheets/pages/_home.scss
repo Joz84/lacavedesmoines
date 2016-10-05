@@ -7,6 +7,8 @@ body {
   }
 }
 
+
+
 .banner {
   color: white;
   text-align: center;
@@ -19,6 +21,8 @@ body {
   background-position: center !important;
   border-bottom: 5px solid white;
   margin-bottom: -5px;
+  background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473245447/index_chats_w28zyh.png');
+  -webkit-animation: fadein 3s;
 }
 
 .banner-content{
@@ -100,8 +104,9 @@ body {
 .basket {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
   margin-top: 35px;
-  font-family: 'Great vibes', cursive;
-  font-size: 27px;
+  // font-family: 'Great vibes', cursive;
+  // font-size: 27px;
+  font-size: 19px;
   a {
   color: white;
   }

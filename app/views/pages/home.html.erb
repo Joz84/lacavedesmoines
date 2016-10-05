@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="banner" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473245447/index_chats_w28zyh.png');">
+    <div class="banner" id="fadein" style = "">
       <!-- Navbar Home -->
       <div class="container-fluid">
         <div class="row">
@@ -35,6 +35,8 @@
             <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher", data: { disable_with: "Rechercher" } %>
           <% end %>
         </div>
+        <h2 style="margin-top:5vh;">Livraisons gratuites sur Bordeaux, Portets et Mont-de-Marsan</h2>
+        <span style="font-size: 25px">À partir de 20€ d'achats</span>
       </div>
     </div>
     <div class="container-fluid banner-deposits" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1474447688/houblon_nfncsb.png');border-bottom: 10px solid #ffba00;">
@@ -42,32 +44,15 @@
         <div >
           <div style="padding-top:20px;border-top: 10px solid #ffba00;margin-bottom:110px" class="text-center">
           <h2 class="cat-beer">Nos Brasseries partenaires</h2>
-            <% @partners.each do |partner| %>
+              <% @partners.each do |partner| %>
               <%= link_to cl_image_tag(partner.photos.first.path, class: 'partner-logo'), partner %>
             <% end %>
           </div>
-          <div class="col-xs-12 col-md-4 text-center">
-            <div class="brewery-container1" onclick="document.location='deposits/1'">
-              <div class="brewery-text text-center"><%= link_to "Cave de Bordeaux", @bordeaux %>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4 text-center">
-            <div class="brewery-container2" onclick="document.location='deposits/3'">
-              <div class="brewery-text text-center"><%= link_to "Cave de Portets", @portets %>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4 text-center">
-            <div class="brewery-container3" onclick="document.location='deposits/2'">
-              <div class="brewery-text text-center"><%= link_to "Cave de Mont-de-Marsan", @montdemarsan %>
-              </div>
-            </div>
-          </div>
+          <%= render '/shared/deposits' %>
         </div>
       </div>
     </div>
-    <%= link_to "News", news_index_path %>
+<!--     <%= link_to "News", news_index_path %> -->
     <%= render '/shared/footer' %>
   </div>
 </div>
