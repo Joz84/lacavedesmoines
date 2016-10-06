@@ -38,8 +38,10 @@ class Product < ApplicationRecord
       color: :name,
       fermentation: :name,
       specificity: :name },
-    using: { tsearch: { prefix: true,
-                        dictionary: "french"} }
+    using: {  tsearch: { prefix: true, any_word: true },
+              dmetaphone: { any_word: true, sort_only: true },
+              trigram: { threshold: 0.3 }
+            }
 
   def matching(nbr)
     m = {}
