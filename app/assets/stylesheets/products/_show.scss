@@ -55,6 +55,7 @@
 .card-show-desc {
   width: 40%;
   margin-left: 2%;
+  margin-top: -20px;
 }
 
 .card-show-remi-desc {
@@ -105,8 +106,9 @@
 }
 
 .degree {
-  color: black !important;
+  color: #fabb0c !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+  font-size: 327% !important;
 }
 
 .product-photo {
@@ -203,15 +205,16 @@
   }
 }
 
-.price {
+.price-show {
+  display: inline-block;
   color: white;
   text-shadow: 0px 0px 1px black, 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
   background-color: #fabb0c;
   width: 50%;
-  float: center;
+  padding: 0px 14px;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
 }
 
 .choose-button {
@@ -230,8 +233,10 @@
 }
 
 .add {
-  color: #ba4c2e;
-  font-size: 81%;
+  color: rgb(255, 255, 255);
+  font-size: 73%;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black, 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
 }
 
 .card-title-show {

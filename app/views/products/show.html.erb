@@ -13,11 +13,7 @@
                 <div class="row">
                   <div class="col-xs-12 col-sm-8">
                     <div class="card-title-show">
-                      <% if @product.degree == @product.degree.to_i %>
-                        <h1><%= @product.name %> <span class ="degree"><%= "#{@product.degree.to_i} %" %></span></h1>
-                      <% else %>
-                        <h1><%= @product.name %> <span class ="degree"><%= @product.degree %>%</span></h1>
-                      <% end %>
+                      <h1><%= @product.name %></h1>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-2">
@@ -34,7 +30,12 @@
                   </div>
                 </div>
               </div>
-              <div class="card-show-desc pull-left text-center" style="margin-top: 29px;font-size: 120%;">
+              <div class="card-show-desc pull-left text-center" style="font-size: 120%;">
+                <% if @product.degree == @product.degree.to_i %>
+                  <h1 class ="degree"><%= "#{@product.degree.to_i} %" %></h1>
+                <% else %>
+                  <div class ="degree"><%= @product.degree %>%</div>
+                <% end %>
                 <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
                 <p class="product-details price-show">Prix : <%= @product.price %> €</p>
                 <p class="product-details">Provenance : <%= @product.region.name %></p>
