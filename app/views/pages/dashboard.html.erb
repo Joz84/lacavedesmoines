@@ -12,7 +12,7 @@
               <% if current_user.orders.count != 0 %>
                 <% current_user.orders.each_with_index do |order, i| %>
                   <li>
-                    <%= "#{order.created_at} - Commande #{i}"%>
+                    <%= "#{order.created_at} - Commande #{i+1}"%>
                     <ul>
                       <% order.selections.each do |select| %>
                         <li>
@@ -22,13 +22,13 @@
                     </ul>
                     <%= order.state %>
                     <% if order.state == "non payée" %>
-                      <%= link_to "finaliser la commande", new_order_path(order) %>
+                      <%= link_to "finaliser la commande", new_order_path(order), style: 'font-weight:bold' %>
                       <%= link_to "annuler la commande", order_path(order), method: :delete %>
                     <% end %>
                   </li>
                 <% end %>
                 <div class="text-center" style="margin-top:20px">
-                <%= link_to "Retour à l'accueil", root_path%>
+                <%= link_to "Retour à l'accueil", root_path, style: 'font-weight:bold' %>
                 </div>
               <% else %>
                 <li class="text-center">

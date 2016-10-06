@@ -1,8 +1,39 @@
 .cart-size {
   list-style-type: none;
-  width: 300px;
   margin-left: auto;
-  margin-right: auto;
   padding-left: 0px;
   font-size: 130%;
+  line-height: 18px;
+}
+
+.cart-list {
+  padding-top: 40px;
+}
+
+.price {
+  width: 25%;
+  display: inline-block;
+}
+
+.help-block {
+  display: none;
+}
+
+.form-group {
+  display: inline-block;
+}
+
+.button-search {
+  margin-bottom:2px;
+  height:36px;
+}
+
+.cart-center {
+  display: flex;
+  justify-content: center;
+  margin-left: 12%;
+}
+
+.total {
+  margin-right: 22%;
 }

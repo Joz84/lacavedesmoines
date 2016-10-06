@@ -4,35 +4,39 @@
     <div class="row">
       <div class="container-fluid">
         <div class="col-xs-12 col-sm-2">
-        <%= render '/shared/news' %>
+          <%= render '/shared/news' %>
         </div>
           <div class="col-xs-12 col-sm-8">
             <h2 class="cat-beer">Votre Panier</h2>
-            <div class="card-show">
+            <div class="card-show cart-list">
+              <div class="cart-center">
               <%= simple_form_for :selected, url: cart_path, method: :patch do |f| %>
                 <ul class="cart-size">
                   <% session[:cart].each_with_index do |selected, i| %>
                     <li>
-                      <p style="display:inline-block"><%= "#{selected[:product].name}" %></p>
+                      <p style="display:inline-block;font-weight:bold;"><%= "#{selected[:product].name}" %></p>
                       <p style="display:inline-block"> - <%= "#{selected[:product].price}" %> €</p>
                       <% if session[:errors].include?(i) %>
                         <p> La quantité doit être supérieures à 0! </p>
                       <% end %>
-                      <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1}, style: 'inline-block' %>
+                      <p style="display: inline-block;"></p>
+                      <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1, class: 'price'}, style: "width:25%;" %>
+                      </p>
                       <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "supprimer", style: 'inline-block' %>
                       <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id }, style: 'inline-block' %>
                     </li>
                   <% end %>
+                    <li class="pull-right total">
                   <% if session[:cart].count != 0 %>
                     Total : <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %> €
                   <% end %>
+                    </li>
                 </ul>
-                <div>
-                </div>
-                <div class="text-center">
-                <%= f.button :submit, value: "Confirmer la modification", class: 'btn-outline-secondary' %>
-                <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
-                </div>
+              </div>
+              <div class="text-center" style="margin-top: 40px">
+              <%= f.button :submit, value: "Confirmer la modification", class: 'btn-outline-secondary' %>
+              <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
+              </div>
               <% end %>
               <div class="text-center" style="margin-top:20px;margin-bottom:20px">
                   (pensez à cliquer sur "Confirmer la modification" pour modifier votre panier)<br /><br />
@@ -44,7 +48,6 @@
             </div>
           </div>
         <div class="col-xs-12 col-sm-2">
-
         </div>
       </div>
       <%= render '/shared/footer' %>

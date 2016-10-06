@@ -36,7 +36,7 @@
               </div>
               <div class="card-show-desc pull-left text-center" style="margin-top: 29px;font-size: 120%;">
                 <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
-                <p class="product-details price">Prix : <%= @product.price %> €</p>
+                <p class="product-details price-show">Prix : <%= @product.price %> €</p>
                 <p class="product-details">Provenance : <%= @product.region.name %></p>
                 <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p>
                 <p class="product-details">Type : <%= @product.kind.name %></p>
