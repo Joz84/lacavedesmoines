@@ -41,7 +41,8 @@ class Product < ApplicationRecord
     using: {  tsearch: { prefix: true, any_word: true },
               dmetaphone: { any_word: true, sort_only: true },
               trigram: { threshold: 0.3 }
-            }
+            },
+    ignoring: :accents
 
   def matching(nbr)
     m = {}
