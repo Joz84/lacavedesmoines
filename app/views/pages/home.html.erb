@@ -31,8 +31,8 @@
         <div class="search-bar">
           <%= simple_form_for :research, url: products_path, method: :get do |f| %>
             <%= f.error_notification %>
-            <%= f.input :words, label: false, placeholder: "ex : bière gironde..." %>
-            <%= f.button :submit, class: 'btn-outline-secondary', value: "Rechercher", data: { disable_with: "Rechercher" } %>
+            <%= f.input :words, input_html: { class: "search" }, label: false, placeholder: "ex : bière gironde..." %>
+            <%= f.button :submit, class: 'btn-outline-secondary button-search', value: "Rechercher", data: { disable_with: "Rechercher" } %>
           <% end %>
         </div>
         <h2 style="margin-top:5vh;">Livraisons gratuites sur Bordeaux, Portets et Mont-de-Marsan</h2>

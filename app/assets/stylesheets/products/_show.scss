@@ -54,7 +54,7 @@
 
 .card-show-desc {
   width: 40%;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 .card-show-remi-desc {
@@ -91,12 +91,12 @@
   color: black;
   position: relative;
   background-color: rgba(255,255,255,0.8) !important;
-  padding: 39px;
+  padding: 15px;
   border-radius: 5px;
 
   h1 {
     color: #ba4c2e;
-    font-size: 285%;
+    font-size: 275%;
     font-family: 'Great Vibes', cursive;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), -1px -1px 0 #f5b001;
     // text-shadow: 1px 1px #f5b001, -1px -1px 0 #f5b001, 1px -1px 0 #f5b001, -1px 1px 0 #f5b001 !important;
@@ -141,7 +141,7 @@
 }
 
 .btn-choose {
-  background-image: url(http://res.cloudinary.com/cavedesmoines/image/upload/v1475421708/icons/add-to-basket-cave-des-moines.png) !important;
+  background-image: url(http://res.cloudinary.com/cavedesmoines/image/upload/v1475747627/icons/add-to-basket-cave-des-moines.png) !important;
   background-size: 100px 130px !important;
   border: 0px;
   background-repeat: no-repeat !important;
@@ -176,7 +176,6 @@
 
 .brewery {
   color: #fabb0c;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
   a {
     color: #fabb0c;
   }
@@ -197,7 +196,7 @@
 
 @media screen and (min-width: 641px) {
   .product-details {
-    font-size: 148%;
+    font-size: 115%;
   }
   .product-photo {
   float: left;
@@ -223,9 +222,26 @@
 }
 
 .carousel-control.left {
-    background-image: linear-gradient(to right, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
+    // background-image: linear-gradient(to right, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
 }
 
 .carousel-control.right {
-    background-image: linear-gradient(to left, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
+    // background-image: linear-gradient(to left, rgb(251, 187, 13) 0%, rgba(0, 0, 0, 0.0001) 100%) !important;
+}
+
+.add {
+  color: #ba4c2e;
+  font-size: 81%;
+}
+
+.card-title-show {
+  font-size: 144%;
+  padding-top: 5%;
+  margin-left: 3%;
+}
+
+.show-price {
+  width: auto;
+  display: inline-block;
+  padding: 0px 10px;
 }
