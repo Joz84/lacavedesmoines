@@ -1,8 +1,9 @@
-<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+<div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
   <div class="row">
   <%= render '/shared/navbar' %>
     <div class="container-fluid">
       <div class="col-xs-12 col-sm-2">
+        <%= render '/shared/news' %>
       </div>
         <div class="col-xs-12 col-sm-8">
           <h2 class="cat-beer"><%= "Bonjour #{current_user.name}," %></h2>
@@ -15,15 +16,15 @@
                     <%= "#{order.created_at} - Commande #{i+1}"%>
                     <ul>
                       <% order.selections.each do |select| %>
-                        <li>
+                        <li style="font-weight:bold">
                           <%= "#{select.product.name} x #{select.quantity}" %>
                         </li>
                       <% end %>
                     </ul>
                     <%= order.state %>
-                    <% if order.state == "non payée" %>
+                    <% if order.state == "non payée" %> -
                       <%= link_to "finaliser la commande", new_order_path(order), style: 'font-weight:bold' %><br />
-                      <%= link_to "annuler la commande", order_path(order), method: :delete %>
+                      ou <%= link_to "annuler la commande", order_path(order), method: :delete %>
                     <% end %>
                   </li>
                 <% end %>

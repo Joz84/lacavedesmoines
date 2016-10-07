@@ -1,4 +1,4 @@
-<div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+<div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
   <%= render '/shared/navbar' %>
     <div class="row">
       <div class="container-fluid">
@@ -39,7 +39,7 @@
                 <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
                 <p class="product-details price-show">Prix : <%= @product.price %> €</p>
                 <p class="product-details">Provenance : <%= @product.region.name %></p>
-                <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p>
+                <!-- <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p> -->
                 <p class="product-details">Type : <%= @product.kind.name %></p>
                 <p class="product-details">Couleur : <%= @product.color.name %></p>
                 <p class="product-details">Fermentation : <%= @product.fermentation.name %></p>

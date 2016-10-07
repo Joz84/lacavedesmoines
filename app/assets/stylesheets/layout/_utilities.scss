@@ -24,7 +24,7 @@
   background: #3b5998;
 }
 
-
+// Pages transitions
 #navbar-fadein {
     -webkit-animation: fadein 3s;
 }
@@ -67,6 +67,7 @@
   from { opacity: 0.3; -webkit-transform: translateX(-100%); transform: translateX(-100%); }
 }
 
+// Lazy loading bar
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -84,8 +85,6 @@
   height: 3px;
   width: 100vw;
   background: black;
-  // border: 1px solid #fdbc00;
-
   overflow: hidden;
 }
 

@@ -91,7 +91,7 @@ d2 = Deposit.create(  name: "Le Bar-Cave des Moines de Mont de Marsan",
                       siret: "123456789",
                       capacity: 1500,
                       description1: "Notre cave à Mont-de-Marsan est un Bar-Cave, vous pouvez venir déguster et emporter des merveilles ! Pourquoi pas assister en même temps à un concert...",
-                      description2: "Appelez directement la Cave de Mont-de-Marsan au 05.58.44.22.56"
+                      description2: "Appelez directement la Cave de Mont-de-Marsan au 05 58 44 22 56"
                       )
 d3 = Deposit.create(  name: "La Cave des Moines de Portets",
                       sku: "portets",
