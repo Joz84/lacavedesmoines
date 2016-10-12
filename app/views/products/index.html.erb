@@ -26,16 +26,15 @@
               </div>
               <div class="random-choice text-center">
                 En si on essayait... un article au hasard !<br />
-                <%= cl_image_tag("icons/random-icon.png", class: 'random-icon') %>
-                <%= link_to "test", random_product_path, method: :post %>
+                <%= link_to cl_image_tag("icons/random-icon.png", class: 'random-icon'), random_product_path, method: :post %>
               </div>
               <% end %>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-2 refine-search">
-        <div style="position: fixed;width:15%">
+      <div class="col-xs-12 col-sm-2">
+        <div class="refine-search" style="position: fixed;width:18%;padding: 0px 15px;right: 1px;">
           <%= render 'shared/refine-search' %>
         </div>
       </div>
