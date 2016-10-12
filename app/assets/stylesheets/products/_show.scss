@@ -82,18 +82,22 @@
   text-align: center;
 }
 
+
 .card-show {
-  height: 100%;
-  width: 100%;
-  min-height: 450px;
-  display: inline-block;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  color: black;
-  position: relative;
-  background-color: rgba(255,255,255,0.85) !important;
-  padding: 15px;
-  border-radius: 5px;
+  // A conserver pour comparaison
+  // text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  // background-color: rgba(255,255,255,0.85) !important;
+    height: 100%;
+    width: 100%;
+    min-height: 450px;
+    display: inline-block;
+    background-size: cover !important;
+    color: black;
+    position: relative;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    padding: 15px;
+    border-radius: 5px;
 
   h1 {
     color: #ba4c2e;
@@ -198,7 +202,7 @@
 
 @media screen and (min-width: 641px) {
   .product-details {
-    font-size: 115%;
+    font-size: 112%;
   }
   .product-photo {
   float: left;
