@@ -1,0 +1,50 @@
+<div class="card-show">
+  <div class="container product-title-cart">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10">
+        <div class="card-title-show">
+          <h1><%= @product.name %></h1>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <div class="card-cart pull-right text-center">
+          <div>
+            <%= simple_form_for :added, url: carts_path, method: :post do |f| %>
+              <%= f.error_notification %>
+              <%= f.input :product_id, as: :hidden, input_html: { value: @product.id } %>
+              <%= f.button :submit, value: "", data: { disable_with: "" }, class: 'btn-choose pull-right choose' %>
+            <% end %>
+            <div class="add">Ajouter au Panier</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-show-desc pull-left text-center" style="font-size: 120%;">
+    <% if @product.degree == @product.degree.to_i %>
+      <h1 class ="degree"><%= "#{@product.degree.to_i} %" %></h1>
+    <% else %>
+      <div class ="degree"><%= @product.degree %>%</div>
+    <% end %>
+    <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
+    <p class="product-details price-show">Prix : <%= @product.price %> €</p>
+    <p class="product-details">Provenance : <%= @product.region.name %></p>
+    <!-- <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p> -->
+    <p class="product-details">Type : <%= @product.kind.name %></p>
+    <p class="product-details">Couleur : <%= @product.color.name %></p>
+    <p class="product-details">Fermentation : <%= @product.fermentation.name %></p>
+    <% if @product.specificity %>
+      <p class="product-details"> Particularité : <%= @product.specificity.name %></p>
+    <% end %>
+  </div>
+  <div class="card-show-remi-desc pull-right">
+    <div class="product-photo-container text-center">
+      <% if @product.photos && @product.photos.count != 0 %>
+        <%= cl_image_tag @product.photos.first.path, class: "product-photo" %>
+      <% end %>
+    </div>
+    <p>
+    <%= render 'shared/form_cart_selection' %>
+    </p>
+  </div>
+</div>
