@@ -3,7 +3,9 @@
     <%= render '/shared/navbar' %>
     <div class="row">
       <div class="col-xs-12 col-sm-2">
-          <%= render '/shared/news' %>
+        <div style="position: fixed;width:15%">
+         <%= render '/shared/news' %>
+        </div>
       </div>
       <div class="col-xs-12 col-sm-8">
         <h2 class="cat-beer">Vous partiriez sur :</h2>
@@ -12,7 +14,7 @@
             <div>
               <% if @products.count != 0 %>
                 <% @products.each do |product| %>
-                  <div class="col-xs-12 col-sm-4">
+                  <div class="col-xs-12">
                     <div class="card-show-index">
                       <%= render partial: '/shared/product', locals: { product: product } %>
                     </div>
@@ -33,7 +35,9 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-2 refine-search">
-      <%= render 'shared/refine-search' %>
+        <div style="position: fixed;width:15%">
+          <%= render 'shared/refine-search' %>
+        </div>
       </div>
     </div>
   </div>
