@@ -1,32 +1,32 @@
 <div class="container-fluid index-products" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0) 0%, rgba(255, 235, 0, 0) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
   <div class="row">
-  <%= render '/shared/navbar' %>
+    <%= render '/shared/navbar' %>
     <div class="container-fluid">
       <div class="col-xs-12 col-sm-2">
       <%= render '/shared/news' %>
       </div>
-        <div class="col-xs-12 col-sm-8">
-          <h2 class="cat-beer">Se connecter</h2>
-          <div class="card-show">
-            <h2 class="text-center"></h2>
-            <div class="login-form text-center">
-            <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="col-xs-12 col-sm-8">
+        <h2 class="cat-beer">Se connecter</h2>
+        <div class="card-show">
+          <h2 class="text-center"></h2>
+          <div class="login-form text-center">
+          <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
               <div class="form-inputs">
                   <%= f.input :email, required: false, autofocus: true %>
                   <%= f.input :password, required: false, label: "Mot de passe" %>
                   <%= f.input :remember_me, label: "Se souvenir de moi", as: :boolean if devise_mapping.rememberable? %>
-                </div>
-                <div class="form-actions">
-                  <%= f.button :submit, "Connexion", class: "btn-outline-secondary" %>
-                </div>
-              <% end %>
-              <%= render "devise/shared/links" %>
-              <div class="text-center" style="margin-top:20px;margin-bottom:20px">
-                Nous n'utiliserons jamais vos données ailleurs que sur ce site.<br />
               </div>
+              <div class="form-actions">
+                <%= f.button :submit, "Connexion", class: "btn-outline-secondary" %>
+              </div>
+            <% end %>
+            <%= render "devise/shared/links" %>
+            <div class="text-center" style="margin-top:20px;margin-bottom:20px">
+              Nous n'utiliserons jamais vos données ailleurs que sur ce site.<br />
             </div>
           </div>
         </div>
+      </div>
     </div>
     <%= render '/shared/footer' %>
   </div>

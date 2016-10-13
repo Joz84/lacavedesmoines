@@ -35,33 +35,38 @@ a:hover {
 }
 
 .card-description-index {
+    @media screen and (min-width: 1440px) {
     height: auto;
     position: absolute;
     left: 33px;
     right: 33px;
-    font-size: 92%;
     top: 20px;
+  }
+
+  font-size: 92%;
 
   a {
     color: #ba4c2e;
     font-size: 125%;
-    // font-family: 'Great Vibes', cursive;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25), -1px -1px 0 #faba0a;
   }
 }
 
 .card-show-index {
-  // text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  // background-color: rgba(255,255,255,0.85) !important;
+  @media screen and (min-width: 1440px) {
   height: 100%;
   width: 100%;
   min-height: 470px;
+  position: relative;
+  }
+
+  padding-bottom: 10px;
+  width: 100%;
   display: inline-block;
   background-size: cover !important;
   color: black;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.95) !important;
-  position: relative;
   border-radius: 5px;
   margin-bottom: 10px;
 
@@ -135,4 +140,42 @@ h2.cat-beer {
 .refine-search-button {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) !important;
   font-weight: bold;
+}
+
+.navbar-fixed {
+  @media screen and (min-width: 1440px) {
+  position: fixed;
+  height: 5vh;
+  left: 1px;
+  }
+}
+
+.navbar-fixed-container {
+  @media screen and (min-width: 1440px) {
+  height: 120px
+  }
+}
+
+.news-fixed {
+  @media screen and (min-width: 1440px) {
+  position: fixed;width:15%
+  }
+}
+
+.refine-fixed {
+  @media screen and (min-width: 1440px) {
+  position: fixed;
+  width:18%;
+  padding: 0px 15px;
+  right: 1px;
+  }
+}
+
+.price-show-index {
+  background-color: #fabb0c;
+  border-radius: 5px;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }

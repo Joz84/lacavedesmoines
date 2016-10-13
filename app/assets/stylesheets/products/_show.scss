@@ -19,7 +19,15 @@
     }
   }
   h2 {
-    font-size: 175%;
+    @media screen and (max-width: 760px) {
+      font-size: 175%;
+    }
+    @media screen and (min-width: 761px) and (max-width: 1139px) {
+      font-size: 100%
+    }
+    @media screen and (min-width: 1140px) {
+      font-size: 175%;
+    }
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
   }
@@ -97,8 +105,12 @@
     background-color: rgba(255, 255, 255, 0.95) !important;
     padding: 15px;
     border-radius: 5px;
+    padding-bottom: 8%;
 
   h1 {
+    @media screen and (max-width: 520px) {
+    font-size: 129%;
+    }
     color: #ba4c2e;
     font-size: 204%;
     // font-family: 'Great Vibes', cursive;
@@ -221,21 +233,28 @@
 // }
 //
 .price-show {
-    display: inline-block;
-    color: white;
-    background-color: #fabb0c;
-    width: 146%;
-    padding: 3px 102% 3px 0px;
-    border-radius: 5px;
-    margin-left: 30%;
-    margin-right: auto;
+  background-color: #fabb0c;
+  padding: 3px 100% 3px 0px;
+  border-radius: 5px;
+  color: white;
+  width: 200%;
+  @media screen and (min-width: 1440px) {
+  display: inline-block;
+  color: white;
+  background-color: #fabb0c;
+  width: 146%;
+  padding: 3px 102% 3px 0px;
+  border-radius: 5px;
+  margin-left: 30%;
+  margin-right: auto;
+  }
 }
 
 .choose-button {
-    font-family: 'Great Vibes', cursive !important;
-    font-size: 24px !important;
-    line-height: 15px;
-    margin-top: -63px;
+  font-family: 'Great Vibes', cursive !important;
+  font-size: 24px !important;
+  line-height: 15px;
+  margin-top: -63px;
 }
 
 .carousel-control.left {

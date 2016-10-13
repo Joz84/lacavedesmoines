@@ -1,9 +1,11 @@
 <div id="fadein">
   <div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
-    <%= render '/shared/navbar' %>
+    <div class="navbar-fixed-container">
+      <%= render '/shared/navbar-product-index' %>
+    </div>
     <div class="row">
       <div class="col-xs-12 col-sm-2">
-        <div style="position: fixed;width:15%">
+        <div class="news-fixed">
          <%= render '/shared/news' %>
         </div>
       </div>
@@ -34,7 +36,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-2">
-        <div class="refine-search" style="position: fixed;width:18%;padding: 0px 15px;right: 1px;">
+        <div class="refine-search refine-fixed">
           <%= render 'shared/refine-search' %>
         </div>
       </div>
