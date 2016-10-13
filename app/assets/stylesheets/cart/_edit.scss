@@ -11,8 +11,15 @@
 }
 
 .price {
-  width: 25%;
   display: inline-block;
+  color: white;
+  text-shadow: 0px 0px 1px black, 0px 0px 0 #000000, 2px 2px 2px rgba(0, 0, 0, 0.25), 0px 0px 0 #000000;
+  background-color: #fabb0c;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 36%;
 }
 
 .help-block {
@@ -26,6 +33,7 @@
 .button-search {
   margin-bottom:2px;
   height:36px;
+  vertical-align: top !important;
 }
 
 .cart-center {

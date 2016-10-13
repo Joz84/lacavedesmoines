@@ -29,6 +29,6 @@ class PaymentsController < ApplicationController
 private
 
   def set_order
-    @order = Order.where(state: 'non payée', user: current_user).find(params[:order_id])
+    @order = Order.where(state: "non payée", user: current_user).find(params[:order_id])
   end
 end

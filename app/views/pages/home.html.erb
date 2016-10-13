@@ -1,14 +1,13 @@
-<div class="container-fluid">
+<div class="container-fluid hey watching our code enjoy">
   <div class="row">
-    <div class="banner" id="fadein" style = "">
-      <!-- Navbar Home -->
+    <div class="banner" id="fadein">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1475056659/logo/logo-cave-des-moines.png" alt="" width="250px""></a></div>
           <div class="col-xs-12 col-sm-2" style="padding-right:0px;text-align:right">
             <p>
               <% if current_user %>
-                <%= link_to "Historique - ", dashboard_path, class: "connected" %>
+                <%= link_to "Historique", dashboard_path, class: "connected" %>
                 <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "connected" %>
                   <% else %>
                   <%= link_to "Connexion", dashboard_path, class: "connect pull-right" %>
@@ -25,7 +24,7 @@
           </div>
         </div>
       </div>
-      <!-- End Navbar Home -->
+
       <div class="col-xs-12 col-md-12 text-center">
         <h1 style="margin-top:35vh">Je peux vous aider ?</h1>
         <div class="search-bar">

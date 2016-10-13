@@ -7,8 +7,6 @@ body {
   }
 }
 
-
-
 .banner {
   color: white;
   text-align: center;
@@ -106,6 +104,7 @@ body {
   margin-top: 35px;
   font-weight: bold;
   font-size: 19px;
+  margin-left: 10%;
   a {
   color: white;
   }
@@ -130,10 +129,16 @@ body {
 }
 
 .connected {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-  color: #fbbb0d;
-  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
   margin-right: 5px;
+  background-color: #fbbb0d;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+a.connected {
+  color: white !important;
 }
 
 .partner-logo {
