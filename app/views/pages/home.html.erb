@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1475056659/logo/logo-cave-des-moines.png" alt="" width="250px""></a></div>
-          <div class="col-xs-12 col-sm-2" style="padding-right:0px;text-align:right">
+          <div class="col-xs-12 col-sm-2" class="navbar-links">
             <p>
               <% if current_user %>
                 <%= link_to "Historique", dashboard_path, class: "connected" %>
@@ -16,15 +16,14 @@
             <% if session[:cart] && session[:cart].count != 0 %>
               <div class="basket text-center">
               <%= link_to image_tag('http://res.cloudinary.com/cavedesmoines/image/upload/v1474012967/basket-cave-des-moines_helall.png', class: 'basket-icon'), cart_path %>
-              <p>
-              <%= link_to "Votre panier", cart_path %>
-              </p>
+                <p>
+                <%= link_to "Votre panier", cart_path %>
+                </p>
               </div>
-              <% end %>
+            <% end %>
           </div>
         </div>
       </div>
-
       <div class="col-xs-12 col-md-12 text-center">
         <h1 style="margin-top:35vh">Je peux vous aider ?</h1>
         <div class="search-bar">
@@ -41,7 +40,7 @@
     <div class="container-fluid banner-deposits" style = "background: linear-gradient(-225deg, rgba(201, 48, 44, 0.1) 0%, rgba(234, 178, 35, 0.1) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1474447688/houblon_nfncsb.png');border-bottom: 10px solid #ffba00;">
       <div class="row">
         <div >
-          <div style="padding-top:20px;border-top: 10px solid #ffba00;margin-bottom:110px" class="text-center">
+          <div class="text-center partners-home">
           <h2 class="cat-beer">Nos Brasseries partenaires</h2>
               <% @partners.each do |partner| %>
               <%= link_to cl_image_tag(partner.photos.first.path, class: 'partner-logo'), partner %>
@@ -51,7 +50,7 @@
         </div>
       </div>
     </div>
-<!--     <%= link_to "News", news_index_path %> -->
+    <!--     <%= link_to "News", news_index_path %> -->
     <%= render '/shared/footer' %>
   </div>
 </div>

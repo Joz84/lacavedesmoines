@@ -1,21 +1,21 @@
 <div id="movefromright">
   <div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
     <div class="row">
-    <%= render '/shared/navbar' %>
+      <%= render '/shared/navbar' %>
       <div class="container-fluid">
         <div class="col-xs-12 col-sm-2">
         <%= render '/shared/news' %>
         </div>
-          <div class="col-xs-12 col-sm-8">
-            <h2 class="cat-beer">Adresse de Livraison</h2>
-            <div class="card-show">
-              <h3 class="text-center">
-              LIVRAISON EN FRANCE MÉTROPOLITAINE</h3>
-              <div class="login-form text-center">
-              <%= render 'shared/form_order' %>
-              </div>
+        <div class="col-xs-12 col-sm-8">
+          <h2 class="cat-beer">Adresse de Livraison</h2>
+          <div class="card-show">
+            <h3 class="text-center">
+            LIVRAISON EN FRANCE MÉTROPOLITAINE</h3>
+            <div class="login-form text-center">
+            <%= render 'shared/form_order' %>
             </div>
           </div>
+        </div>
       </div>
       <%= render '/shared/footer' %>
     </div>
