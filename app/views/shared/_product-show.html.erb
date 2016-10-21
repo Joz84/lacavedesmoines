@@ -36,6 +36,9 @@
     <% if @product.specificity %>
       <p class="product-details"> Particularité : <%= @product.specificity.name %></p>
     <% end %>
+    <% if @product.ratebeer && @product.ratebeer != 0.0 %>
+      <p class="product-details"> Score Rate Beer : <%= @product.ratebeer %></p>
+    <% end %>
   </div>
   <div class="card-show-remi-desc pull-right">
     <div class="product-photo-container text-center">

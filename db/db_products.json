@@ -2120,7 +2120,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": "5.3" }
+"degree": "5.3" },
 
 {"sku":"biere-erdinger-pikantus",
 "name":"Erdinger Pikantus",
@@ -2175,7 +2175,7 @@
 "height":841,
 "format":"png",
 "degree": "7" },
-A FAIRE
+
 {"sku":"biere-esprit-d-angelus-ice-bock-33cl",
 "name":"Esprit d'Angelus Ice Bock",
 "alcohol_sku":"biere",
@@ -2192,7 +2192,7 @@ A FAIRE
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-flash-speciale-33cl",
 "name":"Flag Speciale",
@@ -2860,8 +2860,6 @@ A FAIRE
 "format":"png",
 "degree": "5.4" },
 
-LA SUITE ICI
-
 {"sku":"biere-kertvuur",
 "name":"Kertvuur",
 "alcohol_sku":"biere",
@@ -2896,7 +2894,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kilkenny-irish-beer-33cl",
 "name":"Kilkenny Irish beer",
@@ -2914,7 +2912,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kingfisher-premium-33cl",
 "name":"Kingfisher Premium",
@@ -2932,7 +2930,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kloster-andechs-grise",
 "name":"Kloster Andechs Grise",
@@ -2950,7 +2948,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kloster-andechs-jaune",
 "name":"Kloster Andechs Jaune",
@@ -2968,7 +2966,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kompaan-n-39-33cl",
 "name":"Kompaan n°39",
@@ -2986,7 +2984,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kriek-boon-33cl",
 "name":"Kriek Boon",
@@ -3004,7 +3002,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kriek-girardin-1882-33cl",
 "name":"Kriek Girardin 1882",
@@ -3022,7 +3020,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-krombacher-pils",
 "name":"Krombacher Pils",
@@ -3040,7 +3038,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-krombacher-weizen",
 "name":"Krombacher Weizen",
@@ -3058,7 +3056,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kwak-33cl",
 "name":"Kwak",
@@ -3076,7 +3074,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kwak",
 "name":"Kwak",
@@ -3094,7 +3092,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-adepie-blonde",
 "name":"L'Adepie Blonde",
@@ -3112,7 +3110,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-communale-blonde-33cl",
 "name":"L'Agrivoise Communale Blonde",
@@ -3130,7 +3128,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-l-asociale-33cl",
 "name":"l agrivoise l asociale",
@@ -3148,7 +3146,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-vue-sur-l-amer-33cl",
 "name":"l agrivoise vue sur l amer",
@@ -3166,7 +3164,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-angelus-armentieres-33cl",
 "name":"l angelus armentieres",
@@ -3184,7 +3182,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-angelus-triple",
 "name":"l angelus triple",
@@ -3202,7 +3200,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bete-degustation-33cl",
 "name":"la bete degustation",
@@ -3220,7 +3218,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bracine-triple-33cl",
 "name":"la bracine triple",
@@ -3238,7 +3236,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bracine-triple",
 "name":"la bracine triple",
@@ -3256,7 +3254,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-chouffe-soleil-33cl",
 "name":"la chouffe soleil",
@@ -3274,7 +3272,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-chouffe",
 "name":"la chouffe",
@@ -3292,7 +3290,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-corne-du-bois-des-pendus-33cl",
 "name":"la corne du bois des pendus",
@@ -3310,7 +3308,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-amor-33cl",
 "name":"la debauche amor",
@@ -3328,7 +3326,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-black-ale-stout",
 "name":"la debauche black ale stout",
@@ -3346,7 +3344,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-chapitre13",
 "name":"la debauche chapitre13",
@@ -3364,7 +3362,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-cognac-barrel-33cl",
 "name":"la debauche cognac barrel",
@@ -3382,7 +3380,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-demi-mondaine-33cl",
 "name":"la debauche demi mondaine",
@@ -3400,7 +3398,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-imperial-stout-33cl",
 "name":"la debauche imperial stout",
@@ -3418,7 +3416,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-india-stout-black-ale-33cl",
 "name":"la debauche india stout black ale",
@@ -3436,7 +3434,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-into-jean-jacques-33cl",
 "name":"la debauche into jean jacques",
@@ -3454,7 +3452,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-lindy-hop-33cl",
 "name":"la debauche lindy hop",
@@ -3472,7 +3470,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-menestho-33cl",
 "name":"la debauche menestho",
@@ -3490,7 +3488,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-saison-33cl",
 "name":"la debauche saison",
@@ -3508,7 +3506,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-slap-a-banker-33cl",
 "name":"la debauche slap a banker",
@@ -3526,7 +3524,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-summer-odity-33cl",
 "name":"la debauche summer odity",
@@ -3544,7 +3542,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-volga-pale-ale-33cl",
 "name":"la debauche volga pale ale",
@@ -3562,7 +3560,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-moneuse",
 "name":"la moneuse",
@@ -3580,7 +3578,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-du-bassin-blonde-33cl",
 "name":"la petite du bassin blonde",
@@ -3598,7 +3596,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blanche",
 "name":"la petite martial blanche",
@@ -3616,7 +3614,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blonde-33cl",
 "name":"la petite martial blonde",
@@ -3634,7 +3632,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blonde",
 "name":"la petite martial blonde",
@@ -3652,7 +3650,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martiale-blanche-33cl",
 "name":"la petite martiale blanche",
@@ -3670,7 +3668,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-rouste-33cl",
 "name":"la rouste",
@@ -3688,7 +3686,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-saison-bfm",
 "name":"la saison bfm",
@@ -3706,7 +3704,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-vermontoise",
 "name":"la vermontoise",
@@ -3724,7 +3722,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-landbier-monchsbof",
 "name":"landbier monchsbof",
@@ -3742,7 +3740,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-blonde-33cl",
 "name":"lapepie blonde",
@@ -3760,7 +3758,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-martian-amber-ale-33cl",
 "name":"lapepie martian amber ale",
@@ -3778,7 +3776,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-ouest-coast-33cl",
 "name":"lapepie ouest coast",
@@ -3796,7 +3794,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-perigord-pale-ale-33cl",
 "name":"lapepie perigord pale ale",
@@ -3814,7 +3812,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-leute-bokbier-33cl",
 "name":"leute bokbier",
@@ -3832,7 +3830,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-fruitesse-on-the-rocks-33cl",
 "name":"liefmans fruitesse on the rocks",
@@ -3850,7 +3848,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-goudenband-33cl",
 "name":"liefmans goudenband",
@@ -3868,7 +3866,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-goudenband",
 "name":"liefmans goudenband",
@@ -3886,7 +3884,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-kriek-33cl",
 "name":"liefmans kriek",
@@ -3904,7 +3902,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-kriek",
 "name":"liefmans kriek",
@@ -3922,7 +3920,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-apple-25cl",
 "name":"lindemans apple 25cl",
@@ -3940,7 +3938,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-apple",
 "name":"lindemans apple",
@@ -3958,7 +3956,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-cassis-33cl",
 "name":"lindemans cassis",
@@ -3976,7 +3974,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-faro-brown-33cl",
 "name":"lindemans faro brown",
@@ -3994,7 +3992,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-faro-green",
 "name":"lindemans faro green",
@@ -4012,7 +4010,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise-33cl",
 "name":"lindemans framboise",
@@ -4030,7 +4028,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise",
 "name":"lindemans framboise",
@@ -4048,7 +4046,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise2",
 "name":"lindemans framboise2",
@@ -4066,7 +4064,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-gueuze-33cl",
 "name":"lindemans gueuze",
@@ -4084,7 +4082,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek-25cl",
 "name":"lindemans kriek 25cl",
@@ -4102,7 +4100,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek",
 "name":"lindemans kriek",
@@ -4120,7 +4118,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek2",
 "name":"lindemans kriek2",
@@ -4138,7 +4136,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-pecheresse-25cl",
 "name":"lindemans pecheresse 25cl",
@@ -4156,7 +4154,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindenmans-faro",
 "name":"lindenmans faro",
@@ -4174,7 +4172,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lupulus-hopera-33cl",
 "name":"lupulus hopera",
@@ -4192,7 +4190,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lupulus",
 "name":"lupulus",
@@ -4210,7 +4208,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mad-machine-big-boy-33cl",
 "name":"mad machine big boy",
@@ -4228,7 +4226,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-maree-noire-33cl",
 "name":"maree noire",
@@ -4246,7 +4244,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-maree-noire",
 "name":"maree noire",
@@ -4264,7 +4262,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mikkeler-copenhagen-33cl",
 "name":"mikkeler copenhagen",
@@ -4282,7 +4280,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-bio",
 "name":"moinette bio",
@@ -4300,7 +4298,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-blonde-33cl",
 "name":"moinette blonde",
@@ -4318,7 +4316,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-blonde",
 "name":"moinette blonde",
@@ -4336,7 +4334,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-banana-33cl",
 "name":"mongozo banana",
@@ -4354,7 +4352,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-coconut-33cl",
 "name":"mongozo coconut",
@@ -4372,7 +4370,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-mango-33cl",
 "name":"mongozo mango",
@@ -4390,7 +4388,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-premium-pilzener-gluten-free-33cl",
 "name":"mongozo premium pilzener gluten free",
@@ -4408,7 +4406,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ambree-33cl",
 "name":"mongy ambree",
@@ -4426,7 +4424,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ambree",
 "name":"mongy ambree",
@@ -4444,7 +4442,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-blonde-33cl",
 "name":"mongy blonde",
@@ -4462,7 +4460,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ipa-bleue",
 "name":"mongy ipa bleue",
@@ -4480,7 +4478,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-triple-33cl",
 "name":"mongy triple",
@@ -4498,7 +4496,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-triple",
 "name":"mongy triple",
@@ -4516,7 +4514,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-monks-stout-dupont-33cl",
 "name":"monks stout dupont",
@@ -4534,7 +4532,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mont-des-cats-33cl",
 "name":"mont des cats",
@@ -4552,7 +4550,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-montagnarde-ambree-33cl",
 "name":"montagnarde ambree",
@@ -4570,7 +4568,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-montagnarde-ambree",
 "name":"montagnarde ambree",
@@ -4588,7 +4586,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moralite-american-ipa-33cl",
 "name":"moralite american IPA",
@@ -4606,7 +4604,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mort-subite-white-lambic-33cl",
 "name":"mort subite white lambic",
@@ -4624,7 +4622,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mosaic-session-bordeaux-33cl",
 "name":"mosaic session bordeaux",
@@ -4642,7 +4640,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moustous-ambree-33cl",
 "name":"moustous ambree",
@@ -4660,7 +4658,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mystic-radler-33cl",
 "name":"mystic radler",
@@ -4678,7 +4676,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mythos-premium-33cl",
 "name":"mythos premium",
@@ -4696,7 +4694,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nanu-nanu-ipa-33cl",
 "name":"nanu nanu ipa",
@@ -4714,7 +4712,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nazio-rale",
 "name":"nazio rale",
@@ -4732,7 +4730,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nivard-trappist-33cl",
 "name":"nivard trappist",
@@ -4750,7 +4748,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nogne",
 "name":"nogne",
@@ -4768,7 +4766,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-noir-de-dottignies-33cl",
 "name":"noir de dottignies",
@@ -4786,7 +4784,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-noir-de-dottignies",
 "name":"noir de dottignies",
@@ -4804,7 +4802,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nos-illustres-rituels-la-cuvee-des-barbus-double-oat-meal-stout-33cl",
 "name":"nos illustres rituels la cuvee des barbus double oat meal stout",
@@ -4822,7 +4820,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nova-vinum-poiron-dabin",
 "name":"nova vinum poiron dabin",
@@ -4840,7 +4838,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oerbier-33cl",
 "name":"oerbier",
@@ -4858,7 +4856,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oesterstout-stout-33cl",
 "name":"oesterstout stout",
@@ -4876,7 +4874,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-orval-33cl",
 "name":"orval",
@@ -4894,7 +4892,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oude-gueuze-cuvee-rene",
 "name":"oude gueuze cuvee rene",
@@ -4912,7 +4910,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-ipa-33cl",
 "name":"paijas IPA",
@@ -4930,7 +4928,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-blonde-33cl",
 "name":"paijas blonde",
@@ -4948,7 +4946,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-brune-33cl",
 "name":"paijas brune",
@@ -4966,7 +4964,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-saison-33cl",
 "name":"paijas saison",
@@ -4984,7 +4982,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-palm-na-33cl",
 "name":"palm na",
@@ -5002,7 +5000,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pannepot-33cl",
 "name":"pannepot",
@@ -5020,7 +5018,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pannepot-reserva-33cl",
 "name":"pannepot reserva",
@@ -5038,7 +5036,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pecheresse-33cl",
 "name":"pecheresse",
@@ -5056,7 +5054,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pecheresse",
 "name":"pecheresse",
@@ -5074,7 +5072,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-poperings-hommel-bier-33cl",
 "name":"poperings hommel bier",
@@ -5092,7 +5090,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-poperings-hommel-bier",
 "name":"poperings hommel bier",
@@ -5110,7 +5108,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert-33cl",
 "name":"queue de charrue ploegsteert",
@@ -5128,7 +5126,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert-triple-33cl",
 "name":"queue de charrue ploegsteert triple",
@@ -5146,7 +5144,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert",
 "name":"queue de charrue ploegsteert",
@@ -5164,7 +5162,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quilmes-argentina-33cl",
 "name":"quilmes argentina",
@@ -5182,7 +5180,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quintine-ambree-33cl",
 "name":"quintine ambree",
@@ -5200,7 +5198,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quintine-blonde-33cl",
 "name":"quintine blonde",
@@ -5218,7 +5216,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ramee-ambree-33cl",
 "name":"ramee ambree",
@@ -5236,7 +5234,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rasputin-imp-stout-ish",
 "name":"rasputin imp stout ish",
@@ -5254,7 +5252,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rodenbach-33cl",
 "name":"rodenbach",
@@ -5272,7 +5270,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rodenbach-caractere-rouge",
 "name":"rodenbach caractere rouge",
@@ -5290,7 +5288,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rogue-hazelnut-brown-nectar",
 "name":"rogue hazelnut brown nectar",
@@ -5308,7 +5306,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rosee-d-hibiscus-33cl",
 "name":"rosee d hibiscus",
@@ -5326,7 +5324,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rothaus-pils-33cl",
 "name":"rothaus pils",
@@ -5344,7 +5342,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saigon-export-33cl",
 "name":"saigon export",
@@ -5362,7 +5360,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-cazeau-33cl",
 "name":"saison cazeau",
@@ -5380,7 +5378,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-de-dottignies-33cl",
 "name":"saison de dottignies",
@@ -5398,7 +5396,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-de-dottignies",
 "name":"saison de dottignies",
@@ -5416,7 +5414,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-33cl",
 "name":"saison dupont",
@@ -5434,7 +5432,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-bio-33cl",
 "name":"saison dupont bio",
@@ -5452,7 +5450,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-bio",
 "name":"saison dupont bio",
@@ -5470,7 +5468,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-schneider-weisse-tap7",
 "name":"schneider weisse tap7",
@@ -5488,7 +5486,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-scotch-silly-33cl",
 "name":"scotch silly",
@@ -5506,7 +5504,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-scotch-silly",
 "name":"scotch silly",
@@ -5524,7 +5522,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-sequere-amber-ale-33cl",
 "name":"sequere amber ale",
@@ -5542,7 +5540,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-sequere-golden-ale-33cl",
 "name":"sequere golden ale",
@@ -5560,7 +5558,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-serafya-grand-cru-33cl",
 "name":"serafya grand cru",
@@ -5578,7 +5576,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shofferhofer",
 "name":"shofferhofer",
@@ -5596,7 +5594,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-jaune-33cl",
 "name":"shuc jaune",
@@ -5614,7 +5612,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-jaune",
 "name":"shuc jaune",
@@ -5632,7 +5630,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-orange-33cl",
 "name":"shuc orange",
@@ -5650,7 +5648,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-rouge-33cl",
 "name":"shuc rouge",
@@ -5668,7 +5666,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-singha-premium-import-33cl",
 "name":"singha premium import",
@@ -5686,7 +5684,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-single-wide-ipa-33cl",
 "name":"single wide IPA",
@@ -5704,7 +5702,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-smoked-porter-alaskan",
 "name":"smoked porter alaskan",
@@ -5722,7 +5720,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-smokey-li-33cl",
 "name":"smokey li",
@@ -5740,7 +5738,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-spencer-trappist-33cl",
 "name":"spencer trappist",
@@ -5758,7 +5756,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-spencer-trappist",
 "name":"spencer trappist",
@@ -5776,7 +5774,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-feuillien-grand-cru",
 "name":"st feuillien grand cru",
@@ -5794,7 +5792,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-feuillien-triple-33cl",
 "name":"st feuillien triple",
@@ -5812,7 +5810,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-paul-blonde-33cl",
 "name":"st paul blonde",
@@ -5830,7 +5828,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straffe-hendrik-33cl",
 "name":"straffe hendrik",
@@ -5848,7 +5846,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straffe-hendrik-quadruple-33cl",
 "name":"straffe hendrik quadruple",
@@ -5866,7 +5864,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straropramen-prague-33cl",
 "name":"straropramen prague",
@@ -5884,7 +5882,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-super-baladin-bitter",
 "name":"super baladin bitter",
@@ -5902,7 +5900,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tank-7-farmhouse-ale",
 "name":"tank 7 farmhouse ale",
@@ -5920,7 +5918,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-taras-boulba-33cl",
 "name":"taras boulba",
@@ -5938,7 +5936,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tasty-lady-by-women-33cl",
 "name":"tasty lady by women",
@@ -5956,7 +5954,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ter-dolen-armand-33cl",
 "name":"ter dolen armand",
@@ -5974,7 +5972,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ter-dolen-kriek-33cl",
 "name":"ter dolen kriek",
@@ -5992,7 +5990,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-terenez-blonde",
 "name":"terenez blonde",
@@ -6010,7 +6008,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-terenez-brune",
 "name":"terenez brune",
@@ -6028,7 +6026,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-the-wipers-times-blonde-33cl",
 "name":"the wipers times blonde",
@@ -6046,7 +6044,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-the-wipers-times",
 "name":"the wipers times",
@@ -6064,7 +6062,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-thorberg-five-33cl",
 "name":"thorberg five",
@@ -6082,7 +6080,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-thornbridge-hall-imperial-raspberry-stout",
 "name":"thornbridge hall imperial raspberry stout",
@@ -6100,7 +6098,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tournay-noire-33cl",
 "name":"tournay noire",
@@ -6118,7 +6116,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappist-archel-33cl",
 "name":"trappist archel",
@@ -6136,7 +6134,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappiste-rochefort-10-33cl",
 "name":"trappiste rochefort 10",
@@ -6154,7 +6152,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappistes-rochefort-6-33cl",
 "name":"trappistes rochefort 6",
@@ -6172,7 +6170,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tre-fontane-triple-33cl",
 "name":"tre fontane triple",
@@ -6190,7 +6188,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tripel-karmeliet-33cl",
 "name":"tripel karmeliet",
@@ -6208,7 +6206,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tripel-karmeliet",
 "name":"tripel karmeliet",
@@ -6226,7 +6224,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-triple-buse",
 "name":"triple buse",
@@ -6244,7 +6242,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-blonde-33cl",
 "name":"troubadour blonde",
@@ -6262,7 +6260,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-blonde",
 "name":"troubadour blonde",
@@ -6280,7 +6278,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-imperial-stout-33cl",
 "name":"troubadour imperial stout",
@@ -6298,7 +6296,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-magma-33cl",
 "name":"troubadour magma",
@@ -6316,7 +6314,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-magma",
 "name":"troubadour magma",
@@ -6334,7 +6332,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-obscura-33cl",
 "name":"troubadour obscura",
@@ -6352,7 +6350,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-stout",
 "name":"troubadour stout",
@@ -6370,7 +6368,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-westkust-33cl",
 "name":"troubadour westkust",
@@ -6388,7 +6386,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-westkust",
 "name":"troubadour westkust",
@@ -6406,7 +6404,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-truth-can-set-you-free-33cl",
 "name":"truth can set you free",
@@ -6424,7 +6422,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tseeses-reserva-33cl",
 "name":"tseeses reserva",
@@ -6442,7 +6440,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tumulus-nera-33cl",
 "name":"tumulus nera",
@@ -6460,7 +6458,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-v-cense",
 "name":"v cense",
@@ -6478,7 +6476,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-viven-imperial-ipa-33cl",
 "name":"viven imperial IPA",
@@ -6496,7 +6494,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-viven-porter-33cl",
 "name":"viven porter",
@@ -6514,7 +6512,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-voisin-ambree-33cl",
 "name":"voisin ambree",
@@ -6532,7 +6530,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-watou-s-blanche-33cl",
 "name":"watou s blanche",
@@ -6550,7 +6548,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-weihenstephaner-premium-bavaricum",
 "name":"weihenstephaner premium bavaricum",
@@ -6568,7 +6566,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-weihenstephaner-vitus",
 "name":"weihenstephaner vitus",
@@ -6586,7 +6584,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westmall-trappist-triple-33cl",
 "name":"westmall trappist triple",
@@ -6604,7 +6602,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westmalle-trappist-dubbel-33cl",
 "name":"westmalle trappist dubbel",
@@ -6622,7 +6620,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westoek-xx-tripe-33cl",
 "name":"westoek XX tripe",
@@ -6640,7 +6638,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wieze-triple",
 "name":"wieze triple",
@@ -6658,7 +6656,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wild-lab-hoppy-saison-33cl",
 "name":"wild lab hoppy saison",
@@ -6676,7 +6674,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-bleue",
 "name":"wilde leew bleue",
@@ -6694,7 +6692,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-noire",
 "name":"wilde leew noire",
@@ -6712,7 +6710,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-orange",
 "name":"wilde leew orange",
@@ -6730,7 +6728,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-rouge",
 "name":"wilde leew rouge",
@@ -6748,7 +6746,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-verte",
 "name":"wilde leew verte",
@@ -6766,7 +6764,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ypres-double-barrel-aged-fob-33cl",
 "name":"ypres double barrel aged fob",
@@ -6784,7 +6782,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zeezuiper-tripel-33cl",
 "name":"zeezuiper tripel",
@@ -6802,7 +6800,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zinne-bir-33cl",
 "name":"zinne bir",
@@ -6820,7 +6818,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zundert-trappist-33cl",
 "name":"zundert trappist",
@@ -6838,7 +6836,7 @@ LA SUITE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-a-bergere-blanc-de-blanc",
 "name":"a bergere blanc de blanc",
@@ -6856,7 +6854,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-denis-marx-brut-tradition",
 "name":"denis marx brut tradition",
@@ -6874,7 +6872,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-denis-marx-brut",
 "name":"denis marx brut",
@@ -6892,7 +6890,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"cremant-de-bordeaux-effervescence-de-saint-clerc",
 "name":"de bordeaux effervescence de saint clerc",
@@ -6910,7 +6908,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"cremant-de-bordeaux-jaillance-cuvee-de-l-abbaye",
 "name":"de bordeaux jaillance cuvee de l abbaye",
@@ -6928,7 +6926,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-120-chardonnay-blanc",
 "name":"120 chardonnay blanc",
@@ -6946,7 +6944,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-a6mani-negroamaro-rouge",
 "name":"a6mani negroamaro rouge",
@@ -6964,7 +6962,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-argento-malbec-rouge",
 "name":"argento malbec rouge",
@@ -6982,7 +6980,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-brancott-estate-pinot-noir",
 "name":"brancott estate pinot noir",
@@ -7000,7 +6998,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-cahors-cedre-heritage-malbec-rouge",
 "name":"cahors cedre heritage malbec rouge",
@@ -7018,7 +7016,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-carmenere-mountain-view-vineyards-rouge",
 "name":"carmenere mountain view vineyards rouge",
@@ -7036,7 +7034,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-casal-mendes-vinho-verde-blanc",
 "name":"casal mendes vinho verde blanc",
@@ -7054,7 +7052,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-catanga-organic-wine-rouge",
 "name":"catanga organic wine rouge",
@@ -7072,7 +7070,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-baron-trousse-bergere-cotes-de-bourg-rouge",
 "name":"chateau baron trousse bergere cotes de bourg rouge",
@@ -7090,7 +7088,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-cote-montpezat-bordeaux-blanc",
 "name":"chateau cote montpezat bordeaux blanc",
@@ -7108,7 +7106,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-coutural-cuvee-prestige-rouge",
 "name":"chateau coutural cuvee prestige rouge",
@@ -7126,7 +7124,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-de-camarsac-rouge",
 "name":"chateau de camarsac rouge",
@@ -7144,7 +7142,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-de-lascaux-rose",
 "name":"chateau de lascaux rose",
@@ -7162,7 +7160,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-des-moines-lalande-pomerol-rouge",
 "name":"chateau des moines lalande pomerol rouge",
@@ -7180,7 +7178,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-gaillot-fournier-rouge-37_5cl",
 "name":"chateau gaillot fournier rouge 37_5cl",
@@ -7198,7 +7196,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-gaillot-fournier-rouge",
 "name":"chateau gaillot fournier rouge",
@@ -7216,7 +7214,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-haut-maurac-bellecour-medoc-rouge",
 "name":"chateau haut maurac bellecour medoc rouge",
@@ -7234,7 +7232,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lamoth-de-haux-rouge",
 "name":"chateau lamoth de haux rouge",
@@ -7252,7 +7250,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-langoiran-prestige-rouge",
 "name":"chateau langoiran prestige rouge",
@@ -7270,7 +7268,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-langoiran-sauvignon-semillon-bordeaux-blanc",
 "name":"chateau langoiran sauvignon semillon bordeaux blanc",
@@ -7288,7 +7286,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-blanc",
 "name":"chateau lascaux bordeaux blanc",
@@ -7306,7 +7304,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-clairet-37_5cl",
 "name":"chateau lascaux bordeaux clairet 37_5cl",
@@ -7324,7 +7322,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rose",
 "name":"chateau lascaux bordeaux rose",
@@ -7342,7 +7340,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rouge-37_5cl",
 "name":"chateau lascaux bordeaux rouge 37_5cl",
@@ -7360,7 +7358,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rouge",
 "name":"chateau lascaux bordeaux rouge",
@@ -7378,7 +7376,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-milon-ambrosius-saint-emilion-grand-cru-rouge",
 "name":"chateau milon ambrosius saint emilion grand cru rouge",
@@ -7396,7 +7394,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-milon-saint-emilion-grand-cru-rouge-37_5cl",
 "name":"chateau milon saint emilion grand cru rouge 37_5cl",
@@ -7414,7 +7412,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-saint-clerc-blaye-rouge",
 "name":"chateau saint clerc blaye rouge",
@@ -7432,7 +7430,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-saint-clerc-bordeaux-blanc",
 "name":"chateau saint clerc bordeaux blanc",
@@ -7450,7 +7448,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-terrano-calabria-rouge",
 "name":"chateau terrano calabria rouge",
@@ -7468,7 +7466,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-tour-des-cendres-bergerac-rouge",
 "name":"chateau tour des cendres bergerac rouge",
@@ -7486,7 +7484,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-colombelle-charmes-d-automne-gascogne-blanc",
 "name":"colombelle charmes d automne gascogne blanc",
@@ -7504,7 +7502,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-colombelle-l-original-gascogne-blanc",
 "name":"colombelle l original gascogne blanc",
@@ -7522,7 +7520,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-cuvee-heritage-malbec-cahors-rouge",
 "name":"cuvee heritage malbec cahors rouge",
@@ -7540,7 +7538,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-de-vin-coeur-bergerac-rose",
 "name":"domaine de vin coeur bergerac rose",
@@ -7558,7 +7556,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-remiezieres-saint-joseph-rouge",
 "name":"domaine remiezieres saint joseph rouge",
@@ -7576,7 +7574,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-remizieres-crozes-hermitage-rouge",
 "name":"domaine remizieres crozes hermitage rouge",
@@ -7594,7 +7592,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-vins-coeurs-bergerac-rouge",
 "name":"domaine vins coeurs bergerac rouge",
@@ -7612,7 +7610,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-echo-fails-sauvignon-blanc",
 "name":"echo fails sauvignon blanc",
@@ -7630,7 +7628,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-echo-fails-white-zinfandel-rose",
 "name":"echo fails white zinfandel rose",
@@ -7648,7 +7646,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-eguia-rioja-rouge",
 "name":"eguia rioja rouge",
@@ -7666,7 +7664,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-entre-deux-mers-pinot-blanc",
 "name":"entre deux mers pinot blanc",
@@ -7684,7 +7682,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-familia-pacheco-organic-rouge",
 "name":"familia pacheco organic rouge",
@@ -7702,7 +7700,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-funaro-passo-di-luna-blanc",
 "name":"funaro passo di luna blanc",
@@ -7720,7 +7718,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-funaro-passo-di-luna-rouge",
 "name":"funaro passo di luna rouge",
@@ -7738,7 +7736,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-garnacha-roble-botijo-rojo-rouge",
 "name":"garnacha roble botijo rojo rouge",
@@ -7756,7 +7754,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-garnacha-tinta-botijo-rojo-rouge",
 "name":"garnacha tinta botijo rojo rouge",
@@ -7774,7 +7772,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-gosseaume-les-marcottes-rouge",
 "name":"gosseaume les marcottes rouge",
@@ -7792,7 +7790,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-graham-beck-sauvigon-blanc",
 "name":"graham beck sauvigon blanc",
@@ -7810,7 +7808,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-grande-reserve-saint-mont-rouge",
 "name":"grande reserve saint mont rouge",
@@ -7828,7 +7826,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-hardys-varietal-range-shiraz-rouge",
 "name":"hardys varietal range shiraz rouge",
@@ -7846,7 +7844,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-jurancon-happy-blanc",
 "name":"jurancon happy blanc",
@@ -7864,7 +7862,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-kendermanns-riesling-kabinett-blanc",
 "name":"kendermanns riesling kabinett blanc",
@@ -7882,7 +7880,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-laporte-le-bouquet-cabernet-franc-rouge",
 "name":"laporte le bouquet cabernet franc rouge",
@@ -7900,7 +7898,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-laporte-sancerre-le-rochoy-blanc",
 "name":"laporte sancerre le rochoy blanc",
@@ -7918,7 +7916,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-le-clos-des-saumanes-rouge",
 "name":"le clos des saumanes rouge",
@@ -7936,7 +7934,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-le-peche-des-moines-lalande-pomerol-rouge",
 "name":"le peche des moines lalande pomerol rouge",
@@ -7954,7 +7952,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-lo-zoccolaio-sucule-barbera-d-alba-rouge",
 "name":"lo zoccolaio sucule barbera d alba rouge",
@@ -7972,7 +7970,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-marlborough-ridge-sauvignon-blanc",
 "name":"marlborough ridge sauvignon blanc",
@@ -7990,7 +7988,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mayne-david-cotes-de-castillon-rouge",
 "name":"mayne david cotes de castillon rouge",
@@ -8008,7 +8006,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-medalla-real-santa-rita-rouge",
 "name":"medalla real santa rita rouge",
@@ -8026,7 +8024,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-monastere-de-saint-mont-rouge",
 "name":"monastere de saint mont rouge",
@@ -8044,7 +8042,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mountain-view-vineyards-carmenere-rouge",
 "name":"mountain view vineyards carmenere rouge",
@@ -8062,7 +8060,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mountain-view-vineyards-merlot-rouge",
 "name":"mountain view vineyards merlot rouge",
@@ -8080,7 +8078,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-ned-sauvignon-blanc",
 "name":"ned sauvignon blanc",
@@ -8098,7 +8096,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-oceanide-saint-mont-rose",
 "name":"oceanide saint mont rose",
@@ -8116,7 +8114,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pachenrec-du-vic-bilb-saint-albert-blanc",
 "name":"pachenrec du vic bilb saint albert blanc",
@@ -8134,7 +8132,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pinot-grigio-brezanze-blanc",
 "name":"pinot grigio brezanze blanc",
@@ -8152,7 +8150,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pinot-grigio-delle-venezie-rose",
 "name":"pinot grigio delle venezie rose",
@@ -8170,7 +8168,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-porta-6-rouge",
 "name":"porta 6 rouge",
@@ -8188,7 +8186,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-ravens-wood-old-wine-rouge",
 "name":"ravens wood old wine rouge",
@@ -8206,7 +8204,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-reales-vinedos-anada-rouge",
 "name":"reales vinedos anada rouge",
@@ -8224,7 +8222,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-riondo-prosecco-blanc",
 "name":"riondo prosecco blanc",
@@ -8242,7 +8240,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-rose-de-saint-clerc",
 "name":"rose de saint clerc",
@@ -8260,7 +8258,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-rueda-verdejo-vega-de-la-reina-blanc",
 "name":"rueda verdejo vega de la reina blanc",
@@ -8278,7 +8276,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-sainte-leocadie-lekadios-minervois-rouge",
 "name":"sainte leocadie lekadios minervois rouge",
@@ -8296,7 +8294,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-silver-ghost-cabernet-sauvignon-chile-rouge",
 "name":"silver ghost cabernet sauvignon chile rouge",
@@ -8314,7 +8312,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-silver-ghost-sauvignon-blanc",
 "name":"silver ghost sauvignon blanc",
@@ -8332,7 +8330,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-tokaji-chateau-hellha-blanc",
 "name":"tokaji chateau hellha blanc",
@@ -8350,7 +8348,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-tour-bel-air-fronsac-rouge",
 "name":"tour bel air fronsac rouge",
@@ -8368,7 +8366,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-vina-alarde-rouge",
 "name":"vina alarde rouge",
@@ -8386,7 +8384,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-vina-esmeralda-blanc",
 "name":"vina esmeralda blanc",
@@ -8404,7 +8402,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-wolf-blass-yellow-label-chardonnay-blanc",
 "name":"wolf blass yellow label chardonnay blanc",
@@ -8422,7 +8420,7 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-zlatan-plavac-rouge",
 "name":"zlatan plavac rouge",
@@ -8440,4 +8438,4 @@ LA SUITE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": }]
+"degree": "" }]
