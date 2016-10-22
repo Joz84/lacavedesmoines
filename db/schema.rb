@@ -145,6 +145,7 @@ ActiveRecord::Schema.define(version: 20161006163745) do
     t.float    "promotion"
     t.integer  "rating"
     t.string   "sku"
+    t.float    "ratebeer"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
     t.integer  "price_cents",     default: 0, null: false

@@ -17,6 +17,7 @@ class CreateProducts < ActiveRecord::Migration[5.0]
       t.float :promotion
       t.integer :rating
       t.string :sku
+      t.float :ratebeer
 
       t.timestamps
     end

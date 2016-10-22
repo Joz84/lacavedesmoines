@@ -30,5 +30,6 @@ ActiveAdmin.register Product do
                 :promotion,
                 :rating,
                 :sku,
+                :ratebeer,
                 :photos
 end

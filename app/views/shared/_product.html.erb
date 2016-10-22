@@ -8,10 +8,18 @@
                                       color: product.color.sku,
                                       capacity: product.capacity
                                       })  %></h1>
+
       <div class="product-cap-deg-price">
-        <p class="product-capacity"><%= product.capacity %> cl</p>
-        <p class="degree"><%= product.degree %> %</p>
-        <p class="price-show-index">Prix : <%= product.price %> €</p>
+
+      <div style="font-size: 160%;height: auto;padding-top: 10%;">
+        <p style="font-size: 150%;line-height: 10px;"><%= product.capacity %> cl</p>
+        <% if product.degree == product.degree.to_i %>
+          <h1 class ="degree"><%= "#{product.degree.to_i} %" %></h1>
+        <% else %>
+          <h1 class ="degree"><%= product.degree %>%</h1>
+        <% end %>
+        <p style="margin-top:2px;font-size: 19px;" class="price-show-index">Prix : <%= product.price %> €</p>
+
       </div>
     </div>
     <div class="col-xs-12 col-sm-6">

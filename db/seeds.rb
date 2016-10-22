@@ -40,17 +40,18 @@ products.each do |p|
   Kind.create(          name: p["kind_sku"],          sku: convert_to_sku(p["kind_sku"]) )
   Region.create(        name: p["region_sku"],        sku: convert_to_sku(p["region_sku"]) )
   Specificity.create(   name: p["specificity_sku"],   sku: convert_to_sku(p["specificity_sku"]) )
-  product = Product.new( name:         p["name"] ,
-                            sku:          p["sku"],
-                            capacity:     p["capacity"],
-                            degree:       p["degree"].to_f,
-                            alcohol:      Alcohol.find_by(      sku: p["alcohol_sku"] ),
-                            brewery:      Brewery.find_by(      sku: convert_to_sku(p["brewery_sku"]) ),
-                            color:        Color.find_by(        sku: convert_to_sku(p["color_sku"]) ),
-                            fermentation: Fermentation.find_by( sku: convert_to_sku(p["fermentation_sku"]) ),
-                            kind:         Kind.find_by(         sku: convert_to_sku(p["kind_sku"]) ),
-                            region:       Region.find_by(       sku: convert_to_sku(p["region_sku"]) ),
-                            specificity:  Specificity.find_by(  sku: convert_to_sku(p["specificity_sku"]) ))
+  product = Product.new(  name:         p["name"] ,
+                          sku:          p["sku"],
+                          capacity:     p["capacity"],
+                          degree:       p["degree"].to_f,
+                          alcohol:      Alcohol.find_by(      sku: p["alcohol_sku"] ),
+                          brewery:      Brewery.find_by(      sku: convert_to_sku(p["brewery_sku"]) ),
+                          color:        Color.find_by(        sku: convert_to_sku(p["color_sku"]) ),
+                          fermentation: Fermentation.find_by( sku: convert_to_sku(p["fermentation_sku"]) ),
+                          kind:         Kind.find_by(         sku: convert_to_sku(p["kind_sku"]) ),
+                          region:       Region.find_by(       sku: convert_to_sku(p["region_sku"]) ),
+                          specificity:  Specificity.find_by(  sku: convert_to_sku(p["specificity_sku"]) ),
+                          ratebeer:     Beerate.run(p["name"]))
   product.price = p["price"].to_f
   puts "#{product.name} : #{product.valid?}"
   unless product.valid?
