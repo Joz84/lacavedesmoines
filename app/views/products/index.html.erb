@@ -1,46 +1,46 @@
 <div id="fadein">
   <div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
-    <div class="navbar-fixed-container">
-      <%= render '/shared/navbar-product-index' %>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-2">
-        <div class="news-fixed">
-         <%= render '/shared/news' %>
+      <div class="row">
+        <div class="container-fluid navbar-fixed-container">
+          <%= render '/shared/navbar-product-index' %>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-8">
-        <h2 class="cat-beer">Vous partiriez sur :</h2>
-        <div class="container-fluid">
-          <div class="row">
-            <div>
-              <% if @products.count != 0 %>
-                <% @products.each do |product| %>
-                  <div class="col-xs-12">
-                    <div class="card-show-index">
-                      <%= render partial: '/shared/product', locals: { product: product } %>
+        <div class="col-xs-12 col-sm-2">
+          <div class="news-fixed">
+           <%= render '/shared/news' %>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <h2 class="cat-beer">Vous partiriez sur :</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div>
+                <% if @products.count != 0 %>
+                  <% @products.each do |product| %>
+                    <div class="col-xs-12">
+                      <div class="card-show-index">
+                        <%= render partial: '/shared/product', locals: { product: product } %>
+                      </div>
                     </div>
-                  </div>
+                  <% end %>
+                <% else %>
+                <div class="no-product text-center">
+                  Pas de résultat immédiat pour cette recherche, appelez-nous au 09.81.02.42.42 pour qu'on vous commande ce produit chez un fournisseur !
+                </div>
+                <div class="random-choice text-center">
+                  En si on essayait... un article au hasard !<br />
+                  <%= link_to cl_image_tag("icons/random-icon.png", class: 'random-icon'), random_product_path, method: :post %>
+                </div>
                 <% end %>
-              <% else %>
-              <div class="no-product text-center">
-                Pas de résultat immédiat pour cette recherche, appelez-nous au 09.81.02.42.42 pour qu'on vous commande ce produit chez un fournisseur !
               </div>
-              <div class="random-choice text-center">
-                En si on essayait... un article au hasard !<br />
-                <%= link_to cl_image_tag("icons/random-icon.png", class: 'random-icon'), random_product_path, method: :post %>
-              </div>
-              <% end %>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-2">
-        <div class="refine-search refine-fixed">
-          <%= render 'shared/refine-search' %>
+        <div class="col-xs-12 col-sm-2">
+          <div class="refine-search refine-fixed">
+            <%= render 'shared/refine-search' %>
+          </div>
         </div>
       </div>
-    </div>
   </div>
   <%= render '/shared/footer' %>
 </div>

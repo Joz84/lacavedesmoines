@@ -43,6 +43,7 @@ a:hover {
     top: 20px;
   }
 
+  padding-top: 10px;
   font-size: 92%;
 
   a {
@@ -147,6 +148,7 @@ h2.cat-beer {
   position: fixed;
   height: 5vh;
   left: 1px;
+  width: 100vw;
   }
 }
 
@@ -178,4 +180,6 @@ h2.cat-beer {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-top:2px;
+  font-size: 19px;
 }

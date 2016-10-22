@@ -8,10 +8,10 @@
                                       color: product.color.sku,
                                       capacity: product.capacity
                                       })  %></h1>
-      <div style="font-size: 160%;height: auto;padding-top: 10%;">
-        <p style="font-size: 150%;line-height: 10px;"><%= product.capacity %> cl</p>
-        <p><h1 class="degree"><%= product.degree %> %</p></h3>
-        <p style="margin-top:2px;font-size: 19px;" class="price-show-index">Prix : <%= product.price %> €</p>
+      <div class="product-cap-deg-price">
+        <p class="product-capacity"><%= product.capacity %> cl</p>
+        <p class="degree"><%= product.degree %> %</p>
+        <p class="price-show-index">Prix : <%= product.price %> €</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6">
@@ -33,7 +33,7 @@
       </div>
     </div>
 </div>
-<!--     <div class="col-xs-12 col-sm-8">
+<!-- <div class="col-xs-12 col-sm-8">
       <p>Provenance : <%= product.region.name %></p>
       <p>Brasserie : <%= product.brewery.name %></p>
       <p>Type : <%= product.kind.name %></p>
