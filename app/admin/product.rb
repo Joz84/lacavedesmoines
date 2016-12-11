@@ -20,7 +20,7 @@ ActiveAdmin.register Product do
     end
     f.inputs "Country" do
       f.input :country
-      f.input :photos
+      f.input :photos, as: :formtastic_attachinary
     end
     f.actions
   end
