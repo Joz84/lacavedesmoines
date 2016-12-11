@@ -30,8 +30,8 @@ ActiveAdmin.register Order do
     actions
   end
 
-  permit_params :deposit,
-                :user,
+  permit_params :deposit_id,
+                :user_id,
                 :delivery,
                 :address,
                 :complement,

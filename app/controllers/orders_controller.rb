@@ -30,6 +30,15 @@ class OrdersController < ApplicationController
     redirect_to dashboard_path
   end
 
+  def done
+    if current_user.admin
+      @order = Order.find(params[:id])
+      @order.state = "livrée"
+      @order.save
+      redirect_to admin_dashboard_path
+    end
+  end
+
   private
 
   def order_params

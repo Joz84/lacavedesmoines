@@ -13,54 +13,22 @@ ActiveAdmin.register_page "Dashboard" do
     # Here is an example of a simple dashboard with columns and panels.
     #
     columns do
-      column do
-        panel "N°" do
-        end
-      end
-      column do
-        panel "Nom" do
-        end
-      end
-      column do
-        panel "Adresse" do
-        end
-      end
-      column do
-        panel "Prix" do
-        end
-      end
-      column do
-        panel "Envois" do
-        end
-      end
-      column do
-        panel "Statut" do
-        end
-      end
+      column { panel "N°" }
+      column { panel "Nom" }
+      column { panel "Adresse" }
+      column { panel "Prix" }
+      column { panel "Envois" }
+      column { panel "Statut" }
     end
 
     Order.where(state: 'payée').map do |order|
       columns do
-        column do
-          # panel "Liste des commandes en cours" do
-          # li link_to(order.title, admin_post_path(post))
-          order.id
-        end
-        column do
-          order.user.name
-        end
-        column do
-          order.order_address
-        end
-        column do
-          "#{order.amount} €"
-        end
-        column do
-          order.postal_costs == 0 ? "livraison" : "colis"
-        end
-        column do
-          link_to "effectué", root_path
-        end
+        column { order.id }
+        column { order.user.name }
+        column { order.order_address }
+        column { "#{order.amount} €" }
+        column { order.postal_costs == 0 ? "livraison" : "colis" }
+        column { link_to "effectué", done_path(order.id), method: :patch }
       end
     end
     #   column do

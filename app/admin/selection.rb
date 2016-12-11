@@ -13,8 +13,8 @@ ActiveAdmin.register Selection do
 #   permitted
 # end
 
-  permit_params :product,
-                :order,
+  permit_params :product_id,
+                :order_id,
                 :quantity
 
 end
