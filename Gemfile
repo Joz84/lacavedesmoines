@@ -40,3 +40,6 @@ gem 'cloudinary', '1.1.0'
 gem "attachinary", github: "assembler/attachinary"
 gem "jquery-fileupload-rails"
 gem "coffee-rails"
+
+gem "geocoder"
+gem 'country_select'

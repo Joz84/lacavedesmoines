@@ -1,10 +1,22 @@
-<h2 style="margin-bottom:16px">Affiner votre recherche</h2>
-<%= simple_form_for :research, url: products_path, html: { class: "refine-word"}, method: :get do |f| %>
-  <%= f.error_notification %>
-  <%= f.input :color, collection: @list_colors, label: 'Couleur', input_html: {style: 'width: 100%'}%>
-  <%= f.input :kind, collection: @list_kinds, label: 'Type' %>
-  <%= f.input :brewery, collection: @list_breweries, label: 'Brasserie' %>
-  <div class="fluid-container">
+<div class="container-fluid">
+  <h2 style="margin-bottom:16px">Affiner votre recherche</h2>
+  <%= simple_form_for :research, url: products_path, method: :get do |f| %>
+    <%= f.error_notification %>
+    <div class="row">
+      <div class="col-xs-12">
+        <%= f.input :color, collection: @list_colors, label: 'Couleur'%>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <%= f.input :kind, collection: @list_kinds, label: 'Type' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <%= f.input :brewery, collection: @list_breweries, label: 'Brasserie' %>
+      </div>
+    </div>
     <div class="row">
       <div class="col-xs-6">
         <%= f.input :min_price, collection: @list_prices, label: 'Prix min' %>
@@ -13,6 +25,10 @@
         <%= f.input :max_price, collection: @list_prices, label: 'Prix max' %>
       </div>
     </div>
-  </div>
-  <%= f.button :submit, class: 'btn-outline-secondary refine-search-button', value: "Rechercher", data: { disable_with: "Rechercher" } %>
+    <div class="row">
+      <div class="col-xs-12">
+        <%= f.button :submit, class: 'btn-outline-secondary refine-search-button', value: "Rechercher", data: { disable_with: "Rechercher" } %>
+      </div>
+    </div>
   <% end %>
+</div>

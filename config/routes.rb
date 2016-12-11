@@ -3,12 +3,11 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
   get "dashboard" , to: "pages#dashboard", as: "dashboard"
+  get "mentions" , to: "pages#mentions", as: "mentions"
 
   post "random_product", to: "products#random", as: "random_product"
-
   resources :products, only: [:index]
   get "product/:id/:sku/:alcohol/:brewery/:color/:capacity", to: "products#show", as: "product"
-  get 'mentions', to: "pages#mentions", as: "mentions"
   resources :carts, only: [:create]
   patch "cart" , to: "carts#update"
   put "cart" , to: "carts#update"

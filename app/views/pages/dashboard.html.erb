@@ -23,7 +23,7 @@
                     </ul>
                     <%= order.state %>
                     <% if order.state == "non payée" %> -
-                      <%= link_to "finaliser la commande", new_order_path(order), style: 'font-weight:bold' %><br />
+                      <%= link_to "finaliser la commande", new_order_payment_path(order), style: 'font-weight:bold' %><br />
                       ou <%= link_to "annuler la commande", order_path(order), method: :delete %>
                     <% end %>
                   </li>

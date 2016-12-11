@@ -13,6 +13,23 @@ ActiveAdmin.register Order do
 #   permitted
 # end
 #
+
+  index do
+    selectable_column
+    column :id
+    column :user
+    column :address
+    column :complement
+    column :postal_code
+    column :city
+    column :country
+    column :telephone
+    column :state
+    column :amount
+    column :created_at
+    actions
+  end
+
   permit_params :deposit,
                 :user,
                 :delivery,
@@ -22,8 +39,10 @@ ActiveAdmin.register Order do
                 :city,
                 :country,
                 :telephone,
-                :state
+                :state,
                 :amount
-                :payment
+                # :payment
+
+
 
 end

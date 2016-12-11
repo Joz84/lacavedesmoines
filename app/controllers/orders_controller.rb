@@ -14,9 +14,10 @@ class OrdersController < ApplicationController
         s.save
       end
       @order.state = "non payée"
-      @order.amount = @order.init_amount
+      @order.amount = @order.init_amount + @order.postal_costs
       @order.save
-      session[:cart] = nil
+      session[:cart] = []
+      session[:errors] = []
       redirect_to new_order_payment_path(@order)
     else
       render :new
