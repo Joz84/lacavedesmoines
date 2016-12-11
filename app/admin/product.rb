@@ -13,6 +13,19 @@ ActiveAdmin.register Product do
 #   permitted
 # end
 
+  form do |f|
+    f.inputs "Identity" do
+      f.input :name
+      f.input :description
+    end
+    f.inputs "Country" do
+      f.input :country
+      f.input :photos
+    end
+    f.actions
+  end
+
+
   permit_params :name,
                 :alcohol,
                 :description,
