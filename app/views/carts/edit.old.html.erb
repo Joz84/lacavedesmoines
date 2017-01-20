@@ -1,0 +1,56 @@
+<div id="fadein">
+  <div class="container-fluid index-products" style = "background: linear-gradient(to right, rgba(2,0,0,0.4) 0%,rgba(2,0,0,0.42) 1%,rgba(0,0,0,0.38) 18%,rgba(214,214,214,0) 25%,rgba(201,201,201,0) 91%,rgba(0,0,0,0.4) 100%), url('http://res.cloudinary.com/cavedesmoines/image/upload/v1473258751/index-products_jkifoo.jpg');">
+    <%= render '/shared/navbar' %>
+    <div class="row">
+      <div class="container-fluid">
+        <div class="col-xs-12 col-sm-2">
+          <%= render '/shared/news' %>
+        </div>
+          <div class="col-xs-12 col-sm-8">
+            <h2 class="cat-beer">Votre Panier</h2>
+            <div class="card-show cart-list">
+              <div class="cart-center">
+              <%= simple_form_for :selected, url: cart_path, method: :patch do |f| %>
+                <ul class="cart-size">
+                  <% session[:cart].each_with_index do |selected, i| %>
+                    <li>
+                      <p style="display:inline-block;font-weight:bold;"><%= "#{selected[:product].name}" %></p>
+                      <p style="display:inline-block"> - <%= "#{selected[:product].price}" %> €</p>
+                      <% if session[:errors].include?(i) %>
+                        <p> La quantité doit être supérieures à 0! </p>
+                      <% end %>
+                      <p style="display: inline-block;"></p>
+                      <%= f.input "quantity_#{i}".to_sym, as: :integer, label: false, input_html: {value: selected[:quantity].to_i || 1, class: 'price'}, style: "width:25%;" %>
+                      </p>
+                      <%= f.input "delete_#{i}".to_sym, as: :boolean, label: "supprimer", style: 'inline-block' %>
+                      <%= f.input "product_id_#{i}".to_sym, as: :hidden, input_html: { value: selected[:product].id }, style: 'inline-block' %>
+                    </li>
+                  <% end %>
+                    <li class="pull-right total">
+                  <% if session[:cart].count != 0 %>
+                    Total : <%= session[:cart].sum { |selected| (selected[:quantity].to_i || 1) * selected[:product].price } %> €
+                  <% end %>
+                    </li>
+                </ul>
+              </div>
+              <div class="text-center" style="margin-top: 40px">
+              <%= f.button :submit, value: "Confirmer la modification", class: 'btn-outline-secondary' %>
+              <%= f.button :submit, value: "Commander", class: 'btn-outline-secondary' %>
+              </div>
+              <% end %>
+              <div class="text-center" style="margin-top:20px;margin-bottom:20px">
+                  (pensez à cliquer sur "Confirmer la modification" pour modifier votre panier)<br /><br />
+                  <b>Livraisons gratuites sur Bordeaux, Portets et Mont-de-Marsan à partir de 20€ d'achats</b><br />
+                  le montant de votre livraison sera calculé après avoir renseigné votre adresse de réception<br />
+                  <b>Délai de livraison : 48h à 72h</b><br />
+                  Consultez nos <a href="http://localhost:3000/mentions" target="_blank">mentions légales</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-xs-12 col-sm-2">
+        </div>
+      </div>
+      <%= render '/shared/footer' %>
+    </div>
+  </div>
+</div>
