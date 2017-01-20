@@ -29,7 +29,6 @@
     <p class="product-details">Contenance : <%= @product.capacity %> cl</p>
     <p class="product-details price-show">Prix : <%= @product.price %> €</p>
     <p class="product-details">Provenance : <%= @product.region.name %></p>
-    <!-- <p class="product-details">Brasserie : <b><%= link_to @product.brewery.name, @product.brewery, class: 'brewery' %></b></p> -->
     <p class="product-details">Type : <%= @product.kind.name %></p>
     <p class="product-details">Couleur : <%= @product.color.name %></p>
     <p class="product-details">Fermentation : <%= @product.fermentation.name %></p>
@@ -37,7 +36,7 @@
       <p class="product-details"> Particularité : <%= @product.specificity.name %></p>
     <% end %>
     <% if @product.ratebeer && @product.ratebeer != 0.0 %>
-      <p class="product-details"> Score Rate Beer : <%= @product.ratebeer %></p>
+      <p class="product-details"> RateBeer : <%= @product.ratebeer.to_i %> / 100</p>
     <% end %>
   </div>
   <div class="card-show-remi-desc pull-right">
