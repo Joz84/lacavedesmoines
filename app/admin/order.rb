@@ -51,9 +51,7 @@ ActiveAdmin.register Order do
                 :telephone,
                 :state,
                 :amount
-                # :payment
-
-
+                :payment
 
   form do |f|
     f.inputs "Caractéristiques" do
