@@ -27,7 +27,7 @@ breweries.each { |b| create_brewery(b) }
 
 Alcohol.create( name: "Bière",     sku: "biere" )
 Alcohol.create( name: "Vin",       sku: "vin" )
-Alcohol.create( name: "Champagne", sku: "champagnee" )
+Alcohol.create( name: "Champagne", sku: "champagne" )
 Alcohol.create( name: "Crémant",   sku: "cremant" )
 
 filepath = "db/db_products.json"

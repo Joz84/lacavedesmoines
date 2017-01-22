@@ -14,7 +14,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-abbaye-des-rocs-brune-33cl",
 "name":"abbaye des rocs brune",
@@ -32,7 +32,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": 9 },
+"degree": "" },
 
 {"sku":"biere-abbaye-des-rocs-brune",
 "name":"abbaye des rocs brune",
@@ -50,7 +50,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": 9 },
+"degree": "" },
 
 {"sku":"biere-abbaye-paix-dieu-33cl",
 "name":"abbaye paix dieu",
@@ -68,7 +68,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-admirals-ale",
 "name":"admirals ale",
@@ -86,7 +86,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-aestatis-vintage-33cl",
 "name":"aestatis vintage",
@@ -104,7 +104,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-aktien-zwickl",
 "name":"aktien zwickl",
@@ -122,7 +122,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-amarillo",
 "name":"amarillo",
@@ -140,7 +140,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ambassadeur-tripel",
 "name":"ambassadeur tripel",
@@ -158,7 +158,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-american-ale-bordeaux-33cl",
 "name":"american ale bordeaux",
@@ -176,7 +176,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anderson-valley-barney-flats-datmeal-stout-33cl",
 "name":"anderson valley barney flats datmeal stout",
@@ -194,7 +194,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anosteke-blonde-33cl",
 "name":"anosteke blonde",
@@ -212,7 +212,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anosteke-blonde-haute-fermentation-33cl",
 "name":"anosteke blonde haute fermentation",
@@ -230,7 +230,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anosteke-brune-33cl",
 "name":"anosteke brune",
@@ -248,7 +248,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anosteke-orange",
 "name":"anosteke orange",
@@ -266,7 +266,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-anosteke-rouge",
 "name":"anosteke rouge",
@@ -284,7 +284,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-aphrodisiaque-33cl",
 "name":"aphrodisiaque",
@@ -302,7 +302,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-augustiner-weissbier",
 "name":"augustiner weissbier",
@@ -320,7 +320,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-avec-les-bons-voeux-la-brasserie-dupont",
 "name":"avec les bons voeux la brasserie dupont",
@@ -338,7 +338,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-axe-edge-indian-pale-ale-33cl",
 "name":"axe edge indian pale ale",
@@ -356,7 +356,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bacchus-rasberry-33cl",
 "name":"bacchus rasberry",
@@ -374,7 +374,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-barbar-au-miel",
 "name":"barbar au miel",
@@ -392,7 +392,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-barbar-bok-brune-au-miel",
 "name":"barbar bok brune au miel",
@@ -410,7 +410,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-belle-fleur-33cl",
 "name":"belle fleur",
@@ -428,7 +428,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bellus-ambree",
 "name":"bellus ambree",
@@ -446,7 +446,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bellus-blonde",
 "name":"bellus blonde",
@@ -464,7 +464,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bellus-triple",
 "name":"bellus triple",
@@ -482,7 +482,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-benno-trappist-33cl",
 "name":"benno trappist",
@@ -500,7 +500,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bitburger-fass-brause-waldmeister-25cl",
 "name":"bitburger fass brause waldmeister 25cl",
@@ -518,7 +518,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bitter-xx-33cl",
 "name":"bitter XX",
@@ -536,7 +536,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bitter-xx",
 "name":"bitter XX",
@@ -554,7 +554,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blanche-acacia-33cl",
 "name":"blanche acacia",
@@ -572,7 +572,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blanche-acacia",
 "name":"blanche acacia",
@@ -590,7 +590,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blanche-de-namur-rosee-33cl",
 "name":"blanche de namur rosee",
@@ -608,7 +608,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blanche-de-namur",
 "name":"blanche de namur",
@@ -626,7 +626,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blanche-du-paradis-33cl",
 "name":"blanche du paradis",
@@ -644,7 +644,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-blast-double-ipa-33cl",
 "name":"blast double IPA",
@@ -662,7 +662,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-boissonnerie-generale-ambree",
 "name":"boissonnerie generale ambree",
@@ -680,7 +680,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-boissonnerie-generale-blonde",
 "name":"boissonnerie generale blonde",
@@ -698,7 +698,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-boissonnerie-generale-la-boissoniere",
 "name":"boissonnerie generale la boissoniere",
@@ -716,7 +716,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-boissonnerie-generale-noire",
 "name":"boissonnerie generale noire",
@@ -734,7 +734,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bon-samaritain-blonde",
 "name":"bon samaritain blonde",
@@ -752,7 +752,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bon-secours-biere-vivante-33cl",
 "name":"bon secours biere vivante",
@@ -770,7 +770,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bon-secours-biere-vivante-ambree-33cl",
 "name":"bon secours biere vivante ambree",
@@ -788,7 +788,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bon-secours-biere-vivante",
 "name":"bon secours biere vivante",
@@ -806,7 +806,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bon-secours-blonde-de-noel",
 "name":"bon secours blonde de noel",
@@ -824,7 +824,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-correzienne-boris-goudenov-imperial-stout-33cl",
 "name":"brasserie correzienne boris goudenov imperial stout",
@@ -842,7 +842,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-correzienne-dordogne-valley-double-ipa-33cl",
 "name":"brasserie correzienne dordogne valley double ipa",
@@ -860,7 +860,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-correzienne-hophophop-el-dorado-33cl",
 "name":"brasserie correzienne hophophop el dorado",
@@ -878,7 +878,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-correzienne-hophophop-nelson-sauvw-33cl",
 "name":"brasserie correzienne hophophop nelson sauvw",
@@ -896,7 +896,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-saint-sylvestre-3-monts-grande-reserve-33cl",
 "name":"brasserie saint sylvestre 3 monts grande reserve",
@@ -914,7 +914,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-saint-sylvestre-rock-du-moulin",
 "name":"brasserie saint sylvestre rock du moulin",
@@ -932,7 +932,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brasserie-st-sylvestre-luxe-du-moulin",
 "name":"brasserie st sylvestre luxe du moulin",
@@ -950,7 +950,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brevdog-jack-hammer-33cl",
 "name":"brevdog jack hammer",
@@ -968,7 +968,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brewdog-5am-saint-33cl",
 "name":"brewdog 5am saint",
@@ -986,7 +986,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brooklyn-east-ipa-33cl",
 "name":"brooklyn east ipa",
@@ -1004,7 +1004,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brooklyn-lager-33cl",
 "name":"brooklyn lager",
@@ -1022,7 +1022,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-ambree-bio",
 "name":"brunehaut ambree bio",
@@ -1040,7 +1040,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-blanche-bio-33cl",
 "name":"brunehaut blanche bio",
@@ -1058,7 +1058,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-blanche-bio",
 "name":"brunehaut blanche bio",
@@ -1076,7 +1076,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-blonde-bio-33cl",
 "name":"brunehaut blonde bio",
@@ -1094,7 +1094,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-blonde-bio",
 "name":"brunehaut blonde bio",
@@ -1112,7 +1112,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-pomfraiz-33cl",
 "name":"brunehaut pomfraiz",
@@ -1130,7 +1130,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-tripe-bio",
 "name":"brunehaut tripe bio",
@@ -1148,7 +1148,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-brunehaut-triple-bio",
 "name":"brunehaut triple bio",
@@ -1166,7 +1166,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-burning-monk-33cl",
 "name":"burning monk",
@@ -1184,7 +1184,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bush-ambree-33cl",
 "name":"bush ambree",
@@ -1202,7 +1202,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bush-blonde-33cl",
 "name":"bush blonde",
@@ -1220,7 +1220,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bush-de-charmes-cuvee-speciale",
 "name":"bush de charmes cuvee speciale",
@@ -1238,7 +1238,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bush-de-nuits-cuvee-speciale",
 "name":"bush de nuits cuvee speciale",
@@ -1256,7 +1256,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bush-prestige-cuvee-speciale",
 "name":"bush prestige cuvee speciale",
@@ -1274,7 +1274,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bzart-krick-cuvee",
 "name":"bzart krick cuvee",
@@ -1292,7 +1292,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bzart-lambiek",
 "name":"bzart lambiek",
@@ -1310,7 +1310,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-bzart-triple-forte",
 "name":"bzart triple forte",
@@ -1328,7 +1328,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-cambier-saison-biologique-33cl",
 "name":"cambier saison biologique",
@@ -1346,7 +1346,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-cambier-saison-biologique",
 "name":"cambier saison biologique",
@@ -1364,7 +1364,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-celis-white-33cl",
 "name":"celis white",
@@ -1382,7 +1382,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-chang-classic-33cl",
 "name":"chang classic",
@@ -1400,7 +1400,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-chapelle-blonde",
 "name":"chapelle blonde",
@@ -1418,7 +1418,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-chemin-de-croix-33cl",
 "name":"chemin de croix",
@@ -1436,7 +1436,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-chimay-blonde-33cl",
 "name":"chimay blonde",
@@ -1454,7 +1454,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-corne-du-diable-india-pale-ale-33cl",
 "name":"corne du diable india pale ale",
@@ -1472,7 +1472,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-cornet-oaked-blonde",
 "name":"cornet oaked blonde",
@@ -1490,7 +1490,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-corsendonk-blue-33cl",
 "name":"corsendonk blue",
@@ -1508,7 +1508,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-corsendonk-red-33cl",
 "name":"corsendonk red",
@@ -1526,7 +1526,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-crime-passionnel",
 "name":"de dochter van de korenaar crime passionnel",
@@ -1544,7 +1544,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-embrasse-33cl",
 "name":"de dochter van de korenaar embrasse",
@@ -1562,7 +1562,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-extase",
 "name":"de dochter van de korenaar extase",
@@ -1580,7 +1580,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-l-ensemble",
 "name":"de dochter van de korenaar l ensemble",
@@ -1598,7 +1598,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-la-renaissance",
 "name":"de dochter van de korenaar la renaissance",
@@ -1616,7 +1616,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-dochter-van-de-korenaar-sans-pardon-33cl",
 "name":"de dochter van de korenaar sans pardon",
@@ -1634,7 +1634,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-miel-bio-33cl",
 "name":"de miel bio",
@@ -1652,7 +1652,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-miel-bio",
 "name":"de miel bio",
@@ -1670,7 +1670,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-nacht",
 "name":"de nacht",
@@ -1688,7 +1688,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-de-vlier-kessel-blonde",
 "name":"de vlier kessel blonde",
@@ -1706,7 +1706,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dead-guy-ale-rogue-oregon-brewed-33cl",
 "name":"dead guy ale rogue oregon brewed",
@@ -1724,7 +1724,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-delilirium-nocturnum-33cl",
 "name":"delilirium nocturnum",
@@ -1742,7 +1742,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-delirium-red-33cl",
 "name":"delirium red",
@@ -1760,7 +1760,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-delirium-tremens-33cl",
 "name":"delirium tremens",
@@ -1778,7 +1778,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-deugniet-blonde-33cl",
 "name":"deugniet blonde",
@@ -1796,7 +1796,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dieu-du-ciel-peche-mortel-33cl",
 "name":"dieu du ciel peche mortel",
@@ -1814,7 +1814,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dieu-du-ciel-peche-mortel",
 "name":"dieu du ciel peche mortel",
@@ -1832,7 +1832,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-disco-soleil-33cl",
 "name":"disco soleil",
@@ -1850,7 +1850,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dolle-brouwers-extra-export-33cl",
 "name":"dolle brouwers extra export",
@@ -1868,7 +1868,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dronkenpu-33cl",
 "name":"dronkenpu",
@@ -1886,7 +1886,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ducassis-33cl",
 "name":"ducassis",
@@ -1904,7 +1904,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dulle-teve-triple-33cl",
 "name":"dulle teve triple",
@@ -1922,7 +1922,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-dunekeum-goudblond-33cl",
 "name":"dunekeum goudblond",
@@ -1940,7 +1940,7 @@
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-echt-kriekenbier-33cl",
 "name":"echt kriekenbier",
@@ -1958,7 +1958,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-echt-kriekenbier",
 "name":"echt kriekenbier",
@@ -1976,7 +1976,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-efes-mediterranee-33cl",
 "name":"efes mediterranee",
@@ -1994,7 +1994,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-ipa-ibu-profane-33cl",
 "name":"elixkir IPA ibu profane",
@@ -2012,7 +2012,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-ambree-33cl",
 "name":"elixkir ambree",
@@ -2030,7 +2030,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-ambree",
 "name":"elixkir ambree",
@@ -2048,7 +2048,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-porter-33cl",
 "name":"elixkir porter",
@@ -2066,7 +2066,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-porter",
 "name":"elixkir porter",
@@ -2084,7 +2084,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-elixkir-triple-sans-foi-ni-loi",
 "name":"elixkir triple sans foi ni loi",
@@ -2102,7 +2102,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-epa-euskal-pale-ale-33cl",
 "name":"epa euskal pale ale",
@@ -2120,7 +2120,7 @@
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 REPRENDRE ICI
 
@@ -2140,7 +2140,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-erdinger-pikantus",
 "name":"erdinger pikantus",
@@ -2158,7 +2158,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-erdinger-weissbier-gold",
 "name":"erdinger weissbier gold",
@@ -2176,7 +2176,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-espresso-stout-33cl",
 "name":"espresso stout",
@@ -2194,7 +2194,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-esprit-d-angelus-ice-bock-33cl",
 "name":"esprit d angelus ice bock",
@@ -2212,7 +2212,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-flash-speciale-33cl",
 "name":"flash speciale",
@@ -2230,7 +2230,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-floris-apple-33cl",
 "name":"floris apple",
@@ -2248,7 +2248,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-floris-honey-33cl",
 "name":"floris honey",
@@ -2266,7 +2266,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-floris-passion-33cl",
 "name":"floris passion",
@@ -2284,7 +2284,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-franziskaner-weissbier-kristallklar",
 "name":"franziskaner weissbier kristallklar",
@@ -2302,7 +2302,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-franziskaner-weissbier-naturtrub",
 "name":"franziskaner weissbier naturtrub",
@@ -2320,7 +2320,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-franziskaner-weissbier-rouge",
 "name":"franziskaner weissbier rouge",
@@ -2338,7 +2338,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-fruh-33cl",
 "name":"fruh",
@@ -2356,7 +2356,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gageleer-limited-33cl",
 "name":"gageleer limited",
@@ -2374,7 +2374,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gouden-carolus-classic-33cl",
 "name":"gouden carolus classic",
@@ -2392,7 +2392,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gouden-carolus",
 "name":"gouden carolus",
@@ -2410,7 +2410,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-grand-cru-rodenback-33cl",
 "name":"grand cru rodenback",
@@ -2428,7 +2428,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gregorius-trappist-33cl",
 "name":"gregorius trappist",
@@ -2446,7 +2446,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-grisette-blonde-bio-33cl",
 "name":"grisette blonde bio",
@@ -2464,7 +2464,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gueuze-lambic-mort-subite-33cl",
 "name":"gueuze lambic mort subite",
@@ -2482,7 +2482,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-guinness-dublin-porter",
 "name":"guinness dublin porter",
@@ -2500,7 +2500,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-guinness-foreign-extra-stout-33cl",
 "name":"guinness foreign extra stout",
@@ -2518,7 +2518,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gulden-draak-33cl",
 "name":"gulden draak",
@@ -2536,7 +2536,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-gulden-draak",
 "name":"gulden draak",
@@ -2554,7 +2554,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-guldenberg-33cl",
 "name":"guldenberg",
@@ -2572,7 +2572,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-halen-dubbel",
 "name":"halen dubbel",
@@ -2590,7 +2590,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-helles-lagerbier-hell",
 "name":"helles lagerbier hell",
@@ -2608,7 +2608,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-hercule-stout-33cl",
 "name":"hercule stout",
@@ -2626,7 +2626,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-highhops6-33cl",
 "name":"highhops6",
@@ -2644,7 +2644,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-himelein",
 "name":"himelein",
@@ -2662,7 +2662,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-houblon-chouffe-triple-33cl",
 "name":"houblon chouffe triple",
@@ -2680,7 +2680,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-houblon-chouffe-triple-ipa-33cl",
 "name":"houblon chouffe triple IPA",
@@ -2698,7 +2698,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-indian-pale-ale-bordeaux-33cl",
 "name":"indian pale ale bordeaux",
@@ -2716,7 +2716,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-jambe-de-bois-triple-33cl",
 "name":"jambe de bois triple",
@@ -2734,7 +2734,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-k9-winter-ale-33cl",
 "name":"k9 winter ale",
@@ -2752,7 +2752,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapitel-blonde-33cl",
 "name":"kapitel blonde",
@@ -2770,7 +2770,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapitel-prior-33cl",
 "name":"kapitel prior",
@@ -2788,7 +2788,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapittel-blonde",
 "name":"kapittel blonde",
@@ -2806,7 +2806,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapittel-prior",
 "name":"kapittel prior",
@@ -2824,7 +2824,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapittel-triple-33cl",
 "name":"kapittel triple",
@@ -2842,7 +2842,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kapittel-triple",
 "name":"kapittel triple",
@@ -2860,7 +2860,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kasteel-tripel-33cl",
 "name":"kasteel tripel",
@@ -2878,7 +2878,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kellerbier-naturtrubes-monsbsbof",
 "name":"kellerbier naturtrubes monsbsbof",
@@ -2896,7 +2896,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kertvuur",
 "name":"kertvuur",
@@ -2914,7 +2914,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kerubin-ambree-33cl",
 "name":"kerubin ambree",
@@ -2932,7 +2932,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kilkenny-irish-beer-33cl",
 "name":"kilkenny irish beer",
@@ -2950,7 +2950,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kingfisher-premium-33cl",
 "name":"kingfisher premium",
@@ -2968,7 +2968,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kloster-andechs-grise",
 "name":"kloster andechs grise",
@@ -2986,7 +2986,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kloster-andechs-jaune",
 "name":"kloster andechs jaune",
@@ -3004,7 +3004,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kompaan-n-39-33cl",
 "name":"kompaan n 39",
@@ -3022,7 +3022,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kriek-boon-33cl",
 "name":"kriek boon",
@@ -3040,7 +3040,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kriek-girardin-1882-33cl",
 "name":"kriek girardin 1882",
@@ -3058,7 +3058,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-krombacher-pils",
 "name":"krombacher pils",
@@ -3076,7 +3076,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-krombacher-weizen",
 "name":"krombacher weizen",
@@ -3094,7 +3094,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kwak-33cl",
 "name":"kwak",
@@ -3112,7 +3112,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-kwak",
 "name":"kwak",
@@ -3130,7 +3130,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-adepie-blonde",
 "name":"l adepie blonde",
@@ -3148,7 +3148,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-communale-blonde-33cl",
 "name":"l agrivoise communale blonde",
@@ -3166,7 +3166,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-l-asociale-33cl",
 "name":"l agrivoise l asociale",
@@ -3184,7 +3184,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-agrivoise-vue-sur-l-amer-33cl",
 "name":"l agrivoise vue sur l amer",
@@ -3202,7 +3202,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-angelus-armentieres-33cl",
 "name":"l angelus armentieres",
@@ -3220,7 +3220,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-l-angelus-triple",
 "name":"l angelus triple",
@@ -3238,7 +3238,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bete-degustation-33cl",
 "name":"la bete degustation",
@@ -3256,7 +3256,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bracine-triple-33cl",
 "name":"la bracine triple",
@@ -3274,7 +3274,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-bracine-triple",
 "name":"la bracine triple",
@@ -3292,7 +3292,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-chouffe-soleil-33cl",
 "name":"la chouffe soleil",
@@ -3310,7 +3310,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-chouffe",
 "name":"la chouffe",
@@ -3328,7 +3328,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-corne-du-bois-des-pendus-33cl",
 "name":"la corne du bois des pendus",
@@ -3346,7 +3346,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-amor-33cl",
 "name":"la debauche amor",
@@ -3364,7 +3364,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-black-ale-stout",
 "name":"la debauche black ale stout",
@@ -3382,7 +3382,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-chapitre13",
 "name":"la debauche chapitre13",
@@ -3400,7 +3400,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-cognac-barrel-33cl",
 "name":"la debauche cognac barrel",
@@ -3418,7 +3418,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-demi-mondaine-33cl",
 "name":"la debauche demi mondaine",
@@ -3436,7 +3436,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-imperial-stout-33cl",
 "name":"la debauche imperial stout",
@@ -3454,7 +3454,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-india-stout-black-ale-33cl",
 "name":"la debauche india stout black ale",
@@ -3472,7 +3472,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-into-jean-jacques-33cl",
 "name":"la debauche into jean jacques",
@@ -3490,7 +3490,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-lindy-hop-33cl",
 "name":"la debauche lindy hop",
@@ -3508,7 +3508,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-menestho-33cl",
 "name":"la debauche menestho",
@@ -3526,7 +3526,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-saison-33cl",
 "name":"la debauche saison",
@@ -3544,7 +3544,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-slap-a-banker-33cl",
 "name":"la debauche slap a banker",
@@ -3562,7 +3562,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-summer-odity-33cl",
 "name":"la debauche summer odity",
@@ -3580,7 +3580,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-debauche-volga-pale-ale-33cl",
 "name":"la debauche volga pale ale",
@@ -3598,7 +3598,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-moneuse",
 "name":"la moneuse",
@@ -3616,7 +3616,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-du-bassin-blonde-33cl",
 "name":"la petite du bassin blonde",
@@ -3634,7 +3634,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blanche",
 "name":"la petite martial blanche",
@@ -3652,7 +3652,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blonde-33cl",
 "name":"la petite martial blonde",
@@ -3670,7 +3670,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martial-blonde",
 "name":"la petite martial blonde",
@@ -3688,7 +3688,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-petite-martiale-blanche-33cl",
 "name":"la petite martiale blanche",
@@ -3706,7 +3706,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-rouste-33cl",
 "name":"la rouste",
@@ -3724,7 +3724,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-saison-bfm",
 "name":"la saison bfm",
@@ -3742,7 +3742,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-la-vermontoise",
 "name":"la vermontoise",
@@ -3760,7 +3760,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-landbier-monchsbof",
 "name":"landbier monchsbof",
@@ -3778,7 +3778,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-blonde-33cl",
 "name":"lapepie blonde",
@@ -3796,7 +3796,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-martian-amber-ale-33cl",
 "name":"lapepie martian amber ale",
@@ -3814,7 +3814,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-ouest-coast-33cl",
 "name":"lapepie ouest coast",
@@ -3832,7 +3832,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lapepie-perigord-pale-ale-33cl",
 "name":"lapepie perigord pale ale",
@@ -3850,7 +3850,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-leute-bokbier-33cl",
 "name":"leute bokbier",
@@ -3868,7 +3868,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-fruitesse-on-the-rocks-33cl",
 "name":"liefmans fruitesse on the rocks",
@@ -3886,7 +3886,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-goudenband-33cl",
 "name":"liefmans goudenband",
@@ -3904,7 +3904,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-goudenband",
 "name":"liefmans goudenband",
@@ -3922,7 +3922,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-kriek-33cl",
 "name":"liefmans kriek",
@@ -3940,7 +3940,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-liefmans-kriek",
 "name":"liefmans kriek",
@@ -3958,7 +3958,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-apple-25cl",
 "name":"lindemans apple 25cl",
@@ -3976,7 +3976,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-apple",
 "name":"lindemans apple",
@@ -3994,7 +3994,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-cassis-33cl",
 "name":"lindemans cassis",
@@ -4012,7 +4012,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-faro-brown-33cl",
 "name":"lindemans faro brown",
@@ -4030,7 +4030,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-faro-green",
 "name":"lindemans faro green",
@@ -4048,7 +4048,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise-33cl",
 "name":"lindemans framboise",
@@ -4066,7 +4066,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise",
 "name":"lindemans framboise",
@@ -4084,7 +4084,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-framboise2",
 "name":"lindemans framboise2",
@@ -4102,7 +4102,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-gueuze-33cl",
 "name":"lindemans gueuze",
@@ -4120,7 +4120,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek-25cl",
 "name":"lindemans kriek 25cl",
@@ -4138,7 +4138,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek",
 "name":"lindemans kriek",
@@ -4156,7 +4156,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-kriek2",
 "name":"lindemans kriek2",
@@ -4174,7 +4174,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindemans-pecheresse-25cl",
 "name":"lindemans pecheresse 25cl",
@@ -4192,7 +4192,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lindenmans-faro",
 "name":"lindenmans faro",
@@ -4210,7 +4210,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lupulus-hopera-33cl",
 "name":"lupulus hopera",
@@ -4228,7 +4228,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-lupulus",
 "name":"lupulus",
@@ -4246,7 +4246,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mad-machine-big-boy-33cl",
 "name":"mad machine big boy",
@@ -4264,7 +4264,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-maree-noire-33cl",
 "name":"maree noire",
@@ -4282,7 +4282,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-maree-noire",
 "name":"maree noire",
@@ -4300,7 +4300,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mikkeler-copenhagen-33cl",
 "name":"mikkeler copenhagen",
@@ -4318,7 +4318,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-bio",
 "name":"moinette bio",
@@ -4336,7 +4336,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-blonde-33cl",
 "name":"moinette blonde",
@@ -4354,7 +4354,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moinette-blonde",
 "name":"moinette blonde",
@@ -4372,7 +4372,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-banana-33cl",
 "name":"mongozo banana",
@@ -4390,7 +4390,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-coconut-33cl",
 "name":"mongozo coconut",
@@ -4408,7 +4408,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-mango-33cl",
 "name":"mongozo mango",
@@ -4426,7 +4426,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongozo-premium-pilzener-gluten-free-33cl",
 "name":"mongozo premium pilzener gluten free",
@@ -4444,7 +4444,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ambree-33cl",
 "name":"mongy ambree",
@@ -4462,7 +4462,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ambree",
 "name":"mongy ambree",
@@ -4480,7 +4480,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-blonde-33cl",
 "name":"mongy blonde",
@@ -4498,7 +4498,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-ipa-bleue",
 "name":"mongy ipa bleue",
@@ -4516,7 +4516,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-triple-33cl",
 "name":"mongy triple",
@@ -4534,7 +4534,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mongy-triple",
 "name":"mongy triple",
@@ -4552,7 +4552,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-monks-stout-dupont-33cl",
 "name":"monks stout dupont",
@@ -4570,7 +4570,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mont-des-cats-33cl",
 "name":"mont des cats",
@@ -4588,7 +4588,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-montagnarde-ambree-33cl",
 "name":"montagnarde ambree",
@@ -4606,7 +4606,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-montagnarde-ambree",
 "name":"montagnarde ambree",
@@ -4624,7 +4624,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moralite-american-ipa-33cl",
 "name":"moralite american IPA",
@@ -4642,7 +4642,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mort-subite-white-lambic-33cl",
 "name":"mort subite white lambic",
@@ -4660,7 +4660,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mosaic-session-bordeaux-33cl",
 "name":"mosaic session bordeaux",
@@ -4678,7 +4678,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-moustous-ambree-33cl",
 "name":"moustous ambree",
@@ -4696,7 +4696,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mystic-radler-33cl",
 "name":"mystic radler",
@@ -4714,7 +4714,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-mythos-premium-33cl",
 "name":"mythos premium",
@@ -4732,7 +4732,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nanu-nanu-ipa-33cl",
 "name":"nanu nanu ipa",
@@ -4750,7 +4750,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nazio-rale",
 "name":"nazio rale",
@@ -4768,7 +4768,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nivard-trappist-33cl",
 "name":"nivard trappist",
@@ -4786,7 +4786,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nogne",
 "name":"nogne",
@@ -4804,7 +4804,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-noir-de-dottignies-33cl",
 "name":"noir de dottignies",
@@ -4822,7 +4822,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-noir-de-dottignies",
 "name":"noir de dottignies",
@@ -4840,7 +4840,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nos-illustres-rituels-la-cuvee-des-barbus-double-oat-meal-stout-33cl",
 "name":"nos illustres rituels la cuvee des barbus double oat meal stout",
@@ -4858,7 +4858,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-nova-vinum-poiron-dabin",
 "name":"nova vinum poiron dabin",
@@ -4876,7 +4876,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oerbier-33cl",
 "name":"oerbier",
@@ -4894,7 +4894,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oesterstout-stout-33cl",
 "name":"oesterstout stout",
@@ -4912,7 +4912,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-orval-33cl",
 "name":"orval",
@@ -4930,7 +4930,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-oude-gueuze-cuvee-rene",
 "name":"oude gueuze cuvee rene",
@@ -4948,7 +4948,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-ipa-33cl",
 "name":"paijas IPA",
@@ -4966,7 +4966,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-blonde-33cl",
 "name":"paijas blonde",
@@ -4984,7 +4984,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-brune-33cl",
 "name":"paijas brune",
@@ -5002,7 +5002,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-paijas-saison-33cl",
 "name":"paijas saison",
@@ -5020,7 +5020,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-palm-na-33cl",
 "name":"palm na",
@@ -5038,7 +5038,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pannepot-33cl",
 "name":"pannepot",
@@ -5056,7 +5056,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pannepot-reserva-33cl",
 "name":"pannepot reserva",
@@ -5074,7 +5074,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pecheresse-33cl",
 "name":"pecheresse",
@@ -5092,7 +5092,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-pecheresse",
 "name":"pecheresse",
@@ -5110,7 +5110,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-poperings-hommel-bier-33cl",
 "name":"poperings hommel bier",
@@ -5128,7 +5128,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-poperings-hommel-bier",
 "name":"poperings hommel bier",
@@ -5146,7 +5146,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert-33cl",
 "name":"queue de charrue ploegsteert",
@@ -5164,7 +5164,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert-triple-33cl",
 "name":"queue de charrue ploegsteert triple",
@@ -5182,7 +5182,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-queue-de-charrue-ploegsteert",
 "name":"queue de charrue ploegsteert",
@@ -5200,7 +5200,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quilmes-argentina-33cl",
 "name":"quilmes argentina",
@@ -5218,7 +5218,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quintine-ambree-33cl",
 "name":"quintine ambree",
@@ -5236,7 +5236,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-quintine-blonde-33cl",
 "name":"quintine blonde",
@@ -5254,7 +5254,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ramee-ambree-33cl",
 "name":"ramee ambree",
@@ -5272,7 +5272,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rasputin-imp-stout-ish",
 "name":"rasputin imp stout ish",
@@ -5290,7 +5290,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rodenbach-33cl",
 "name":"rodenbach",
@@ -5308,7 +5308,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rodenbach-caractere-rouge",
 "name":"rodenbach caractere rouge",
@@ -5326,7 +5326,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rogue-hazelnut-brown-nectar",
 "name":"rogue hazelnut brown nectar",
@@ -5344,7 +5344,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rosee-d-hibiscus-33cl",
 "name":"rosee d hibiscus",
@@ -5362,7 +5362,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-rothaus-pils-33cl",
 "name":"rothaus pils",
@@ -5380,7 +5380,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saigon-export-33cl",
 "name":"saigon export",
@@ -5398,7 +5398,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-cazeau-33cl",
 "name":"saison cazeau",
@@ -5416,7 +5416,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-de-dottignies-33cl",
 "name":"saison de dottignies",
@@ -5434,7 +5434,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-de-dottignies",
 "name":"saison de dottignies",
@@ -5452,7 +5452,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-33cl",
 "name":"saison dupont",
@@ -5470,7 +5470,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-bio-33cl",
 "name":"saison dupont bio",
@@ -5488,7 +5488,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-saison-dupont-bio",
 "name":"saison dupont bio",
@@ -5506,7 +5506,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-schneider-weisse-tap7",
 "name":"schneider weisse tap7",
@@ -5524,7 +5524,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-scotch-silly-33cl",
 "name":"scotch silly",
@@ -5542,7 +5542,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-scotch-silly",
 "name":"scotch silly",
@@ -5560,7 +5560,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-sequere-amber-ale-33cl",
 "name":"sequere amber ale",
@@ -5578,7 +5578,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-sequere-golden-ale-33cl",
 "name":"sequere golden ale",
@@ -5596,7 +5596,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-serafya-grand-cru-33cl",
 "name":"serafya grand cru",
@@ -5614,7 +5614,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shofferhofer",
 "name":"shofferhofer",
@@ -5632,7 +5632,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-jaune-33cl",
 "name":"shuc jaune",
@@ -5650,7 +5650,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-jaune",
 "name":"shuc jaune",
@@ -5668,7 +5668,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-orange-33cl",
 "name":"shuc orange",
@@ -5686,7 +5686,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-shuc-rouge-33cl",
 "name":"shuc rouge",
@@ -5704,7 +5704,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-singha-premium-import-33cl",
 "name":"singha premium import",
@@ -5722,7 +5722,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-single-wide-ipa-33cl",
 "name":"single wide IPA",
@@ -5740,7 +5740,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-smoked-porter-alaskan",
 "name":"smoked porter alaskan",
@@ -5758,7 +5758,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-smokey-li-33cl",
 "name":"smokey li",
@@ -5776,7 +5776,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-spencer-trappist-33cl",
 "name":"spencer trappist",
@@ -5794,7 +5794,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-spencer-trappist",
 "name":"spencer trappist",
@@ -5812,7 +5812,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-feuillien-grand-cru",
 "name":"st feuillien grand cru",
@@ -5830,7 +5830,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-feuillien-triple-33cl",
 "name":"st feuillien triple",
@@ -5848,7 +5848,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-st-paul-blonde-33cl",
 "name":"st paul blonde",
@@ -5866,7 +5866,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straffe-hendrik-33cl",
 "name":"straffe hendrik",
@@ -5884,7 +5884,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straffe-hendrik-quadruple-33cl",
 "name":"straffe hendrik quadruple",
@@ -5902,7 +5902,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-straropramen-prague-33cl",
 "name":"straropramen prague",
@@ -5920,7 +5920,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-super-baladin-bitter",
 "name":"super baladin bitter",
@@ -5938,7 +5938,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tank-7-farmhouse-ale",
 "name":"tank 7 farmhouse ale",
@@ -5956,7 +5956,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-taras-boulba-33cl",
 "name":"taras boulba",
@@ -5974,7 +5974,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tasty-lady-by-women-33cl",
 "name":"tasty lady by women",
@@ -5992,7 +5992,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ter-dolen-armand-33cl",
 "name":"ter dolen armand",
@@ -6010,7 +6010,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ter-dolen-kriek-33cl",
 "name":"ter dolen kriek",
@@ -6028,7 +6028,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-terenez-blonde",
 "name":"terenez blonde",
@@ -6046,7 +6046,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-terenez-brune",
 "name":"terenez brune",
@@ -6064,7 +6064,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-the-wipers-times-blonde-33cl",
 "name":"the wipers times blonde",
@@ -6082,7 +6082,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-the-wipers-times",
 "name":"the wipers times",
@@ -6100,7 +6100,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-thorberg-five-33cl",
 "name":"thorberg five",
@@ -6118,7 +6118,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-thornbridge-hall-imperial-raspberry-stout",
 "name":"thornbridge hall imperial raspberry stout",
@@ -6136,7 +6136,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tournay-noire-33cl",
 "name":"tournay noire",
@@ -6154,7 +6154,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappist-archel-33cl",
 "name":"trappist archel",
@@ -6172,7 +6172,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappiste-rochefort-10-33cl",
 "name":"trappiste rochefort 10",
@@ -6190,7 +6190,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-trappistes-rochefort-6-33cl",
 "name":"trappistes rochefort 6",
@@ -6208,7 +6208,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tre-fontane-triple-33cl",
 "name":"tre fontane triple",
@@ -6226,7 +6226,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tripel-karmeliet-33cl",
 "name":"tripel karmeliet",
@@ -6244,7 +6244,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tripel-karmeliet",
 "name":"tripel karmeliet",
@@ -6262,7 +6262,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-triple-buse",
 "name":"triple buse",
@@ -6280,7 +6280,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-blonde-33cl",
 "name":"troubadour blonde",
@@ -6298,7 +6298,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-blonde",
 "name":"troubadour blonde",
@@ -6316,7 +6316,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-imperial-stout-33cl",
 "name":"troubadour imperial stout",
@@ -6334,7 +6334,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-magma-33cl",
 "name":"troubadour magma",
@@ -6352,7 +6352,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-magma",
 "name":"troubadour magma",
@@ -6370,7 +6370,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-obscura-33cl",
 "name":"troubadour obscura",
@@ -6388,7 +6388,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-stout",
 "name":"troubadour stout",
@@ -6406,7 +6406,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-westkust-33cl",
 "name":"troubadour westkust",
@@ -6424,7 +6424,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-troubadour-westkust",
 "name":"troubadour westkust",
@@ -6442,7 +6442,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-truth-can-set-you-free-33cl",
 "name":"truth can set you free",
@@ -6460,7 +6460,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tseeses-reserva-33cl",
 "name":"tseeses reserva",
@@ -6478,7 +6478,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-tumulus-nera-33cl",
 "name":"tumulus nera",
@@ -6496,7 +6496,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-v-cense",
 "name":"v cense",
@@ -6514,7 +6514,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-viven-imperial-ipa-33cl",
 "name":"viven imperial IPA",
@@ -6532,7 +6532,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-viven-porter-33cl",
 "name":"viven porter",
@@ -6550,7 +6550,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-voisin-ambree-33cl",
 "name":"voisin ambree",
@@ -6568,7 +6568,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-watou-s-blanche-33cl",
 "name":"watou s blanche",
@@ -6586,7 +6586,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-weihenstephaner-premium-bavaricum",
 "name":"weihenstephaner premium bavaricum",
@@ -6604,7 +6604,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-weihenstephaner-vitus",
 "name":"weihenstephaner vitus",
@@ -6622,7 +6622,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westmall-trappist-triple-33cl",
 "name":"westmall trappist triple",
@@ -6640,7 +6640,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westmalle-trappist-dubbel-33cl",
 "name":"westmalle trappist dubbel",
@@ -6658,7 +6658,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-westoek-xx-tripe-33cl",
 "name":"westoek XX tripe",
@@ -6676,7 +6676,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wieze-triple",
 "name":"wieze triple",
@@ -6694,7 +6694,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wild-lab-hoppy-saison-33cl",
 "name":"wild lab hoppy saison",
@@ -6712,7 +6712,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-bleue",
 "name":"wilde leew bleue",
@@ -6730,7 +6730,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-noire",
 "name":"wilde leew noire",
@@ -6748,7 +6748,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-orange",
 "name":"wilde leew orange",
@@ -6766,7 +6766,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-rouge",
 "name":"wilde leew rouge",
@@ -6784,7 +6784,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-wilde-leew-verte",
 "name":"wilde leew verte",
@@ -6802,7 +6802,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-ypres-double-barrel-aged-fob-33cl",
 "name":"ypres double barrel aged fob",
@@ -6820,7 +6820,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zeezuiper-tripel-33cl",
 "name":"zeezuiper tripel",
@@ -6838,7 +6838,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zinne-bir-33cl",
 "name":"zinne bir",
@@ -6856,7 +6856,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"biere-zundert-trappist-33cl",
 "name":"zundert trappist",
@@ -6874,7 +6874,7 @@ REPRENDRE ICI
 "width":800,
 "height":844,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-a-bergere-blanc-de-blanc",
 "name":"a bergere blanc de blanc",
@@ -6892,7 +6892,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-denis-marx-brut-tradition",
 "name":"denis marx brut tradition",
@@ -6910,7 +6910,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"champagne-denis-marx-brut",
 "name":"denis marx brut",
@@ -6928,7 +6928,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"cremant-de-bordeaux-effervescence-de-saint-clerc",
 "name":"de bordeaux effervescence de saint clerc",
@@ -6946,7 +6946,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"cremant-de-bordeaux-jaillance-cuvee-de-l-abbaye",
 "name":"de bordeaux jaillance cuvee de l abbaye",
@@ -6964,7 +6964,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-120-chardonnay-blanc",
 "name":"120 chardonnay blanc",
@@ -6982,7 +6982,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-a6mani-negroamaro-rouge",
 "name":"a6mani negroamaro rouge",
@@ -7000,7 +7000,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-argento-malbec-rouge",
 "name":"argento malbec rouge",
@@ -7018,7 +7018,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-brancott-estate-pinot-noir",
 "name":"brancott estate pinot noir",
@@ -7036,7 +7036,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-cahors-cedre-heritage-malbec-rouge",
 "name":"cahors cedre heritage malbec rouge",
@@ -7054,7 +7054,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-carmenere-mountain-view-vineyards-rouge",
 "name":"carmenere mountain view vineyards rouge",
@@ -7072,7 +7072,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-casal-mendes-vinho-verde-blanc",
 "name":"casal mendes vinho verde blanc",
@@ -7090,7 +7090,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-catanga-organic-wine-rouge",
 "name":"catanga organic wine rouge",
@@ -7108,7 +7108,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-baron-trousse-bergere-cotes-de-bourg-rouge",
 "name":"chateau baron trousse bergere cotes de bourg rouge",
@@ -7126,7 +7126,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-cote-montpezat-bordeaux-blanc",
 "name":"chateau cote montpezat bordeaux blanc",
@@ -7144,7 +7144,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-coutural-cuvee-prestige-rouge",
 "name":"chateau coutural cuvee prestige rouge",
@@ -7162,7 +7162,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-de-camarsac-rouge",
 "name":"chateau de camarsac rouge",
@@ -7180,7 +7180,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-de-lascaux-rose",
 "name":"chateau de lascaux rose",
@@ -7198,7 +7198,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-des-moines-lalande-pomerol-rouge",
 "name":"chateau des moines lalande pomerol rouge",
@@ -7216,7 +7216,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-gaillot-fournier-rouge-37_5cl",
 "name":"chateau gaillot fournier rouge 37_5cl",
@@ -7234,7 +7234,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-gaillot-fournier-rouge",
 "name":"chateau gaillot fournier rouge",
@@ -7252,7 +7252,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-haut-maurac-bellecour-medoc-rouge",
 "name":"chateau haut maurac bellecour medoc rouge",
@@ -7270,7 +7270,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lamoth-de-haux-rouge",
 "name":"chateau lamoth de haux rouge",
@@ -7288,7 +7288,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-langoiran-prestige-rouge",
 "name":"chateau langoiran prestige rouge",
@@ -7306,7 +7306,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-langoiran-sauvignon-semillon-bordeaux-blanc",
 "name":"chateau langoiran sauvignon semillon bordeaux blanc",
@@ -7324,7 +7324,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-blanc",
 "name":"chateau lascaux bordeaux blanc",
@@ -7342,7 +7342,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-clairet-37_5cl",
 "name":"chateau lascaux bordeaux clairet 37_5cl",
@@ -7360,7 +7360,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rose",
 "name":"chateau lascaux bordeaux rose",
@@ -7378,7 +7378,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rouge-37_5cl",
 "name":"chateau lascaux bordeaux rouge 37_5cl",
@@ -7396,7 +7396,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-lascaux-bordeaux-rouge",
 "name":"chateau lascaux bordeaux rouge",
@@ -7414,7 +7414,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-milon-ambrosius-saint-emilion-grand-cru-rouge",
 "name":"chateau milon ambrosius saint emilion grand cru rouge",
@@ -7432,7 +7432,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-milon-saint-emilion-grand-cru-rouge-37_5cl",
 "name":"chateau milon saint emilion grand cru rouge 37_5cl",
@@ -7450,7 +7450,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-saint-clerc-blaye-rouge",
 "name":"chateau saint clerc blaye rouge",
@@ -7468,7 +7468,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-saint-clerc-bordeaux-blanc",
 "name":"chateau saint clerc bordeaux blanc",
@@ -7486,7 +7486,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-terrano-calabria-rouge",
 "name":"chateau terrano calabria rouge",
@@ -7504,7 +7504,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-chateau-tour-des-cendres-bergerac-rouge",
 "name":"chateau tour des cendres bergerac rouge",
@@ -7522,7 +7522,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-colombelle-charmes-d-automne-gascogne-blanc",
 "name":"colombelle charmes d automne gascogne blanc",
@@ -7540,7 +7540,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-colombelle-l-original-gascogne-blanc",
 "name":"colombelle l original gascogne blanc",
@@ -7558,7 +7558,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-cuvee-heritage-malbec-cahors-rouge",
 "name":"cuvee heritage malbec cahors rouge",
@@ -7576,7 +7576,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-de-vin-coeur-bergerac-rose",
 "name":"domaine de vin coeur bergerac rose",
@@ -7594,7 +7594,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-remiezieres-saint-joseph-rouge",
 "name":"domaine remiezieres saint joseph rouge",
@@ -7612,7 +7612,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-remizieres-crozes-hermitage-rouge",
 "name":"domaine remizieres crozes hermitage rouge",
@@ -7630,7 +7630,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-domaine-vins-coeurs-bergerac-rouge",
 "name":"domaine vins coeurs bergerac rouge",
@@ -7648,7 +7648,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-echo-fails-sauvignon-blanc",
 "name":"echo fails sauvignon blanc",
@@ -7666,7 +7666,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-echo-fails-white-zinfandel-rose",
 "name":"echo fails white zinfandel rose",
@@ -7684,7 +7684,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-eguia-rioja-rouge",
 "name":"eguia rioja rouge",
@@ -7702,7 +7702,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-entre-deux-mers-pinot-blanc",
 "name":"entre deux mers pinot blanc",
@@ -7720,7 +7720,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-familia-pacheco-organic-rouge",
 "name":"familia pacheco organic rouge",
@@ -7738,7 +7738,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-funaro-passo-di-luna-blanc",
 "name":"funaro passo di luna blanc",
@@ -7756,7 +7756,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-funaro-passo-di-luna-rouge",
 "name":"funaro passo di luna rouge",
@@ -7774,7 +7774,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-garnacha-roble-botijo-rojo-rouge",
 "name":"garnacha roble botijo rojo rouge",
@@ -7792,7 +7792,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-garnacha-tinta-botijo-rojo-rouge",
 "name":"garnacha tinta botijo rojo rouge",
@@ -7810,7 +7810,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-gosseaume-les-marcottes-rouge",
 "name":"gosseaume les marcottes rouge",
@@ -7828,7 +7828,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-graham-beck-sauvigon-blanc",
 "name":"graham beck sauvigon blanc",
@@ -7846,7 +7846,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-grande-reserve-saint-mont-rouge",
 "name":"grande reserve saint mont rouge",
@@ -7864,7 +7864,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-hardys-varietal-range-shiraz-rouge",
 "name":"hardys varietal range shiraz rouge",
@@ -7882,7 +7882,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-jurancon-happy-blanc",
 "name":"jurancon happy blanc",
@@ -7900,7 +7900,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-kendermanns-riesling-kabinett-blanc",
 "name":"kendermanns riesling kabinett blanc",
@@ -7918,7 +7918,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-laporte-le-bouquet-cabernet-franc-rouge",
 "name":"laporte le bouquet cabernet franc rouge",
@@ -7936,7 +7936,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-laporte-sancerre-le-rochoy-blanc",
 "name":"laporte sancerre le rochoy blanc",
@@ -7954,7 +7954,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-le-clos-des-saumanes-rouge",
 "name":"le clos des saumanes rouge",
@@ -7972,7 +7972,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-le-peche-des-moines-lalande-pomerol-rouge",
 "name":"le peche des moines lalande pomerol rouge",
@@ -7990,7 +7990,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-lo-zoccolaio-sucule-barbera-d-alba-rouge",
 "name":"lo zoccolaio sucule barbera d alba rouge",
@@ -8008,7 +8008,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-marlborough-ridge-sauvignon-blanc",
 "name":"marlborough ridge sauvignon blanc",
@@ -8026,7 +8026,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mayne-david-cotes-de-castillon-rouge",
 "name":"mayne david cotes de castillon rouge",
@@ -8044,7 +8044,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-medalla-real-santa-rita-rouge",
 "name":"medalla real santa rita rouge",
@@ -8062,7 +8062,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-monastere-de-saint-mont-rouge",
 "name":"monastere de saint mont rouge",
@@ -8080,7 +8080,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mountain-view-vineyards-carmenere-rouge",
 "name":"mountain view vineyards carmenere rouge",
@@ -8098,7 +8098,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-mountain-view-vineyards-merlot-rouge",
 "name":"mountain view vineyards merlot rouge",
@@ -8116,7 +8116,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-ned-sauvignon-blanc",
 "name":"ned sauvignon blanc",
@@ -8134,7 +8134,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-oceanide-saint-mont-rose",
 "name":"oceanide saint mont rose",
@@ -8152,7 +8152,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pachenrec-du-vic-bilb-saint-albert-blanc",
 "name":"pachenrec du vic bilb saint albert blanc",
@@ -8170,7 +8170,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pinot-grigio-brezanze-blanc",
 "name":"pinot grigio brezanze blanc",
@@ -8188,7 +8188,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-pinot-grigio-delle-venezie-rose",
 "name":"pinot grigio delle venezie rose",
@@ -8206,7 +8206,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-porta-6-rouge",
 "name":"porta 6 rouge",
@@ -8224,7 +8224,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-ravens-wood-old-wine-rouge",
 "name":"ravens wood old wine rouge",
@@ -8242,7 +8242,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-reales-vinedos-anada-rouge",
 "name":"reales vinedos anada rouge",
@@ -8260,7 +8260,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-riondo-prosecco-blanc",
 "name":"riondo prosecco blanc",
@@ -8278,7 +8278,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-rose-de-saint-clerc",
 "name":"rose de saint clerc",
@@ -8296,7 +8296,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-rueda-verdejo-vega-de-la-reina-blanc",
 "name":"rueda verdejo vega de la reina blanc",
@@ -8314,7 +8314,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-sainte-leocadie-lekadios-minervois-rouge",
 "name":"sainte leocadie lekadios minervois rouge",
@@ -8332,7 +8332,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-silver-ghost-cabernet-sauvignon-chile-rouge",
 "name":"silver ghost cabernet sauvignon chile rouge",
@@ -8350,7 +8350,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-silver-ghost-sauvignon-blanc",
 "name":"silver ghost sauvignon blanc",
@@ -8368,7 +8368,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-tokaji-chateau-hellha-blanc",
 "name":"tokaji chateau hellha blanc",
@@ -8386,7 +8386,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-tour-bel-air-fronsac-rouge",
 "name":"tour bel air fronsac rouge",
@@ -8404,7 +8404,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-vina-alarde-rouge",
 "name":"vina alarde rouge",
@@ -8422,7 +8422,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-vina-esmeralda-blanc",
 "name":"vina esmeralda blanc",
@@ -8440,7 +8440,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-wolf-blass-yellow-label-chardonnay-blanc",
 "name":"wolf blass yellow label chardonnay blanc",
@@ -8458,7 +8458,7 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": },
+"degree": "" },
 
 {"sku":"vin-zlatan-plavac-rouge",
 "name":"zlatan plavac rouge",
@@ -8476,4 +8476,4 @@ REPRENDRE ICI
 "width":800,
 "height":841,
 "format":"png",
-"degree": }]
+"degree": "" }]

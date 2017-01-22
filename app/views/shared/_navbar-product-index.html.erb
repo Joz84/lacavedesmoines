@@ -1,15 +1,22 @@
-<div class="container-fluid navbar-fixed">
-  <div class="row">
-    <div class="col-xs-12 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1475056659/logo/logo-cave-des-moines.png" alt="" width="250px""></a></div>
-    <div class="col-xs-12 col-sm-2">
+  <div class="row navbar-fixed">
+    <div class="col-xs-8 col-sm-10" style="text-align:left;"><a href="/"><img src="http://res.cloudinary.com/cavedesmoines/image/upload/v1475056659/logo/logo-cave-des-moines.png" alt="" width="250px""></a></div>
+      <div class="col-xs-4 col-sm-2 navlinks">
+        <p>
+          <% if current_user %>
+            <%= link_to "Historique", dashboard_path, class: "connected" %>
+            <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "connected" %>
+              <% else %>
+              <%= link_to "Connexion", dashboard_path, class: "connect pull-right" %>
+          <% end %>
+        </p>
       <% if session[:cart] && session[:cart].count != 0 %>
         <div class="basket text-center">
-        <%= link_to image_tag('http://res.cloudinary.com/cavedesmoines/image/upload/v1474012967/basket-cave-des-moines_helall.png', class: 'basket-icon'), cart_path %>
-        <p>
-        <%= link_to "Votre panier", cart_path %>
-        </p>
+          <%= link_to image_tag('http://res.cloudinary.com/cavedesmoines/image/upload/v1474012967/basket-cave-des-moines_helall.png', class: 'basket-icon'), cart_path %>
+          <p>
+          <%= link_to "Votre panier", cart_path %>
+          </p>
         </div>
-        <% end %>
+      <% end %>
     </div>
   </div>
-</div>
+
