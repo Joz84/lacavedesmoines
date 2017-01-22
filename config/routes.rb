@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   resources :orders, only: [:new, :create, :update, :destroy] do
     resources :payments, only: [:new, :create, :show]
   end
+  patch "orders/:id/done", to: "orders#done", as: "done"
+  put "orders/:id/done", to: "orders#done"
+
   resources :breweries, only: [:index, :show]
   resources :deposits, only: [:show]
   resources :news, only: [:index, :show]

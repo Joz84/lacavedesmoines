@@ -12,6 +12,16 @@ ActiveAdmin.register New do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-  permit_params :title, :content, :photos
+  permit_params :title, :content, :planned_at, :photos
+
+  form do |f|
+    f.inputs "Caractéristiques" do
+      f.input :title
+      f.input :content
+      f.input :planned_at
+      f.input :photos, as: :formtastic_attachinary
+    end
+    f.actions
+  end
 
 end
