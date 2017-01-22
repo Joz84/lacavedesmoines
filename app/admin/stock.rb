@@ -12,8 +12,8 @@ ActiveAdmin.register Stock do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-  permit_params :deposit,
-                :product,
+  permit_params :deposit_id,
+                :product_id,
                 :quantity,
                 :buying_price,
                 :received_at,

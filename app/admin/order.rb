@@ -14,24 +14,34 @@ ActiveAdmin.register Order do
 # end
 #
 
+  # index do
+  #   selectable_column
+  #   column :id
+  #   column :user
+  #   column :address
+  #   column :complement
+  #   column :postal_code
+  #   column :city
+  #   column :country
+  #   column :telephone
+  #   column :state
+  #   column :amount
+  #   column :created_at
+  #   actions
+  # end
+
   index do
-    selectable_column
-    column :id
-    column :user
-    column :address
-    column :complement
-    column :postal_code
-    column :city
-    column :country
-    column :telephone
-    column :state
+    amount = 0
     column :amount
     column :created_at
+
     actions
+    panel "Total: #{Order.search(params[:q]).result.sum(:amount_cents).to_f/100}"
   end
 
-  permit_params :deposit,
-                :user,
+
+  permit_params :deposit_id,
+                :user_id,
                 :delivery,
                 :address,
                 :complement,
@@ -45,4 +55,21 @@ ActiveAdmin.register Order do
 
 
 
+  form do |f|
+    f.inputs "Caractéristiques" do
+      f.input :deposit
+      f.input :user
+      f.input :delivery
+      f.input :address
+      f.input :complement
+      f.input :postal_code
+      f.input :city
+      f.input :country
+      f.input :telephone
+      f.input :state
+      f.input :amount
+      f.input :created_at
+    end
+    f.actions
+  end
 end

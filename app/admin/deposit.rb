@@ -14,6 +14,7 @@ ActiveAdmin.register Deposit do
 # end
 
   permit_params :name,
+                :sku,
                 :address,
                 :complement,
                 :postal_code,
@@ -21,5 +22,30 @@ ActiveAdmin.register Deposit do
                 :country,
                 :capacity,
                 :siret,
+                :description1,
+                :description2,
+                :description3,
                 :photos
+
+
+
+  form do |f|
+    f.inputs "Caractéristiques" do
+      f.input :name
+      f.input :sku
+      f.input :address
+      f.input :complement
+      f.input :postal_code
+      f.input :city
+      f.input :country
+      f.input :capacity
+      f.input :siret
+      f.input :description1
+      f.input :description2
+      f.input :description3
+      f.input :photos, as: :formtastic_attachinary
+    end
+    f.actions
+  end
+
 end
