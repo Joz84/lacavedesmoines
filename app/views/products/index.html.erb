@@ -33,7 +33,13 @@
                 <% end %>
               </div>
             </div>
+
           </div>
+          <div class="paginate-center">
+            <%= paginate @products %>
+          </div>
+
+
         </div>
       <div class="col-xs-12 col-sm-2 refine-search">
           <%= render 'shared/refine_search' %>

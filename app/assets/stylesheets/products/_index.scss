@@ -183,3 +183,17 @@ h2.cat-beer {
   margin-top:2px;
   font-size: 19px;
 }
+
+.paginate-center {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li a {
+  color: #fabb0c;
+}
+.pagination > .active > a {
+  background-color: #fabb0c;
+  border-color: #fabb0c;
+  color: white;
+}
