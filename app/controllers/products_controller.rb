@@ -12,6 +12,7 @@ class ProductsController < ApplicationController
     if research_params["max_price"] && !(research_params["max_price"]).empty?
       @products = @products.select { |p| (p.price_cents * 1.0 / 100) <= research_params["max_price"].to_f }
     end
+    @products = @products.page(params[:page]).per(10)
   end
 
   def show

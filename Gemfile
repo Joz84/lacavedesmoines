@@ -45,3 +45,4 @@ gem "geocoder"
 gem 'country_select'
 #https://gist.github.com/balvig/e77749fd3d2d4c05f34b
 gem "jquery-fileupload-rails"
+gem 'kaminari'
